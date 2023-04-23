@@ -20,37 +20,37 @@ In order to facilitate the import of this archive into different platforms/versi
 
 为了方便将本存档导入不同平台/版本的客户端中使用，我们提供了本存档使用的外部资源包/行为包。理论上下载完成的存档内应该已经包含所以资源包/行为包，为了防止版本不兼容等问题在此提供这些外部资源信息以及其作者。外部资源的版权归原作者所有。
 
-**Nissan Skyline VII** `<br/>`
+**Nissan Skyline VII** <br/>
 *Copyright: Mcflower creations 2020*
 
-**Basic Survival Vehicles v1.1**`<br/>`
+**Basic Survival Vehicles v1.1**<br/>
 *Developed  / made by ashminggu. Specially made for MCPEDL.*
 
-**CYBOX ONE**`<br/>`
+**CYBOX ONE**<br/>
 *Made by iMasterProX*
 
-**Tesla Roadster**`<br/>`
+**Tesla Roadster**<br/>
 *Modeled by The Morning Company*
 
-**BMW E30 M3**`<br/>`
+**BMW E30 M3**<br/>
 *Developed by ashminggu. Specially made for MCPEDL.*
 
-**Mercedes Benz 300SL**`<br/>`
+**Mercedes Benz 300SL**<br/>
 *Developed / made by ashminggu. Specially made for MCPEDL.*
 
-**PlaneCraft**`<br/>`
+**PlaneCraft**<br/>
 *Add-on by ZERN TH*
 
-**Datsun 240z**`<br/>`
+**Datsun 240z**<br/>
 *Developed / made by ashminggu. Specially made for MCPEDL.*
 
-**Lamborghini Centenario Red**`<br/>`
+**Lamborghini Centenario Red**<br/>
 *by UnfoldedBrush*
 
-**Land Rover Discovery 4 Simple**`<br/>`
+**Land Rover Discovery 4 Simple**<br/>
 *Made by iMasterProX*
 
-**Battlecraft Add-on 0.7.1**
+**Battlecraft Add-on 0.7.1**<br/>
 *Unknown*
 
 ## Acknowledgements | 致谢
