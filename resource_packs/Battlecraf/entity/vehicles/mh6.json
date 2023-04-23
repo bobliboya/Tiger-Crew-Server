@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "battlefield:mh6",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/vehicles/mh6"
+      },
+      "geometry": {
+        "default": "geometry.mh6"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.mh6.spin"
+      },
+      "spawn_egg": {
+        "texture": "mh6",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

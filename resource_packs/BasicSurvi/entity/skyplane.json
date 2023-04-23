@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fb:skyplane",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/fb/skyplane"
+			},
+			"geometry": {
+				"default": "geometry.skyplane"
+			},
+			"render_controllers": [
+				"controller.render.fb"
+			],
+			"animations": {
+				"drive": "animation.fbp.drive",
+				"turning": "animation.fbp.turning"
+			},
+			"spawn_egg": {
+				"texture": "skyplane",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.fb.general"
+				}
+			]
+		}
+	}
+}

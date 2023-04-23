@@ -1,0 +1,318 @@
+{
+  "resource_pack_name": "Battlecraft",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "hk416": {
+      "textures": "textures/items/hk416/hk416"
+    },
+    "hk416_emp": {
+      "textures": "textures/items/hk416/hk416_empty"
+    },
+    "hk416_ammo": {
+      "textures": "textures/items/hk416/hk416_ammo"
+    },
+    "m4a1": {
+      "textures": "textures/items/m4a1/m4a1"
+    },
+    "m4a1_emp": {
+      "textures": "textures/items/m4a1/m4a1_empty"
+    },
+    "m4a1_ammo": {
+      "textures": "textures/items/m4a1/m4a1_ammo"
+    },
+    "m16a2": {
+      "textures": "textures/items/m16a2/m16a2"
+    },
+    "fal": {
+      "textures": "textures/items/fal/fal"
+    },
+    "fal_emp": {
+      "textures": "textures/items/fal/fal_empty"
+    },
+    "fal_ammo": {
+      "textures": "textures/items/fal/fal_ammo"
+    },
+    "m16a2_emp": {
+      "textures": "textures/items/m16a2/m16a2_empty"
+    },
+    "m16a2_ammo": {
+      "textures": "textures/items/m16a2/m16a2_ammo"
+    },
+    "scar": {
+      "textures": "textures/items/scar/scar"
+    },
+    "scar_emp": {
+      "textures": "textures/items/scar/scar_empty"
+    },
+    "scar_ammo": {
+      "textures": "textures/items/scar/scar_ammo"
+    },
+    "fn15": {
+      "textures": "textures/items/fn15/fn15"
+    },
+    "fn15_emp": {
+      "textures": "textures/items/fn15/fn15_empty"
+    },
+    "fn15_ammo": {
+      "textures": "textures/items/fn15/fn15_ammo"
+    },
+    "deagle": {
+      "textures": "textures/items/deagle/deagle"
+    },
+    "deagle_emp": {
+      "textures": "textures/items/deagle/deagle_empty"
+    },
+    "deagle_ammo": {
+      "textures": "textures/items/deagle/deagle_ammo"
+    },
+    "vector": {
+      "textures": "textures/items/vector/vector"
+    },
+    "vector_emp": {
+      "textures": "textures/items/vector/vector_empty"
+    },
+    "vector_ammo": {
+      "textures": "textures/items/vector/vector_ammo"
+    },
+    "scorpion": {
+      "textures": "textures/items/scorpion/scorpion"
+    },
+    "scorpion_emp": {
+      "textures": "textures/items/scorpion/scorpion_empty"
+    },
+    "scorpion_ammo": {
+      "textures": "textures/items/scorpion/scorpion_ammo"
+    },
+    "auga3": {
+      "textures": "textures/items/auga3/auga3"
+    },
+    "auga3_emp": {
+      "textures": "textures/items/auga3/auga3_empty"
+    },
+    "auga3_ammo": {
+      "textures": "textures/items/auga3/auga3_ammo"
+    },
+    "g36c": {
+      "textures": "textures/items/g36c/g36c"
+    },
+    "g36c_emp": {
+      "textures": "textures/items/g36c/g36c_empty"
+    },
+    "g36c_ammo": {
+      "textures": "textures/items/g36c/g36c_ammo"
+    },
+    "tacm4": {
+      "textures": "textures/items/tacm4/tacm4"
+    },
+    "tacm4_emp": {
+      "textures": "textures/items/tacm4/tacm4_empty"
+    },
+    "tacm4_ammo": {
+      "textures": "textures/items/tacm4/tacm4_ammo"
+    },
+    "aa12": {
+      "textures": "textures/items/aa12/aa12"
+    },
+    "aa12_emp": {
+      "textures": "textures/items/aa12/aa12_empty"
+    },
+    "aa12_ammo": {
+      "textures": "textures/items/aa12/aa12_ammo"
+    },
+    "m590": {
+      "textures": "textures/items/m590/m590"
+    },
+    "m590_emp": {
+      "textures": "textures/items/m590/m590_empty"
+    },
+    "m590_ammo": {
+      "textures": "textures/items/m590/m590_ammo"
+    },
+    "ak47": {
+      "textures": "textures/items/ak47/ak47"
+    },
+    "ak47_emp": {
+      "textures": "textures/items/ak47/ak47_empty"
+    },
+    "ak47_ammo": {
+      "textures": "textures/items/ak47/ak47_ammo"
+    },
+    "dm9": {
+      "textures": "textures/items/dm9/dm9"
+    },
+    "dm9_emp": {
+      "textures": "textures/items/dm9/dm9_empty"
+    },
+    "dm9_ammo": {
+      "textures": "textures/items/dm9/dm9_ammo"
+    },
+    "m9": {
+      "textures": "textures/items/m9/m9"
+    },
+    "m9_emp": {
+      "textures": "textures/items/m9/m9_empty"
+    },
+    "m9_ammo": {
+      "textures": "textures/items/m9/m9_ammo"
+    },
+    "glock": {
+      "textures": "textures/items/glock/glock"
+    },
+    "glock_emp": {
+      "textures": "textures/items/glock/glock_empty"
+    },
+    "glock_ammo": {
+      "textures": "textures/items/glock/glock_ammo"
+    },
+    "uzi": {
+      "textures": "textures/items/uzi/uzi"
+    },
+    "uzi_emp": {
+      "textures": "textures/items/uzi/uzi_empty"
+    },
+    "uzi_ammo": {
+      "textures": "textures/items/uzi/uzi_ammo"
+    },
+    "mac": {
+      "textures": "textures/items/mac/mac"
+    },
+    "mac_emp": {
+      "textures": "textures/items/mac/mac_empty"
+    },
+    "m1911": {
+      "textures": "textures/items/m1911/m1911"
+    },
+    "m1911_emp": {
+      "textures": "textures/items/m1911/m1911_empty"
+    },
+    "m1911_ammo": {
+      "textures": "textures/items/m1911/m1911_ammo"
+    },
+    "revolver": {
+      "textures": "textures/items/revolver/revolver"
+    },
+    "revolver_emp": {
+      "textures": "textures/items/revolver/revolver_empty"
+    },
+    "revolver_ammo": {
+      "textures": "textures/items/revolver/revolver_ammo"
+    },
+    "l96": {
+      "textures": "textures/items/l96/l96"
+    },
+    "l96_emp": {
+      "textures": "textures/items/l96/l96_empty"
+    },
+    "l96_ammo": {
+      "textures": "textures/items/l96/l96_ammo"
+    },
+    "m24": {
+      "textures": "textures/items/m24/m24"
+    },
+    "m24_emp": {
+      "textures": "textures/items/m24/m24_empty"
+    },
+    "m24_ammo": {
+      "textures": "textures/items/m24/m24_ammo"
+    },
+    "m249": {
+      "textures": "textures/items/m249/m249"
+    },
+    "m830": {
+      "textures": "textures/items/military/m830"
+    },
+    "m829": {
+      "textures": "textures/items/military/m829"
+    },
+    "m86p1": {
+      "textures": "textures/items/military/m86p1"
+    },
+    "3uof8": {
+      "textures": "textures/items/military/3uof8"
+    },
+    "cannon": {
+      "textures": "textures/items/military/cannon"
+    },
+    "rocket": {
+      "textures": "textures/items/military/rocket"
+    },
+    "m249_emp": {
+      "textures": "textures/items/m249/m249_empty"
+    },
+    "repairkit": {
+      "textures": "textures/items/military/repair_kit"
+    },
+    "m249_ammo": {
+      "textures": "textures/items/m249/m249_ammo"
+    },
+    "mac": {
+      "textures": "textures/items/mac/mac"
+    },
+    "mac_ammo": {
+      "textures": "textures/items/mac/mac_ammo"
+    },
+    "mac_emp": {
+      "textures": "textures/items/mac/mac_empty"
+    },
+    "medkit": {
+      "textures": "textures/items/extras/medkit"
+   },
+    "machine_gun_bb": {
+      "textures": "textures/items/military/beltbul"
+   },
+    "ad": {
+      "textures": "textures/items/extras/adrenaline"
+    },
+    "g": {
+      "textures": "textures/items/grenades/g"
+    },
+    "sg": {
+      "textures": "textures/items/grenades/sg"
+   },
+    "mol": {
+      "textures": "textures/items/grenades/mol"
+   },
+    "fb": {
+      "textures": "textures/items/grenades/fb"
+   },
+    "humvee": {
+      "textures": "textures/items/vehicles/humvee"
+   },
+    "ammobox": {
+      "textures": "textures/items/vehicles/ammobox"
+   },
+    "m2": {
+      "textures": "textures/items/vehicles/m2"
+   },
+    "su30": {
+      "textures": "textures/items/vehicles/su30"
+   },
+    "seawolf": {
+      "textures": "textures/items/vehicles/seawolf"
+   },
+    "m113": {
+      "textures": "textures/items/vehicles/m113"
+   },
+    "m1a2": {
+      "textures": "textures/items/vehicles/m1a2"
+   },
+    "challenger": {
+      "textures": "textures/items/vehicles/challenger"
+   },
+    "btr82a": {
+      "textures": "textures/items/vehicles/btr82a"
+   },
+    "mh6": {
+      "textures": "textures/items/vehicles/mh6"
+   },
+    "blackhawk": {
+      "textures": "textures/items/vehicles/blackhawk"
+   },
+    "t90": {
+      "textures": "textures/items/vehicles/t90"
+   },
+    "leopard": {
+      "textures": "textures/items/vehicles/leopard"
+    }
+  }
+}

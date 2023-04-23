@@ -1,0 +1,100 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lamborghini:centenario_red",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": true
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "lamborghini" ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.5,
+        "height": 1.400
+      },
+      "minecraft:movement": {
+        "value": 0.40
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+        },
+        "minecraft:movement.basic": {
+        },
+        "minecraft:jump.static": {
+        },
+        "minecraft:scale": {
+          "value": 1.0
+        },
+      "minecraft:fire_immune": true,
+      "minecraft:breathable": {
+        "breathesAir": true,
+        "breathesWater": true
+        },
+      "minecraft:health": {
+        "value": 50,
+        "max": 50
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:hurt_on_condition": {
+      },
+      "minecraft:inventory": {
+	"inventory_size": 5,
+	"container_type": "container",
+	"private": false
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/centenario.json"
+      },
+      "minecraft:boostable": {
+          "speed_multiplier": 2.0,
+          "duration": 20.0,
+          "boost_items": [
+            {
+              "item": "lamborghini:boost",
+              "damage": 2,
+              "replace_item": "lamborghini:boost"
+            }
+          ]
+      },
+      "minecraft:rideable": {
+      "priority": 0,
+        "seat_count": 2,
+        "interact_text": "Drive",
+        "pull_in_entities": false,
+
+        "seats": [
+          {
+        "position": [ 0.70, 0.15, -0.45],
+            "min_rider_count": 0,
+            "max_rider_count": 0
+          },
+          {
+           "position": [ -0.43, 0.15, -0.45],
+
+            "min_rider_count": 2,
+            "max_rider_count": 4
+          }
+        ]
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+﻿item.template:example_food.name=Strawberry
+item.template:example_seed.name=Shulker Box Seeds
+item.template:example_effects.name=Rainbow Diamond
+item.template:example_weapon.name=§cCopper Sword §r| §a+3 Attack Damage §f|§r
+item.template:example_tool.name=§eWooden Crook | §a+1 Attack Damage §r| §5Fast at Breaking Leaves§r
+item.template:example_hammer.name=§6Hammer §r| §aCan Break Unique Blocks §f|§r
+
+tile.template:example_unique_block.name=§6§k!§rUnique Block§6§k!§r

@@ -1,0 +1,213 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.discovery.accel": {
+			"loop": true,
+			"bones": {
+				"speedl": {
+					"position": [3, 0, 0]
+				},
+				"speedl2": {
+					"position": [-0.9, 0.325, 0.1]
+				},
+				"speedr": {
+					"position": [3, 0, 0]
+				},
+				"speedr2": {
+					"position": [-0.9, 0.325, 0.1]
+				}
+			}
+		},
+		"animation.discovery.spawn": {
+			"animation_length": 126000,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 180, 0],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -3.15, 0],
+						"1.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.2, 0.2, 0.2],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.discovery.normal": {
+			"loop": true,
+			"animation_length": 126000,
+			"bones": {
+				"message": {
+					"position": [0, 14, -120],
+					"scale": 7.1
+				}
+			}
+		},
+		"animation.discovery.right_front_door_close": {
+			"animation_length": 126000,
+			"bones": {
+				"left_front_door": {
+					"rotation": {
+						"0.0": [0, 50, 0],
+						"0.1667": [0, 42.73, 0],
+						"0.3167": [0, 26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.discovery.left_front_door_close": {
+			"animation_length": 126000,
+			"bones": {
+				"right_front_door": {
+					"rotation": {
+						"0.0": [0, -50, 0],
+						"0.1667": [0, -42.73, 0],
+						"0.3167": [0, -26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.discovery.move": {
+			"loop": true,
+			"animation_length": 0.3167,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"D": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.discovery.back_mirror_open": {
+			"animation_length": 126000,
+			"bones": {
+				"right_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.1167": [0, -65, 0],
+						"126000.0": [0, 65, 0]
+					}
+				},
+				"left_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.1167": [0, 65, 0],
+						"126000.0": [0, -65, 0]
+					}
+				},
+				"front_right_off": {
+					"position": [0, 0, 11]
+				},
+				"front_right_on": {
+					"position": [0, 0, -11]
+				},
+				"right_mirror_light_off": {
+					"position": [0.1, 0, 0.1]
+				},
+				"right_mirror_light_on": {
+					"position": [-0.1, 0, -0.1]
+				},
+				"left_mirror_light_off": {
+					"position": [-0.1, 0, 0.1]
+				},
+				"left_mirror_light_on": {
+					"position": [0.1, 0, -0.1]
+				},
+				"back_light_off": {
+					"position": [-0.51, 0, 0]
+				},
+				"back_light_on": {
+					"position": [0.6, 0, 0]
+				},
+				"centrol": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [-1, 0, 0]
+					}
+				},
+				"logo4": {
+					"position": [-0.85, 0.125, 0.025]
+				},
+				"speedl": {
+					"rotation": [45, 38.25, 0],
+					"position": [0.175, 0.075, 0.1]
+				},
+				"speedr": {
+					"rotation": [45, 38.25, 0],
+					"position": [0.175, 0.075, 0.1]
+				},
+				"xll": {
+					"position": [-1, 1, 0]
+				},
+				"xlr": {
+					"position": [-1, 1, 0]
+				},
+				"xl": {
+					"position": [1, -1, 0]
+				},
+				"xr": {
+					"position": [1, -1, 0]
+				}
+			}
+		},
+		"animation.discovery.turn": {
+			"loop": true,
+			"bones": {
+				"A": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"C": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"steering_wheel": {
+					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				},
+				"body": {
+					"rotation": ["Math.max(-2.5, Math.min(2.5,query.yaw_speed * 0.1)) * -query.modified_move_speed * 0.2", "Math.max(-2.5, Math.min(2.5,query.yaw_speed * 0.1)) * -query.modified_move_speed * 0.2", "Math.max(-2.5, Math.min(2.5,query.yaw_speed * 0.1)) * -query.modified_move_speed * 0.2"]
+				}
+			}
+		},
+		"animation.discovery.trunk": {
+			"animation_length": 126000,
+			"bones": {
+				"bag": {
+					"position": [13, -156, 451],
+					"scale": 4
+				},
+				"message": {
+					"position": [0, -123, -58],
+					"scale": 0.1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"zern:cargo_plane": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:helicopter": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:jumbo_jet": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:private_jet": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:seaplane": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:small_plane": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:stealth_bomber": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			},
+			"zern:stealth_fighter": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"step": "aircraft.null"
+				}
+			}
+		}
+	}
+}

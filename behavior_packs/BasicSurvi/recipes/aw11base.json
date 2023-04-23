@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:aw11base"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"AAA",
+			"BBB",
+			"BBC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:glass"
+			},
+			"B": {
+				"item": "minecraft:stone"
+			},
+			"C": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": [
+			{
+				"item": "fb:aw11base",
+				"count": 1
+			}
+		]
+	}
+}

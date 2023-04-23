@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "battlefield:m2browning",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/guns/m2b"
+      },
+      "geometry": {
+        "default": "geometry.m2browning"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "fire": "animation.fire"
+      },
+      "spawn_egg": {
+        "texture": "m2",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:aw11"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC",
+			"D"
+		],
+		"key": {
+			"A": {
+				"item": "fb:blueprint"
+			},
+			"B": {
+				"item": "fb:aw11base"
+			},
+			"C": {
+				"item": "fb:tyres"
+			},
+			"D": {
+				"item": "fb:engine"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:spawn_egg",
+				"data": "query.get_actor_info_id('fb:mr2aw11')",
+				"count": 1
+			},
+			{
+				"item": "fb:blueprint",
+				"count": 1
+			}
+		]
+	}
+}

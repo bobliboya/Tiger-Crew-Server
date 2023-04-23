@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.jumbo_jet": {
+      "arrays": {
+        "textures": {
+          "Array.base": [ "Texture.white","Texture.thai","Texture.delta","Texture.orange","Texture.red", "Texture.blue", "Texture.green", "Texture.yellow", "Texture.american", "Texture.ana", "Texture.azul", "Texture.cebu", "Texture.france", "Texture.garuda", "Texture.korean", "Texture.latam", "Texture.malaysia", "Texture.philippines" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.base[query.variant]" ]
+    }
+  }
+}

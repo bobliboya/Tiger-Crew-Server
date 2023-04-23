@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:uzi",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "uzi",
+      "minecraft:use_animation": "crossbow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

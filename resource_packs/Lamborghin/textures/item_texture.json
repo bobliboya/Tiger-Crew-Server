@@ -1,0 +1,14 @@
+{
+  "resource_pack_name": "centenario",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_centenario_red": 
+      {
+      "textures":"textures/items/egg_centenario_red.png"
+      },
+     "boost":
+      {
+      "textures":"textures/items/boost.png"
+    }
+  }
+}

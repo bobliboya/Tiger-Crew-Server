@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.300sl.general": {
+			"states": {
+				"default": {
+					"variables": {
+						"moving_speed": {
+							"input": "query.modified_move_speed"
+						},
+						"door": {
+							"input": "query.has_rider('value=1')"
+						},
+						"door2": {
+							"input": "query.has_rider('value=2')"
+						}
+					},
+					"animations": [
+						"turning",
+						{
+							"drive": "variable.moving_speed"
+						},
+						{
+							"door": "variable.door"
+						},
+						{
+							"door2": "variable.door2"
+						}
+					]
+				}
+			}
+		}
+	}
+}

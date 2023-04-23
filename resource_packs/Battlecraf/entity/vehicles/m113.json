@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "battlefield:m113",
+			"materials": {
+				"default": "slime"
+			},
+			"textures": {
+				"default": "textures/vehicles/m113"
+			},
+			"geometry": {
+				"default": "geometry.m113"
+			},
+			"animations": {
+				"move": "animation.m113.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.slime"
+			],
+			"spawn_egg": {
+				"texture": "m113",
+				"texture_index": 0
+			}
+		}
+	}
+}

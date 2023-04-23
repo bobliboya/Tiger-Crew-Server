@@ -1,0 +1,305 @@
+//bridge-file-version: #305
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "car:discovery_sb",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:breathable": {
+				"totalSupply": 500,
+				"suffocateTime": 0
+			},
+			"minecraft:collision_box": {
+				"width": 5,
+				"height": 7
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:inventory": {
+			"inventory_size": 16,
+			"container_type": "container", 
+			"private": false
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:health": {
+				"value": 50,
+				"max": 50
+			},
+			"minecraft:scale": {
+				"value": 0.38
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"interact_text": "Speed!",
+						"on_interact": {
+							"filters": {
+								"test": "is_riding",
+								"subject": "other",
+								"value": true
+							},
+							"event": "fly"
+						}
+					}
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:rideable": {
+				"priority": 0,
+				"seat_count": 5,
+				"rotate_rider_by": -90,
+				"crouching_skip_interact": true,
+				"family_types": [
+            "player",
+            "zombie"],
+				"interact_text": "Ride",
+				"seats": [		
+					{
+						"position": [
+							1.8,
+							2.55,
+							-1.55
+						]
+					},
+					{
+						"position": [
+							-1.8,
+							2.55,
+							-1.55
+						]
+					},
+									{
+						"position": [
+							1.8,
+							2.55,
+							-5.55
+						]
+					},
+					{
+						"position": [
+							0,
+							2.55,
+							-5.55
+						]
+					},
+					{
+						"position": [
+							-1.8,
+							2.55,
+							5.55
+						]
+					}				
+				],
+				"rider_can_interact": true
+			},
+			"minecraft:type_family": {
+				"family": [
+					"car", "suv"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": true
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.45
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/discovery.json"
+			}
+		},
+		"events": {
+		"fly": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "self",
+							"value": 0
+						},
+						"add": {
+							"component_groups": [
+								"fly_start"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"fly_stop"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_variant",
+							"subject": "self",
+							"value": 1
+						},
+						"add": {
+							"component_groups": [
+								"fly_stop"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"fly_start"
+							]
+						}
+					}
+					]
+				},
+				"move_start": {
+					"add": {
+					"component_groups": [
+					"minecraft:horse_saddled"
+						]
+					}
+				},
+				"move_stop": {
+					"remove": {
+					"component_groups": [
+					"minecraft:horse_saddled"
+						]
+					}
+				},
+				      "minecraft:on_tame": {
+        "remove": {
+          "component_groups": [
+            "minecraft:donkey_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:donkey_tamed",
+            "minecraft:donkey_unchested"
+          ]
+        }
+      },
+      "minecraft:on_chest": {
+        "remove": {
+          "component_groups": [
+            "minecraft:donkey_unchested"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:donkey_chested"
+          ]
+        }
+      }
+		},
+		"component_groups": {
+		"fly_start": {
+		"minecraft:spell_effects": {
+				"add_effects": [
+				{
+				"effect": "fire_resistance",
+				"duration": 126000,
+				"visible": false,
+				"amplifier": 1
+				}
+				]
+				},
+				"minecraft:movement": {
+					"value": 1.425
+				},
+								"minecraft:variant": {
+					"value": 1
+				}
+				
+			},
+			"fly_stop": {
+											"minecraft:spell_effects": {
+				"add_effects": [
+				],
+				"remove_effects": "fire_resistance"
+				},
+				"minecraft:movement": {
+					"value": 0.425
+				},
+								"minecraft:variant": {
+					"value": 0
+				}
+			},
+			      "minecraft:donkey_unchested": {
+        "minecraft:interact": {
+          "interactions": [
+            {
+              "play_sounds": "armor.equip_generic",
+              "on_interact": {
+                "filters": {
+                  "all_of": [
+                    { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+                    { "test" :  "has_equipment", "domain": "hand","subject" : "other", "value" :  "chest"}
+                  ]
+                },
+                "event": "minecraft:on_chest",
+                "target": "self"
+              },
+              "use_item": true,
+              "interact_text": "action.interact.attachchest"
+            }
+          ]
+        }
+      },
+
+      "minecraft:donkey_chested": {
+        "minecraft:is_chested": {
+
+        }
+      },
+
+			"minecraft:horse_saddled": {
+				"minecraft:is_saddled": {
+				},
+				
+				"minecraft:behavior.controlled_by_player": {
+				},
+				"minecraft:input_ground_controlled": {
+				},
+				"minecraft:movement": {
+					"value": 0.425
+				},
+				"minecraft:behavior.player_ride_tamed": {
+				}
+			},
+			"minecraft:horse_unsaddled": {
+				"minecraft:is_unsaddled": {
+				},
+				"minecraft:behavior.controlled_by_player": {
+				},
+				"minecraft:spell_effects": {
+				"add_effects": [
+				],
+				"remove_effects": "fire_resistance"
+				},
+				"minecraft:input_ground_controlled": {
+				},
+				"minecraft:movement": {
+					"value": 0
+				},
+				"minecraft:behavior.player_ride_tamed": {
+				}
+			}
+
+		}
+	}
+}

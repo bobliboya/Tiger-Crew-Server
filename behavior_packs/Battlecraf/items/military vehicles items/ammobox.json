@@ -1,0 +1,132 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "battlefield:ammobox",
+      "category": "Equipment",
+      "properties": {
+        "block:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/ammoboxjson",
+      "minecraft:destroy_time": 0.5,
+      "minecraft:friction": 0.0,
+      "minecraft:map_color": "#475635",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:on_placed": {
+        "event": "size:block",
+        "target": "self"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ammobox",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:geometry": "geometry.ammobox",
+      "minecraft:pick_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8.0,
+          0,
+          -8.0
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "remove:block",
+        "target": "self"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('block:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('block:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ],
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "block:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "size:block": {
+        "run_command": {
+          "command": []
+        }
+      },
+      "remove:block": {
+        "run_command": {
+          "command": [
+            "say test function"
+          ]
+        }
+      }
+    }
+  }
+}

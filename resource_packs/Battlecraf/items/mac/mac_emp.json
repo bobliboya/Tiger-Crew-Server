@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:mac_emp",
+      "category": "Equipment"
+    },
+    "components": {
+        "minecraft:creative_category": {
+        "parent": "itemGroup.name.tools"
+      },
+      "minecraft:icon": "mac_emp",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

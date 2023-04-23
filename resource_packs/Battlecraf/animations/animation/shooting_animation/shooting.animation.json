@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.shooting": {
+			"loop": true,
+			"animation_length": 0.18,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.14": [3, -0.3, 0],
+						"0.20": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.14": [0, 0, -1],
+						"0.20": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

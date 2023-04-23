@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.challenger.drive": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"body_main": {
+					"rotation": {
+						"0.0167": [-1, 0, 0],
+						"0.3167": [0, 0, 0],
+						"0.7167": [0.41, 0, 0],
+						"1.0": [-1, 0, 0]
+					}
+				},
+				"wheel1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-1080, 0, 0]
+					}
+				},
+				"wheel2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [1080, 0, 0]
+					}
+				},
+				"backwheels_main": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [1080, 0, 0]
+					}
+				},
+				"part1": {
+					"rotation": [0, 0, 0]
+				},
+				"rotato2": {
+					"rotation": {
+						"0.0": [0, 0, -130],
+						"0.2": [0, 0, -125],
+						"0.4833": [0, 0, -141.58],
+						"0.6333": [0, 0, -123.79],
+						"1.0": [0, 0, -130]
+					}
+				},
+				"rotato": {
+					"rotation": {
+						"0.0": [0, 0, -130],
+						"0.2": [0, 0, -125],
+						"0.4833": [0, 0, -141.58],
+						"0.6333": [0, 0, -123.79],
+						"1.0": [0, 0, -130]
+					}
+				}
+			}
+		},
+		"animation.steering_turn": {
+			"loop": true,
+			"bones": {
+				"steer_wheel": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.2)) * -query.modified_move_speed * 6"]
+				},
+				"body_main": {
+					"rotation": [0, 0, "Math.max(-1.5, Math.min(1.5,query.yaw_speed * 0.2)) * query.modified_move_speed * 1"]
+				},
+				"front_right": {
+					"rotation": [0, "Math.max(-20, Math.min(20,query.yaw_speed * 0.3))", 0]
+				},
+				"front_left": {
+					"rotation": [0, "Math.max(-20, Math.min(20,query.yaw_speed * 0.3))", 0]
+				}
+			}
+		}
+	}
+}

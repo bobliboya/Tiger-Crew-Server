@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fb:miningdrill",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/fb/md"
+			},
+			"geometry": {
+				"default": "geometry.miningdrill"
+			},
+			"render_controllers": [
+				"controller.render.fb"
+			],
+			"animations": {
+			        "turning": "animation.fbmd.turning",
+				"drive": "animation.fbmd.drive"
+			},
+			"spawn_egg": {
+				"texture": "md",
+				"texture_index": 0
+			},
+			"animation_controllers": [ { "general": "controller.animation.fb.general" } ]
+}
+		}
+	}
+}

@@ -1,0 +1,77 @@
+//bridge-file-version: #2
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "fb:aw11base",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player_or_pets"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "fb:tyres",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player_or_pets"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "fb:engine",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player_or_pets"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.m1911_emp": {
+      "geometry": "Geometry.m1911_emp",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.m1911" ]
+    }
+  }
+}

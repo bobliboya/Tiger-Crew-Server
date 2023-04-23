@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mercedes Benz 300SL (B)",
+		"description": "Developed / made by ashminggu. Specially made for MCPEDL.",
+		"uuid": "7223a3ba-5814-4e76-8c11-34ec1419a43b",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "dfdc31fb-7b0b-4328-a4a3-0f41184898a1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "0f323977-d80a-43db-b06f-69387883633c"
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	"BP/recipes/fb.json": {
+		"data": {}
+	},
+	"BP/recipes/fbbase.json": {
+		"data": {}
+	},
+	"BP/recipes/fbcabin.json": {
+		"data": {}
+	},
+	"BP/recipes/fbblueprint.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/fishingboat.json": {
+		"data": {}
+	},
+	"BP/recipes/propellor.json": {
+		"data": {}
+	},
+	"BP/recipes/wing.json": {
+		"data": {}
+	},
+	"BP/recipes/planebase.json": {
+		"data": {}
+	},
+	"BP/recipes/skyplane.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/lavaboat.animation_controllers.json": {
+		"data": {}
+	},
+	"BP/entities/lavaboat.json": {
+		"data": {}
+	},
+	"BP/recipes/lavaboatbase.json": {
+		"data": {}
+	},
+	"BP/recipes/lavaboatcabin.json": {
+		"data": {}
+	},
+	"BP/recipes/lavaboat.json": {
+		"data": {}
+	},
+	"BP/entities/miningdrill.json": {
+		"data": {}
+	},
+	"RP/animations/fbmd.animation.json": {
+		"data": {}
+	},
+	"BP/recipes/mdbase.json": {
+		"data": {}
+	},
+	"BP/recipes/mddrill.json": {
+		"data": {}
+	},
+	"BP/recipes/md.json": {
+		"data": {}
+	},
+	"BP/recipes/at14base.json": {
+		"data": {}
+	},
+	"BP/recipes/aw11base.json": {
+		"data": {}
+	},
+	"BP/recipes/tracks.json": {
+		"data": {}
+	},
+	"BP/recipes/tyres.json": {
+		"data": {}
+	},
+	"BP/recipes/engine.json": {
+		"data": {}
+	},
+	"BP/recipes/at14.json": {
+		"data": {}
+	},
+	"BP/recipes/aw11.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/at14.json": {
+		"data": {}
+	},
+	"BP/entities/at14.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/aw11.json": {
+		"data": {}
+	},
+	"BP/entities/mr211.json": {
+		"data": {}
+	},
+	"BP/recipes/luckboatcabin.json": {
+		"data": {}
+	},
+	"BP/recipes/luckboatbase.json": {
+		"data": {}
+	},
+	"BP/recipes/luckboat.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/luckboat.json": {
+		"data": {}
+	},
+	"BP/entities/luckboat.json": {
+		"data": {}
+	}
+}

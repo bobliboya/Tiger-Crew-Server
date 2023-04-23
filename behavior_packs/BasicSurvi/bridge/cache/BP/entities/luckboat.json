@@ -1,0 +1,534 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\entities\\luckboat.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "187207f9_8f1b_4955_8f9e_11113cea26dd",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.14.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.14.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "fb:luckboat",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"scripts": {
+								"animate": [
+									"luckboat"
+								]
+							},
+							"animations": {
+								"luckboat": "controller.animation.luckboat"
+							}
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"fb",
+									"boat",
+									"player"
+								]
+							},
+							"minecraft:breathable": {
+								"totalSupply": 15,
+								"suffocateTime": 0
+							},
+							"minecraft:scale": {
+								"value": 1
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/luckboat.json"
+							},
+							"minecraft:collision_box": {
+								"width": 3,
+								"height": 1.5
+							},
+							"minecraft:movement": {
+								"value": {
+									"range_min": 0.05,
+									"range_max": 0.05
+								}
+							},
+							"minecraft:underwater_movement": {
+								"value": 0.2
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true,
+								"avoid_water": true,
+								"avoid_damage_blocks": true
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:is_stackable": {},
+							"minecraft:jump.static": {},
+							"minecraft:nameable": {},
+							"minecraft:rideable": {
+								"seat_count": 3,
+								"crouching_skip_interact": true,
+								"interact_text": "Test yer luck",
+								"family_types": [
+									"player",
+									"villager"
+								],
+								"seats": [
+									{
+										"position": [
+											-0.2,
+											0.2,
+											0.7
+										]
+									},
+									{
+										"position": [
+											-0.7,
+											0.2,
+											-0.5
+										]
+									},
+									{
+										"position": [
+											0.7,
+											0.2,
+											-0.5
+										]
+									}
+								]
+							},
+							"minecraft:input_ground_controlled": {},
+							"minecraft:behavior.float": {
+								"priority": 0
+							},
+							"minecraft:physics": {},
+							"minecraft:leashable": {
+								"soft_distance": 4,
+								"hard_distance": 6,
+								"max_distance": 10
+							},
+							"minecraft:balloonable": {},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:health": {
+								"value": 100
+							}
+						},
+						"component_groups": {},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fb:luckboat",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"scripts": {
+								"animate": [
+									"luckboat"
+								]
+							},
+							"animations": {
+								"luckboat": "controller.animation.luckboat"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:luckboat",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"scripts": {
+									"animate": [
+										"luckboat"
+									]
+								},
+								"animations": {
+									"luckboat": "controller.animation.luckboat"
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"fb",
+										"boat",
+										"player"
+									]
+								},
+								"minecraft:breathable": {
+									"totalSupply": 15,
+									"suffocateTime": 0
+								},
+								"minecraft:scale": {
+									"value": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/luckboat.json"
+								},
+								"minecraft:collision_box": {
+									"width": 3,
+									"height": 1.5
+								},
+								"minecraft:movement": {
+									"value": {
+										"range_min": 0.05,
+										"range_max": 0.05
+									}
+								},
+								"minecraft:underwater_movement": {
+									"value": 0.2
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:is_stackable": {},
+								"minecraft:jump.static": {},
+								"minecraft:nameable": {},
+								"minecraft:rideable": {
+									"seat_count": 3,
+									"crouching_skip_interact": true,
+									"interact_text": "Test yer luck",
+									"family_types": [
+										"player",
+										"villager"
+									],
+									"seats": [
+										{
+											"position": [
+												-0.2,
+												0.2,
+												0.7
+											]
+										},
+										{
+											"position": [
+												-0.7,
+												0.2,
+												-0.5
+											]
+										},
+										{
+											"position": [
+												0.7,
+												0.2,
+												-0.5
+											]
+										}
+									]
+								},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:behavior.float": {
+									"priority": 0
+								},
+								"minecraft:physics": {},
+								"minecraft:leashable": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								},
+								"minecraft:balloonable": {},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:health": {
+									"value": 100
+								}
+							},
+							"component_groups": {},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"fb",
+										"boat",
+										"player"
+									]
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"totalSupply": 15,
+									"suffocateTime": 0
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"fb",
+											"boat",
+											"player"
+										]
+									},
+									"minecraft:breathable": {
+										"totalSupply": 15,
+										"suffocateTime": 0
+									},
+									"minecraft:scale": {
+										"value": 1
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/luckboat.json"
+									},
+									"minecraft:collision_box": {
+										"width": 3,
+										"height": 1.5
+									},
+									"minecraft:movement": {
+										"value": {
+											"range_min": 0.05,
+											"range_max": 0.05
+										}
+									},
+									"minecraft:underwater_movement": {
+										"value": 0.2
+									},
+									"minecraft:navigation.walk": {
+										"can_path_over_water": true,
+										"avoid_water": true,
+										"avoid_damage_blocks": true
+									},
+									"minecraft:movement.basic": {},
+									"minecraft:is_stackable": {},
+									"minecraft:jump.static": {},
+									"minecraft:nameable": {},
+									"minecraft:rideable": {
+										"seat_count": 3,
+										"crouching_skip_interact": true,
+										"interact_text": "Test yer luck",
+										"family_types": [
+											"player",
+											"villager"
+										],
+										"seats": [
+											{
+												"position": [
+													-0.2,
+													0.2,
+													0.7
+												]
+											},
+											{
+												"position": [
+													-0.7,
+													0.2,
+													-0.5
+												]
+											},
+											{
+												"position": [
+													0.7,
+													0.2,
+													-0.5
+												]
+											}
+										]
+									},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:behavior.float": {
+										"priority": 0
+									},
+									"minecraft:physics": {},
+									"minecraft:leashable": {
+										"soft_distance": 4,
+										"hard_distance": 6,
+										"max_distance": 10
+									},
+									"minecraft:balloonable": {},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:health": {
+										"value": 100
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/luckboat.json"
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 3,
+									"height": 1.5
+								}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": {
+										"range_min": 0.05,
+										"range_max": 0.05
+									}
+								}
+							},
+							{
+								"key": "minecraft:underwater_movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.2
+								}
+							},
+							{
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"can_path_over_water": true,
+									"avoid_water": true,
+									"avoid_damage_blocks": true
+								}
+							},
+							{
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:is_stackable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:rideable",
+								"is_minified": true,
+								"children": {
+									"seat_count": 3,
+									"crouching_skip_interact": true,
+									"interact_text": "Test yer luck",
+									"family_types": [
+										"player",
+										"villager"
+									],
+									"seats": [
+										{
+											"position": [
+												-0.2,
+												0.2,
+												0.7
+											]
+										},
+										{
+											"position": [
+												-0.7,
+												0.2,
+												-0.5
+											]
+										},
+										{
+											"position": [
+												0.7,
+												0.2,
+												-0.5
+											]
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:input_ground_controlled",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.float",
+								"is_minified": true,
+								"children": {
+									"priority": 0
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:leashable",
+								"is_minified": true,
+								"children": {
+									"soft_distance": 4,
+									"hard_distance": 6,
+									"max_distance": 10
+								}
+							},
+							{
+								"key": "minecraft:balloonable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 100
+								}
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

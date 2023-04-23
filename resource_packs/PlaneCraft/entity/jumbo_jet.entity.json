@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "zern:jumbo_jet",
+      "materials": { "default": "cat" },
+      "textures": {
+        "white": "textures/entity/jumbo_jet/white",
+        "thai": "textures/entity/jumbo_jet/thai",
+        "delta": "textures/entity/jumbo_jet/delta",
+        "orange": "textures/entity/jumbo_jet/orange",
+        "red": "textures/entity/jumbo_jet/red",
+        "blue": "textures/entity/jumbo_jet/blue",
+        "green": "textures/entity/jumbo_jet/green",
+        "yellow": "textures/entity/jumbo_jet/yellow",
+        "american": "textures/entity/jumbo_jet/american",
+        "ana": "textures/entity/jumbo_jet/ana",
+        "azul": "textures/entity/jumbo_jet/azul",
+        "cebu": "textures/entity/jumbo_jet/cebu",
+        "france": "textures/entity/jumbo_jet/france",
+        "garuda": "textures/entity/jumbo_jet/garuda",
+        "korean": "textures/entity/jumbo_jet/korean",
+        "latam": "textures/entity/jumbo_jet/latam",
+        "malaysia": "textures/entity/jumbo_jet/malaysia",
+        "philippines": "textures/entity/jumbo_jet/philippines"
+      },
+      "geometry": {
+        "default": "geometry.jumbo_jet"
+      },
+      "animations": {
+        "fly": "animation.jumbo_jet.fly",
+        "land": "animation.jumbo_jet.land"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.jumbo_jet.move" }
+      ],
+      "render_controllers": [ "controller.render.jumbo_jet" ],
+      "spawn_egg": {
+        "texture": "jumbo_jet",
+        "texture_index": 0
+      }
+    }
+  }
+}

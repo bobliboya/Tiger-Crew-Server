@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+			"animation.fbmd.turning": {
+			"loop": true,
+			"bones": {
+				"steeringwheel": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"]
+				}
+			}
+		},
+		"animation.fbmd.drive": {
+			"loop": true,
+			"animation_length": 0.16,
+			"bones": {
+				"t1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"t2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"t4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"drill": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 0, 360]
+					}
+				},
+				"t3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

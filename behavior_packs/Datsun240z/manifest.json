@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Datsun 240z (B)",
+		"description": "Developed by ashminggu. Specially made for MCPEDL.",
+		"uuid": "b204dfff-7559-4771-923b-7635fcaa043c",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "2da51799-a0ed-4a47-a002-cf9fdfd5d252",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "9233f6a6-e7c7-4e2f-a1f0-753cb3238ba6"
+		}
+	]
+}

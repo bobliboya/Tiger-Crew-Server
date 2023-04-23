@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:revolver",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "revolver",
+      "minecraft:use_animation": "crossbow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

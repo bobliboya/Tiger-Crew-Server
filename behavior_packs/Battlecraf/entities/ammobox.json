@@ -1,0 +1,90 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "battlefield:ammobox",
+      "is_spawnable": true,
+      "is_experimental": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "ammobox"
+        ]
+      },
+      "minecraft:health": {
+        "value": 3,
+        "max": 3
+      },
+      "minecraft:damage_sensor": [
+        {
+          "cause": "all",
+          "deals_damage": false
+        }
+      ],
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "other",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "looting",
+            "target": "self"
+          },
+          "use_item": false,
+          "interact_text": "Open",
+          "spawn_items": {
+            "table": "loot_tables/blocks/ammobox.json"
+          }
+        }
+      ],
+      "minecraft:knockback_resistance": {
+        "value": 2.0
+      },
+      "minecraft:physics": {
+        "has_gravity": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      }
+    },
+    "component_groups": {
+      "looting": {
+        "minecraft:despawn": {
+          "filters": {
+            "test": "is_family",
+            "subject": "self",
+            "value": "ammobox"
+          }
+        }
+      }
+    },
+    "events": {
+      "looting": {
+        "add": {
+          "component_groups": [
+            "looting"
+          ]
+        }
+      }
+    }
+  }
+}

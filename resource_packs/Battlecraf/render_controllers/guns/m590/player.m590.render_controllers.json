@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.m590": {
+      "geometry": "Geometry.m590",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.m590" ]
+    }
+  }
+}

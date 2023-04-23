@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "CYBOX ONE : BP",
+        "description": "Made by Our Minecraft Space (OMS, 우마공)",
+        "uuid": "db310896-85a1-47c3-af1c-cb1a4e89090b",
+        "version": [1, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CYBOX ONE : BP",
+            "type": "data",
+            "uuid": "99e66f06-7a8e-432b-96c4-88ad9ccd0024",
+            "version": [1, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "9b16fd89-3501-4569-a067-2e7aff636e90",
+            "version": [1, 0, 1]
+        }
+    ]
+}

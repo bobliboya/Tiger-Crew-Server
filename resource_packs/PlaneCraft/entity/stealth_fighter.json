@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "zern:stealth_fighter",
+      "materials": { "default": "cat" },
+      "textures": {
+        "default": "textures/entity/stealth_fighter/default"
+      },
+      "geometry": {
+        "default": "geometry.stealth_fighter"
+      },
+      "animations": {
+        "fly": "animation.stealth_fighter.fly",
+        "land": "animation.stealth_fighter.land",
+        "look_at_target": "animation.stealth_fighter.look_at_target"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.stealth_fighter.move" }
+      ],
+      "render_controllers": [ "controller.render.stealth_fighter" ],
+      "spawn_egg": {
+        "texture": "stealth_fighter",
+        "texture_index": 0
+      }
+    }
+  }
+}

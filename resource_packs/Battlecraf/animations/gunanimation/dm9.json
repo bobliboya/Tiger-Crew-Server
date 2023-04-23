@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.dm9": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"rightArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "5+ variable.is_using_vr * 7.5", "180.0 + variable.is_using_vr * -2.5"],
+					"position": [11, -1, 7]
+				},
+				"leftArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "-10+ variable.is_using_vr * 7.5", "180+ variable.is_using_vr * -2.5"],
+					"position": [-11, -1, 7]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0.5]
+				},
+				"tool2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0.5]
+				}
+			}
+		},
+		"animation.player.first_person.dm9_aim": {
+			"loop": true,
+			"animation_length": 0.04,
+			"bones": {
+				"leftArm": {
+					"rotation": [0, 0, 15],
+					"position": [1, 0.5., 0]
+				},
+				"rightArm": {
+					"rotation": [0, 0, -15],
+					"position": [-1, 0, 0]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"tool2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

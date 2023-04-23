@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.0",//Alpha Test
+	"animation_controllers": {
+		"controller.animation.moving_engine": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"move": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/particle minecraft:basic_smoke_particle ~ ~ ~"
+					]
+				},
+				"move": {
+					"transitions": [
+						{
+							"default": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/particle minecraft:basic_smoke_particle ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

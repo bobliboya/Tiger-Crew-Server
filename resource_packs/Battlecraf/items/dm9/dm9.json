@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:dm9",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "dm9",
+      "minecraft:use_animation": "crossbow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

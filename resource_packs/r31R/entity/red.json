@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nissan:skyline7_red",
+      "materials": { "default": "enderman" },
+      "textures": {
+        "default": "textures/entity/car/r31_red"
+      },
+      "geometry": {
+        "default": "geometry.skyline_r31"
+      },
+      "animations": {
+        "walk": "animation.challenger.drive",
+        "body_turn": "animation.steering_turn"
+	
+      },
+      "scripts": {
+        "animate": [
+          { "walk": "query.modified_move_speed" },
+		  "body_turn"
+        ]
+      },
+      "render_controllers": [ "controller.render.armor_stand" ],
+      "spawn_egg": {
+        "texture": "egg_skyline7",
+        "texture_index": 0
+      }
+    }
+  }
+}

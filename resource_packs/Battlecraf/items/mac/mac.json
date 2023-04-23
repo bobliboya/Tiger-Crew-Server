@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:mac",
+      "category": "Equipment"
+    },
+    "components": {
+        "minecraft:creative_category": {
+        "parent": "itemGroup.name.tools"
+      },
+      "minecraft:icon": "mac",
+      "minecraft:use_animation": "crossbow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"vehicle.300sl.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/300sl/300sl"
+		]
+	}
+}

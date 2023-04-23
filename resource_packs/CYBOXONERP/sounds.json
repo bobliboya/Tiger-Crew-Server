@@ -1,0 +1,123 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"car:m5": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:spark": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:q12s": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:tosca": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:discovery": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "discovery.drive",
+				"ride": "car.door_close",
+				"saddle": "discovery.saddled"
+							}
+			},
+			"car:sm525v": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:zlsb97": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:zlsb97_saki": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			},
+			"car:bently": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.spawn",
+				"step": "car.drive",
+				"ride": "car.door_close",
+				"saddle": "car.saddled"
+							}
+			}
+      }
+   }
+}

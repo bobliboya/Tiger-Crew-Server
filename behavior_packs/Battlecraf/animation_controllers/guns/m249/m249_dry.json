@@ -1,0 +1,29 @@
+//Coded By Rad Claw You Can Ask Me Permission In Discord Rad Claw#7353 
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.m249_dry": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "setup": "query.get_equipped_item_name=='m249_emp' && query.is_using_item"
+            }
+          ]
+        },
+        "setup": {
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name=='m249_emp' && !query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "/playsound dry @a[r=15]",
+            "/title @p actionbar §c0/100"
+          ]
+        }
+      }
+    }
+  }
+}

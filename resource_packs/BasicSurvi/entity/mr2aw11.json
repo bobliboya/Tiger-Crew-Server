@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fb:mr2aw11",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/fb/mr211"
+			},
+			"geometry": {
+				"default": "geometry.mr2aw11fb"
+			},
+			"render_controllers": [
+				"controller.render.fb"
+			],
+			"animations": {
+				"drive": "animation.mr2aw11.drive",
+			        "turning": "animation.mr2aw11.turning",
+				"headlights": "animation.mr2aw11.headlights"
+			},
+			"spawn_egg": {
+				"texture": "aw11",
+				"texture_index": 0
+			},
+			"animation_controllers": [ { "general": "controller.animation.mr2aw11.general" } ]
+}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+==============================================================
+==================MORNINGSTAR DEFENCE MCBE====================
+=============ACE ENTITIES ADDON EULA FOR BATTLECRAFT=============
+==============================================================
+
+Addon- https://mcpedl.com/aceentities-addon/?cookie_check=1
+Twitter- https://mobile.twitter.com/McbeMorningstar
+Youtube- https://www.youtube.com/channel/UCdK9Yb3dS8jpp3w0Caj1WLQ
+Made by- Abdul Rahim & Morningstar Defence
+
+*Terms & Conditions using Ace Entities Assets-
+
+1)You are not allowed to distribute ace entities assets to other addon dev teams.
+2)You are not allowed to monetize your product without
+giving credits to Morningstar Defence and Abdul Rahim.
+3)Credits must be given in the Description of
+your addon.
+4)Terms and conditions or the license to use our assets might change 
+if the CEO of Morningstar Defence gets changed.
+
+*Note
+-By pasting this text file in your addon files
+you are agreeing to these terms and conditions.
+-If you do not agree you do not have the permission
+to use the assets of Ace Entities Addon.
+-Do not edit the text file we can detect if the text
+file is edited.
+
+
+CEO of Morningstar-theonlypilot#8257 
+
+==============================================================
+==============================================================
+Created- 02 ‎March ‎2021, ‏‎6:23:03
+Size of file- 1,710 bytes
+==============================================================
+==============================================================
+
+

@@ -1,0 +1,24 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Modeled by The Morning Company",
+		"name": "Tesla Roadster",
+		"uuid": "0ecacc69-a89e-415d-bb04-1998915975d3",
+		"version": [1, 1, 1],
+		"min_engine_version": [1, 0, 0]
+	},
+	"modules": [
+        {
+		"description": "Modeled by The Morning Company",
+		"type": "resources",
+		"uuid": "62607e4f-867a-40b5-a9e7-233c3f05f514",
+		"version": [1, 1, 1]
+	}
+    ],
+	"dependencies": [
+        {
+		"uuid": "2cbff49e-a299-4810-b677-a5e0785251fc",
+		"version": [1, 1, 1]
+	}
+    ]
+}

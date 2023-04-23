@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:ak47_emp",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "ak47_emp",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:glock_emp",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "glock_emp",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

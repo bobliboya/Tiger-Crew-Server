@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "CYBOX ONE : RP",
+        "description": "Made by iMasterProX",
+        "uuid": "9b16fd89-3501-4569-a067-2e7aff636e90",
+        "version": [1, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "CYBOX ONE : RP",
+            "type": "resources",
+            "uuid": "5bf55429-12a4-4a13-8d46-261af47e915d",
+            "version": [1, 0, 1]
+        }
+    ]
+}

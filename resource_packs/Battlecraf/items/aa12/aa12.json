@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:aa12",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "aa12",
+      "minecraft:use_animation": "crossbow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+	"entity_sounds": {
+		"entities": {
+	   		"car:discovery_ar": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_cg": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_fw": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_is": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_lb": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_mr": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_sb": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_wg": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      },
+	  "car:discovery_yw": {
+				"volume": 3,
+				"pitch": [
+				1,
+				1
+				],
+			"events": {
+				"spawn": "discovery.spawn",
+				"step": "discovery.drive",
+				"ride": "discovery.door_close",
+				"saddle": "discovery.saddled"
+				}
+      }
+}
+}
+}

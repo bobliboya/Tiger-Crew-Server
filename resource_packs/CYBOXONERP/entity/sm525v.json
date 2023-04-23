@@ -1,0 +1,74 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:sm525v",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/sm525v/sm525v_undyed",			
+				"undyed": "textures/entity/sm525v/sm525v_undyed",
+				"white": "textures/entity/sm525v/sm525v_white",
+				"orange": "textures/entity/sm525v/sm525v_orange",
+				"magenta": "textures/entity/sm525v/sm525v_magenta",
+				"light_blue": "textures/entity/sm525v/sm525v_light_blue",
+				"yellow": "textures/entity/sm525v/sm525v_yellow",
+				"lime": "textures/entity/sm525v/sm525v_lime",
+				"pink": "textures/entity/sm525v/sm525v_pink",
+				"gray": "textures/entity/sm525v/sm525v_gray",
+				"silver": "textures/entity/sm525v/sm525v_silver",
+				"cyan": "textures/entity/sm525v/sm525v_cyan",
+				"purple": "textures/entity/sm525v/sm525v_purple",
+				"blue": "textures/entity/sm525v/sm525v_blue",
+				"brown": "textures/entity/sm525v/sm525v_brown",
+				"green": "textures/entity/sm525v/sm525v_green",
+				"red": "textures/entity/sm525v/sm525v_red",
+				"black": "textures/entity/sm525v/sm525v_black"
+			},
+			"geometry": {
+				"default": "geometry.sm525v"
+			},
+			"render_controllers": [
+				"controller.render.car_color"
+			],
+			"spawn_egg": {
+				"texture": "sm525v"
+			},
+			"animations": {
+				"move": "animation.sm525v.move",
+				"ride": "animation.sm525v.right_front_door_close",
+				"setup": "animation.sm525v.spawn",
+				"turn": "animation.sm525v.turn",
+				"saddle": "animation.sm525v.back_mirror_open",
+				"hit": "animation.sm525v.airback",
+				"death": "animation.sm525v.airback",
+				"chested": "animation.sm525v.trunk",
+				"general": "controller.animation.sm525v.general",
+				"normal": "animation.sm525v.normal"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_tamed"
+					},
+					{
+						"chested": "query.is_chested"
+					},
+					"hit",
+					"death",
+					"setup",
+					"general",
+					"normal"
+				]
+			}
+		}
+	}
+}

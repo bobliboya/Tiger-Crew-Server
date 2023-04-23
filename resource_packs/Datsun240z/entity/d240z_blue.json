@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "d240z:blue",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/d240z_blue"
+			},
+			"geometry": {
+				"default": "geometry.datsun240z"
+			},
+			"render_controllers": [
+				"controller.render.cars"
+			],
+			"animations": {
+				"drive": "animation.d240z.drive",
+			        "turning": "animation.d240z.turning"
+			},
+			"spawn_egg": {
+				"texture": "d240z",
+				"texture_index": 0
+			},
+			"animation_controllers": [ { "general": "controller.animation.d240z.general" } ]
+}
+		}
+	}
+}

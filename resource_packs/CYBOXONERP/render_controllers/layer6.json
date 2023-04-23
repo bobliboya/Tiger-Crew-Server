@@ -1,0 +1,17 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.layer6": {
+			"textures": [
+				"Texture.layer6"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.layer6"
+		}
+	}
+}

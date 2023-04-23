@@ -1,0 +1,48 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:discovery_lb",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/discovery/discovery_lb"
+			},
+			"geometry": {
+				"default": "geometry.discovery"
+			},
+			"render_controllers": [
+				"controller.render.iron_golem"
+			],
+			"spawn_egg": {
+				"texture": "discovery_lb"
+			},
+			"animations": {
+				"move": "animation.discovery.move",
+				"ride": "animation.discovery.back_mirror_open",
+				"setup": "animation.discovery.spawn",
+				"turn": "animation.discovery.turn",
+				"normal": "animation.discovery.normal",
+				"accel": "animation.discovery.accel",
+				"general": "controller.animation.discovery.general"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"accel": "query.is_fire_immune"
+					},
+					"setup",
+					"general"
+				]
+			}
+		}
+	}
+}

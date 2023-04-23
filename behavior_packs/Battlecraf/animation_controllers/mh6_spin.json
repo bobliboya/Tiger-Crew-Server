@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mh6_spin": {
+      "states": {
+        "default": {
+          "animations": [
+            { "moving": "query.is_moving" }
+          ],
+          "transitions": [
+            { "moving": "query.is_moving" }
+          ]
+        },
+        "moving": {
+          "animations": [ "mh6_anim" ],
+          "transitions": [
+            { "default": "query.all_animations_finished" }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lamborghini:centenario_red",
+      "materials": { "default": "enderman" },
+      "textures": {
+        "default": "textures/entity/Lamborghini Centenario Red/centenario_red"
+      },
+      "geometry": {
+        "default": "geometry.centenario_red"
+      },
+      "render_controllers": [ "controller.render.centenario_red" ],
+      "spawn_egg": {
+        "texture": "egg_centenario_red",
+        "texture_index": 0
+      }
+    }
+  }
+}
+

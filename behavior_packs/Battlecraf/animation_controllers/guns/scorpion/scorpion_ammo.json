@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.scorpion_ammo": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "eq": "query.get_equipped_item_name == 'scorpion'"
+            }
+          ]
+        },
+        "eq": {
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name == 'scorpion'"
+            }
+          ],
+          "on_entry": [
+            "/function ammo/scorpion"
+          ]
+        }
+      }
+    }
+  }
+}

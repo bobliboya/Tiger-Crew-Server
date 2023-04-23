@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "by UnfoldedBrush",
+        "name": "Lamborghini Centenario Red Resource Pack",
+        "uuid": "c842258b-62d1-445e-8a37-8782c26fbd5f",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "by UnfoldedBrush",
+            "type": "resources",
+            "uuid": "8f95c923-ee26-4f4f-b2f4-4cc8191bad54",
+            "version": [0, 0, 1]
+        }
+    ]
+}

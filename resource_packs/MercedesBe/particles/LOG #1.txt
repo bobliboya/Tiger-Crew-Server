@@ -1,0 +1,6 @@
+LOG #1 (9/1/20)
+
+Originally, fire particles were planned to be used. It did work as planned, and fire trails spat out of the car! Though at the end, I decided to remove the feature as it didn't look suitable with the car. Might add it for other certain cars that are suitable, i.e drag cars.
+
+-ashminggu
+

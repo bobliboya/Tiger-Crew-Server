@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.m24.new": {
+			"loop": true,
+			"bones": {
+				"grip9": {
+					"position": [0, -4, 12]
+				},
+				"grip16": {
+					"position": [0, -2, 8]
+				},
+				"bone19": {
+					"position": [0, -9, -4]
+				},
+				"bone17": {
+					"position": [0, 0, -2]
+				},
+				"bone18": {
+					"position": [0, -13, -3]
+				},
+				"grip8": {
+					"position": [0, 0, 22]
+				},
+				"grip12": {
+					"position": [0, -3, 19]
+				},
+				"grip10": {
+					"position": [1, -3, 19]
+				},
+				"grip24": {
+					"position": [0, 0, 7]
+				},
+				"hole2": {
+					"position": [0, 0, 27]
+				},
+				"hole18": {
+					"position": [0, -6, 10]
+				},
+				"hole21": {
+					"position": [0, -3, 0]
+				},
+				"hole25": {
+					"position": [0, -5, 14]
+				},
+				"hole26": {
+					"position": [0, -5, 16]
+				},
+				"hole27": {
+					"position": [0, -6, 16]
+				},
+				"hole28": {
+					"position": [0, -5, 15]
+				},
+				"hole24": {
+					"position": [0, -3, 0]
+				},
+				"hole19": {
+					"position": [0, -5, 12]
+				},
+				"hole29": {
+					"position": [0, -6, 7]
+				},
+				"hole20": {
+					"position": [0, -3, 0]
+				},
+				"hole30": {
+					"position": [1, -4, 9]
+				},
+				"hole32": {
+					"position": [0, -7, 11]
+				},
+				"hole31": {
+					"position": [-1, -4, 10]
+				},
+				"bolt": {
+					"position": [0, -1, 10]
+				},
+				"hole5": {
+					"position": [0, 0, 9]
+				},
+				"bone20": {
+					"position": [0, 0, 1]
+				},
+				"bone21": {
+					"position": [0, 0, 1]
+				}
+			}
+		}
+	}
+}

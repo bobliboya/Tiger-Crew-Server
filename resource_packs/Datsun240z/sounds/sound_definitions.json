@@ -1,0 +1,8 @@
+{
+	"vehicle.d240z.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/vehicle/d240z"
+		]
+	}
+}

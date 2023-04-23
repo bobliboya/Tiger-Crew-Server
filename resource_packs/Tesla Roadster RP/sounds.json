@@ -1,0 +1,19 @@
+{
+
+	"entity_sounds": {
+		"entities": {
+			"custom:roadster": {
+				"volume": 1.5,
+				"pitch": [1, 1],
+				"events": {
+					"step": {
+						"sound": "mob.roadster.drive",
+						"volume": 1.5,
+						"pitch": [1]
+					}
+				}
+			}
+		}
+	},
+	"interactive_sounds": {}
+}

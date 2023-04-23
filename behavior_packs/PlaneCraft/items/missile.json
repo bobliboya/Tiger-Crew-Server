@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+      "identifier": "zern:missile"
+    },
+
+    "components": {
+      "minecraft:use_duration": 30000,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true
+      }
+    }
+  }
+}

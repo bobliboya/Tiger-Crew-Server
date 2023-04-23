@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "fb:aw11base",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "aw11base",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

@@ -1,0 +1,126 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"fb": {
+			"textures": [
+				"textures/items/fb/fb"
+			]
+		},
+		"fbblueprint": {
+			"textures": [
+				"textures/items/fb/blueprint"
+			]
+		},
+		"fbcabin": {
+			"textures": [
+				"textures/items/fb/cabin"
+			]
+		},
+		"fbbase": {
+			"textures": [
+				"textures/items/fb/base"
+			]
+		},
+		"planebase": {
+			"textures": [
+				"textures/items/fb/planebase"
+			]
+		},
+		"propellor": {
+			"textures": [
+				"textures/items/fb/propellor"
+			]
+		},
+		"wing": {
+			"textures": [
+				"textures/items/fb/wing"
+			]
+		},
+		"skyplane": {
+			"textures": [
+				"textures/items/fb/skyplane"
+			]
+		},
+		"lavaboat": {
+			"textures": [
+				"textures/items/fb/lavaboat"
+			]
+		},
+		"lavaboatbase": {
+			"textures": [
+				"textures/items/fb/lavaboatbase"
+			]
+		},
+		"lavaboatcabin": {
+			"textures": [
+				"textures/items/fb/lavaboatcabin"
+			]
+		},
+		"md": {
+			"textures": [
+				"textures/items/fb/md"
+			]
+		},
+		"mdbase": {
+			"textures": [
+				"textures/items/fb/mdbase"
+			]
+		},
+		"mddrill": {
+			"textures": [
+				"textures/items/fb/mddrill"
+			]
+		},
+		"at14": {
+			"textures": [
+				"textures/items/fb/at14"
+			]
+		},
+		"at14base": {
+			"textures": [
+				"textures/items/fb/at14_base"
+			]
+		},
+		"tracks": {
+			"textures": [
+				"textures/items/fb/tracks"
+			]
+		},
+		"aw11": {
+			"textures": [
+				"textures/items/fb/aw11"
+			]
+		},
+		"aw11base": {
+			"textures": [
+				"textures/items/fb/aw11_base"
+			]
+		},
+		"tyres": {
+			"textures": [
+				"textures/items/fb/tyres"
+			]
+		},
+		"engine": {
+			"textures": [
+				"textures/items/fb/engine"
+			]
+		},
+		"luckboat": {
+			"textures": [
+				"textures/items/fb/luckboat"
+			]
+		},
+		"luckboatcabin": {
+			"textures": [
+				"textures/items/fb/luckboatcabin"
+			]
+		},
+		"luckboatbase": {
+			"textures": [
+				"textures/items/fb/luckboatbase"
+			]
+		}
+	}
+}

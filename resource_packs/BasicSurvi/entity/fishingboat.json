@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fb:fishingboat",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/fb/fishboat"
+			},
+			"geometry": {
+				"default": "geometry.fishboat"
+			},
+			"render_controllers": [
+				"controller.render.fb"
+			],
+			"animations": {
+			        "turning": "animation.fb.turning"
+			},
+			"spawn_egg": {
+				"texture": "fb",
+				"texture_index": 0
+			},
+			"animation_controllers": [ { "general": "controller.animation.fb.general" } ]
+}
+		}
+	}
+}

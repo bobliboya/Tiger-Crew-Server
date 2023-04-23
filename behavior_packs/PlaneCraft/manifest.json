@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "PlaneCraft BP",
+    "description": "Add-on by ZERN TH [Do not copy or modify my code]",
+    "uuid": "b012f825-3b40-4c2f-aceb-597fde238b80",
+    "min_engine_version": [
+      1,
+      14,
+      0
+    ],
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "Add-on by ZERN TH",
+      "type": "data",
+      "uuid": "4c865cc4-0a56-499f-8abe-19925c122cd0",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c03e685d-ffee-4818-adea-7e1ec6823811",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

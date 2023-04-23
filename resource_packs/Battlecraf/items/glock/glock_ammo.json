@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:glock_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "glock_ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

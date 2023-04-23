@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.0",//Alpha Test
+	"animation_controllers": {
+		"controller.animation.helibeh2": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flying": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function vehicles/blackhawk"
+					]
+				},
+				"flying": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/function vehicles/blackhawk"
+					]
+				}
+			}
+		}
+	}
+}

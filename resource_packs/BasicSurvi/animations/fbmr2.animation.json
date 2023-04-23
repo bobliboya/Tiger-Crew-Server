@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mr2aw11.turning": {
+			"loop": true,
+			"bones": {
+				"fronttire1": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))", 0]
+				},
+				"fronttire2": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))", 0]
+				},
+				"steeringwheel": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"]
+				}
+			}
+		},
+		"animation.mr2aw11.drive": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"fronttire1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.16": [180, 0, 0]
+					}
+				},
+				"fronttire2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.16": [180, 0, 0]
+					}
+				},
+				"backtires": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.16": [180, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mr2aw11.headlights": {
+			"loop": true,
+			"bones": {
+				"popups": {
+						"rotation": [0, 0, 0],
+						"position": [0, 3, 0]
+					}
+				}
+			}
+		}
+	}
+}

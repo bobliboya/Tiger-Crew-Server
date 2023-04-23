@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:revolver_emp",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "revolver_emp",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:lavaboat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC"
+		],
+		"key": {
+			"A": {
+				"item": "fb:blueprint"
+			},
+			"B": {
+				"item": "fb:lavaboatcabin"
+			},
+			"C": {
+				"item": "fb:lavaboatbase"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:spawn_egg",
+				"data": "query.get_actor_info_id('fb:lavaboat')",
+				"count": 1
+			},
+			{
+				"item": "fb:blueprint",
+				"count": 1
+			}
+		]
+	}
+}

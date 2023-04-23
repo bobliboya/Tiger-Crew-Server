@@ -1,0 +1,52 @@
+Thank you for downloading this add-on!
+Join the Battlecraft Community discord server!  https://discord.gg/MPmCsefTtH
+
+Model Credits:
+
+Mac10, Glock17, S&Wm66, M249(remodel), Desert Eagle(Remodel),
+M24(remodel), L96(Remodel) M1911, Uzi, Akm, Cz Scorpion, Mossberg 590,& Fn Fal made by Jxcksonn
+(https://youtube.com/Jxcksonn)
+
+M4a1, Tac M4, FN15, Hk416, Auga4, G36C, M16a2, AA12, Vector, Scar, Dm9, M9 made by Kingz
+
+/Original L96 model was made by Daison
+
+All vehicles were made by Daehun/Onezawa
+
+RadClaw, Arthur Lincoln, & Jxcksonn for 
+code
+
+Abdul Rahim from Morningstar for original code (ace entities)
+
+
+Some things to note:
+
+•This pack is meant for 1.16.200/1.16.201/1.16.210 (we haven't tested betas or future versions because we aren't time travellers so test yourself or use these versions to be safe)
+
+•Glock and Aa12 don't disappear in survival now
+
+•Akm magazine does not crash the game anymore (crazy right?)
+
+•Guns have recoil, but the way the system works the recoil affects the player before the bullet spawns, which makes the recoil affect the bullet's trajectory.
+So, if you're shooting a gun that has alot of recoil from a far distance, it's better to aim a bit lower so the recoil will make it rise and hit where you aim 
+(But, this doesn't matter too much since as long as you hit the target anywhere, you'll be doing maximum damage, either way most guns have low recoil which won't affect its aim)
+
+•The iron sights will be bugged if you enable viewbobbing- they still work but wobble, so if you want the add-on to be the most effective, turn off viewbobbing
+
+•Crafting recipes WILL BE COMING SOON
+ 
+•Reload animations will also be coming
+
+•Addon can bug in multiplayer with full auto guns where they don't stop shooting, this is being investigated however you can stop it from shooting by changing hotbar (easy with pc/controller)
+
+•Semi automatic guns work fine in multiplayer
+
+•In multiplayer there's earrape when people join and bullets get spawned, this will be fixed
+
+•In multiplayer camerashake recoil effect happens to all players, this will also be fixed
+
+•You reload by holding down your eat button 
+
+•World must have additional modding capabilities on/experimental settings to work
+
+•Addon has to be on top of all of the other add-ons in order to work properly

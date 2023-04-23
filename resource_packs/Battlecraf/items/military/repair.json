@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:repair_kit",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "repairkit",
+      "minecraft:use_animation": "null",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

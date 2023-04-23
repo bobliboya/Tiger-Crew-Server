@@ -1,0 +1,4689 @@
+{
+  "format_version": "1.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "data",
+          "player",
+          "scores",
+          "cannon",
+          "rocket",
+          "m830",
+          "m829",
+          "m86p1",
+          "3uof8",
+          "machine_gun",
+          "fal",
+          "fal_ammo",
+          "fal_dry",
+          "fal_reload",
+          "m249",
+          "m249_ammo",
+          "m249_dry",
+          "m249_reload",
+          "l96",
+          "l96_ammo",
+          "l96_dry",
+          "l96_reload",
+          "m24",
+          "m24_ammo",
+          "m24_dry",
+          "m24_reload",
+          "fn15",
+          "fn15_ammo",
+          "fn15_dry",
+          "fn15_reload",
+          "deagle",
+          "deagle_ammo",
+          "deagle_dry",
+          "deagle_reload",
+          "m1911",
+          "m1911_ammo",
+          "m1911_dry",
+          "m1911_reload",
+          "hk416",
+          "hk416_ammo",
+          "hk416_dry",
+          "hk416_reload",
+          "m4a1",
+          "m4a1_ammo",
+          "m4a1_dry",
+          "m4a1_reload",
+          "m16a2",
+          "m16a2_ammo",
+          "m16a2_dry",
+          "m16a2_reload",
+          "scar",
+          "scar_ammo",
+          "scar_dry",
+          "scar_reload",
+          "vector",
+          "vector_ammo",
+          "vector_dry",
+          "vector_reload",
+          "scorpion",
+          "scorpion_ammo",
+          "scorpion_dry",
+          "scorpion_reload",
+          "revolver",
+          "revolver_ammo",
+          "revolver_dry",
+          "revolver_reload",
+          "aa12",
+          "aa12_ammo",
+          "aa12_dry",
+          "aa12_reload",
+          "m590",
+          "m590_ammo",
+          "m590_dry",
+          "m590_reload",
+          "auga3",
+          "auga3_ammo",
+          "auga3_dry",
+          "auga3_reload",
+          "g36c",
+          "g36c_ammo",
+          "g36c_dry",
+          "g36c_reload",
+          "tacm4",
+          "tacm4_ammo",
+          "tacm4_dry",
+          "tacm4_reload",
+          "ak47",
+          "ak47_ammo",
+          "ak47_dry",
+          "ak47_reload",
+          "dm9",
+          "dm9_ammo",
+          "dm9_dry",
+          "dm9_reload",
+          "m9",
+          "m9_ammo",
+          "m9_dry",
+          "m9_reload",
+          "glock",
+          "glock_ammo",
+          "glock_dry",
+          "glock_reload",
+          "uzi",
+          "uzi_ammo",
+          "uzi_dry",
+          "uzi_reload",
+          "mac",
+          "mac_ammo",
+          "mac_dry",
+          "mac_reload",
+          "adrenaline",
+          "medkit",
+          "smoke_grenade",
+          "grenade",
+          "molotov",
+          "flashbang"
+        ]
+      },
+      "animations": {
+        "data": "controller.animation.data",
+        "player": "controller.animation.player",
+        "scores": "controller.animation.scores",
+        "cannon": "controller.animation.cannon",
+        "rocket": "controller.animation.rocket",
+        "m830": "controller.animation.m830",
+        "m829": "controller.animation.m829",
+        "m86p1": "controller.animation.m86p1",
+        "3uof8": "controller.animation.3uof8",
+        "machine_gun": "controller.animation.machine_gun",
+        "fal": "controller.animation.fal",
+        "fal_ammo": "controller.animation.fal_ammo",
+        "fal_dry": "controller.animation.fal_dry",
+        "fal_reload": "controller.animation.fal_reload",
+        "m249": "controller.animation.m249",
+        "m249_ammo": "controller.animation.m249_ammo",
+        "m249_dry": "controller.animation.m249_dry",
+        "m249_reload": "controller.animation.m249_reload",
+        "l96": "controller.animation.l96",
+        "l96_ammo": "controller.animation.l96_ammo",
+        "l96_dry": "controller.animation.l96_dry",
+        "l96_reload": "controller.animation.l96_reload",
+        "m24": "controller.animation.m24",
+        "m24_ammo": "controller.animation.m24_ammo",
+        "m24_dry": "controller.animation.m24_dry",
+        "m24_reload": "controller.animation.m24_reload",
+        "fn15": "controller.animation.fn15",
+        "fn15_ammo": "controller.animation.fn15_ammo",
+        "fn15_dry": "controller.animation.fn15_dry",
+        "fn15_reload": "controller.animation.fn15_reload",
+        "deagle": "controller.animation.deagle",
+        "deagle_ammo": "controller.animation.deagle_ammo",
+        "deagle_dry": "controller.animation.deagle_dry",
+        "deagle_reload": "controller.animation.deagle_reload",
+        "m1911": "controller.animation.m1911",
+        "m1911_ammo": "controller.animation.m1911_ammo",
+        "m1911_dry": "controller.animation.m1911_dry",
+        "m1911_reload": "controller.animation.m1911_reload",
+        "hk416": "controller.animation.hk416",
+        "hk416_ammo": "controller.animation.hk416_ammo",
+        "hk416_dry": "controller.animation.hk416_dry",
+        "hk416_reload": "controller.animation.hk416_reload",
+        "m4a1": "controller.animation.m4a1",
+        "m4a1_ammo": "controller.animation.m4a1_ammo",
+        "m4a1_dry": "controller.animation.m4a1_dry",
+        "m4a1_reload": "controller.animation.m4a1_reload",
+        "m16a2": "controller.animation.m16a2",
+        "m16a2_ammo": "controller.animation.m16a2_ammo",
+        "m16a2_dry": "controller.animation.m16a2_dry",
+        "m16a2_reload": "controller.animation.m16a2_reload",
+        "scar": "controller.animation.scar",
+        "scar_ammo": "controller.animation.scar_ammo",
+        "scar_dry": "controller.animation.scar_dry",
+        "scar_reload": "controller.animation.scar_reload",
+        "vector": "controller.animation.vector",
+        "vector_ammo": "controller.animation.vector_ammo",
+        "vector_dry": "controller.animation.vector_dry",
+        "vector_reload": "controller.animation.vector_reload",
+        "scorpion": "controller.animation.scorpion",
+        "scorpion_ammo": "controller.animation.scorpion_ammo",
+        "scorpion_dry": "controller.animation.scorpion_dry",
+        "scorpion_reload": "controller.animation.scorpion_reload",
+        "revolver": "controller.animation.revolver",
+        "revolver_ammo": "controller.animation.revolver_ammo",
+        "revolver_dry": "controller.animation.revolver_dry",
+        "revolver_reload": "controller.animation.revolver_reload",
+        "aa12": "controller.animation.aa12",
+        "aa12_ammo": "controller.animation.aa12_ammo",
+        "aa12_dry": "controller.animation.aa12_dry",
+        "aa12_reload": "controller.animation.aa12_reload",
+        "m590": "controller.animation.m590",
+        "m590_ammo": "controller.animation.m590_ammo",
+        "m590_dry": "controller.animation.m590_dry",
+        "m590_reload": "controller.animation.m590_reload",
+        "auga3": "controller.animation.auga3",
+        "auga3_ammo": "controller.animation.auga3_ammo",
+        "auga3_dry": "controller.animation.auga3_dry",
+        "auga3_reload": "controller.animation.auga3_reload",
+        "g36c": "controller.animation.g36c",
+        "g36c_ammo": "controller.animation.g36c_ammo",
+        "g36c_dry": "controller.animation.g36c_dry",
+        "g36c_reload": "controller.animation.g36c_reload",
+        "tacm4": "controller.animation.tacm4",
+        "tacm4_ammo": "controller.animation.tacm4_ammo",
+        "tacm4_dry": "controller.animation.tacm4_dry",
+        "tacm4_reload": "controller.animation.tacm4_reload",
+        "ak47": "controller.animation.ak47",
+        "ak47_ammo": "controller.animation.ak47_ammo",
+        "ak47_dry": "controller.animation.ak47_dry",
+        "ak47_reload": "controller.animation.ak47_reload",
+        "dm9": "controller.animation.dm9",
+        "dm9_ammo": "controller.animation.dm9_ammo",
+        "dm9_dry": "controller.animation.dm9_dry",
+        "dm9_reload": "controller.animation.dm9_reload",
+        "m9": "controller.animation.m9",
+        "m9_ammo": "controller.animation.m9_ammo",
+        "m9_dry": "controller.animation.m9_dry",
+        "m9_reload": "controller.animation.m9_reload",
+        "glock": "controller.animation.glock",
+        "glock_ammo": "controller.animation.glock_ammo",
+        "glock_dry": "controller.animation.glock_dry",
+        "glock_reload": "controller.animation.glock_reload",
+        "uzi": "controller.animation.uzi",
+        "uzi_ammo": "controller.animation.uzi_ammo",
+        "uzi_dry": "controller.animation.uzi_dry",
+        "uzi_reload": "controller.animation.uzi_reload",
+        "mac": "controller.animation.mac",
+        "mac_ammo": "controller.animation.mac_ammo",
+        "mac_dry": "controller.animation.mac_dry",
+        "mac_reload": "controller.animation.mac_reload",
+        "adrenaline": "controller.animation.adrenaline",
+        "medkit": "controller.animation.medkit",
+        "smoke_grenade": "controller.animation.sg",
+        "grenade": "controller.animation.g",
+        "molotov": "controller.animation.mol",
+        "flashbang": "controller.animation.fb"
+      }
+    },
+    "component_groups": {
+      "normal_player": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 2.2
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": []
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "battlefield:m249_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m249",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:fal_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:fal",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:cannon_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:cannon",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:rocket_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:rocket",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:srocket_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:srocket",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m830_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m830",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:sm830_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:sm830",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m829_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m829",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m86p1_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m86p1",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:3uof8_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:3uof8",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m1911_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m1911",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:machine_gun_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0.1,
+            "max_wait_time": 0.1,
+            "spawn_entity": "bullet:machine_gun",
+            "num_to_spawn": 1
+          }
+        },
+        "minecraft:timer": {
+          "time": 0.0,
+          "looping": true,
+          "time_down_event": {
+            "event": "remove:machine_gun_fire",
+            "target": "self"
+          }
+        }
+      },
+      "battlefield:l96_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:l96",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m24_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m24",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:fn15_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:fn15",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:g36c_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:g36c",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:deagle_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:deagle",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:dm9_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:baretta",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m9_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:baretta",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:glock_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:glock",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:aa12_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "spawn_entity": "bullet:aa12",
+            "num_to_spawn": 9
+          }
+        },
+        "minecraft:timer": {
+          "time": 0.0,
+          "looping": true,
+          "time_down_event": {
+            "event": "remove:aa12_fire",
+            "target": "self"
+          }
+        }
+      },
+      "battlefield:m590_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "spawn_entity": "bullet:m590",
+            "num_to_spawn": 9
+          }
+        },
+        "minecraft:timer": {
+          "time": 0.0,
+          "looping": true,
+          "time_down_event": {
+            "event": "remove:m590_fire",
+            "target": "self"
+          }
+        }
+      },
+      "battlefield:uzi_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:uzi",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m4a1_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m4a1_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:tacm4_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:tacm4_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:ak47_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:ak47_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:deagle_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:deagle_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:dm9_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:dm9_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m9_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m9_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:glock_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:glock_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:aa12_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:aa12_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m590_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m590_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:uzi_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:uzi_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:hk416_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:hk416",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:auga3_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:auga3",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:fn15_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:fn15_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:g36c_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:g36c_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:hk416_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:hk416_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:auga3_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:auga3_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:m4a1_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:m4a1",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:tacm4_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:tacm4",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:ak47_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:ak47",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "aim": {
+        "minecraft:movement": {
+          "value": -9
+        },
+        "minecraft:variant": {
+          "value": 4
+        },
+        "minecraft:spell_effects": {}
+      },
+      "aim:2": {
+        "minecraft:movement": {
+          "value": 0.07
+        },
+        "minecraft:variant": {
+          "value": 8
+        },
+        "minecraft:spell_effects": {}
+      },
+      "aim:3": {
+        "minecraft:movement": {
+          "value": 0.05
+        },
+        "minecraft:variant": {
+          "value": 12
+        },
+        "minecraft:spell_effects": {}
+      },
+      "battlefield:m16a2_fire": {
+        "minecraft:spawn_entity": {
+          "entities": {
+            "min_wait_time": 0.1,
+            "max_wait_time": 0.1,
+            "spawn_entity": "bullet:m16a2",
+            "num_to_spawn": 1
+          }
+        },
+        "minecraft:timer": {
+          "time": 0.2,
+          "looping": true,
+          "time_down_event": {
+            "event": "remove:m16a2_fire",
+            "target": "self"
+          }
+        }
+      },
+      "battlefield:scar_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:scar",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:scar_ammo_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:scar_ammo",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:mac_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:mac",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:vector_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:vector",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:scorpion_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:scorpion",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:revolver_fire": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:revolver",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:molotov": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:molotov",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:grenade": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:grenade",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:sgrenade": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:sgrenade",
+            "num_to_spawn": 1
+          }
+        ]
+      },
+      "battlefield:fb": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_entity": "bullet:fb",
+            "num_to_spawn": 1
+          }
+        ]
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/kill.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "normal_playerr"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:cannon"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:rocket"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m830"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m829"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield: m86p1"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:3uof8"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:aa12"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:aa12_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m590"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m590_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:ak47"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:ak47_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:auga3"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:auga3_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:deagle"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:deagle_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:dm9"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:dm9_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m9"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m9_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fn15"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fn15_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:g36c"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:g36c_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:glock"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:glock_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:hk416"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:hk416_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:l96"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:l96_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m24"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m24_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m16a2"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m16a2_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m1911"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m1911_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m249"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fal"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m249_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fal_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m4a1"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m4a1_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:mac"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:mac_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scar"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scar_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:tacm4"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:tacm4_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:3"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:vector"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scorpion"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:revolver"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:revolver_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:vector_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scorpion_emp"
+                },
+                {
+                  "test": "is_sneaking",
+                  "subject": "self",
+                  "operator": "equals",
+                  "value": true
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "aim:2"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:bullet_belt"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m249"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m249_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+           "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fal"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fal_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:grenade"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:sgrenade"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fb"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:molotov"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:l96"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:l96_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m24"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m24_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fn15"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:adrenaline"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:g36c"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:deagle"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m1911"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:mac"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:mac_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:aa12"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m590"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:dm9"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m9"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:glock"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m4a1_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:tacm4_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:ak47_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:deagle_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m1911_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:aa12_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m590_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:dm9_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m9_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:glock_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:hk416"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:auga3"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:medkit"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fn15_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:g36c_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:hk416_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:auga3_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m4a1"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:ak47"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:tacm4"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m16a2_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m16a2"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "cannon_firing"
+                }
+              ]
+            },
+            "event": "battlefield:cannon_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "rocket_firing"
+                }
+              ]
+            },
+            "event": "battlefield:rocket_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "srocket_firing"
+                }
+              ]
+            },
+            "event": "battlefield:srocket_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m830_firing"
+                }
+              ]
+            },
+            "event": "battlefield:m830_fire"
+            }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "sm830_firing"
+                }
+              ]
+            },
+            "event": "battlefield:sm830_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m829_firing"
+                }
+              ]
+            },
+            "event": "battlefield:m829_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "m86p1_firing"
+                }
+              ]
+            },
+            "event": "battlefield:m86p1_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "3uof8_firing"
+                }
+              ]
+            },
+            "event": "battlefield:3uof8_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_tag",
+                  "subject": "self",
+                  "value": "machine_gun_firing"
+                }
+              ]
+            },
+            "event": "battlefield:machine_gun_fire"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scar"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scar_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:vector_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:vector_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scorpion_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scorpion_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:revolver"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:revolver_ammo"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:revolver_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:uzi_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m16a2_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m4a1_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:ak47_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fn15_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:mac_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m1911_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scar_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:tacm4_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:l96_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m24_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m249_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:fal_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:hk416_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:dm9_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m9_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:deagle_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:aa12_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:m590_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:auga3_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:g36c_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:glock_emp"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:vector"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "battlefield:scorpion"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "ammo:1"
+          }
+        }
+      ],
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {}
+    },
+    "events": {
+      "battlefield:player": {
+        "add": {
+          "component_groups": [
+            "normal_player"
+          ]
+        },
+        "remove": {
+          "component_groups": []
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "normal_player"
+          ]
+        },
+        "remove": {}
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "battlefield:m249_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m249_fire"
+          ]
+        }
+      },
+      "battlefield:fal_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:fal_fire"
+          ]
+        }
+      },
+      "battlefield:mac_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:mac_fire"
+          ]
+        }
+      },
+      "battlefield:l96_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:l96_fire"
+            ]
+        }
+      },
+      "battlefield:m24_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m24_fire"
+          ]
+        }
+      },
+      "battlefield:m249_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m249_fire"
+          ]
+        }
+      },
+      "battlefield:rocket_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:rocket_fire"
+          ]
+        }
+      },
+      "battlefield:srocket_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:srocket_fire"
+          ]
+        }
+      },
+      "battlefield:m830_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m830_fire"
+          ]
+        }
+      },
+      "battlefield:m829_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m829_fire"
+          ]
+        }
+      },
+      "battlefield:m86p1_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m86p1_fire"
+          ]
+        }
+      },
+      "battlefield:3uof8_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:3uof8_fire"
+          ]
+        }
+      },
+      "battlefield:machine_gun_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:machine_gun_fire"
+          ]
+        }
+      },
+      "remove:machine_gun_fire": {
+        "remove": {
+          "component_groups": [
+            "battlefield:machine_gun_fire"
+          ]
+        }
+      },
+      "battlefield:fn15_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:fn15_fire"
+          ]
+        }
+      },
+      "battlefield:g36c_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:g36c_fire"
+          ]
+        }
+      },
+      "battlefield:deagle_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:deagle_fire"
+          ]
+        }
+      },
+      "battlefield:dm9_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:dm9_fire"
+          ]
+        }
+      },
+      "battlefield:m9_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m9_fire"
+          ]
+        }
+      },
+      "battlefield:glock_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:glock_fire"
+          ]
+        }
+      },
+      "battlefield:aa12_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:aa12_fire"
+          ]
+        }
+      },
+      "remove:aa12_fire": {
+        "remove": {
+          "component_groups": [
+            "battlefield:aa12_fire"
+          ]
+        }
+      },
+      "battlefield:m590_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m590_fire"
+          ]
+        }
+      },
+      "remove:m590_fire": {
+        "remove": {
+          "component_groups": [
+            "battlefield:m590_fire"
+          ]
+        }
+      },
+      "battlefield:uzi_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:uzi_fire"
+          ]
+        }
+      },
+      "battlefield:m4a1_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m4a1_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:tacm4_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:tacm4_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:ak47_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:ak47_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:deagle_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:deagle_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:dm9_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:dm9_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:m9_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m9_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:glock_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:glock_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:aa12_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:aa12_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:m1911_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m1911_fire"
+          ]
+        }
+      },
+      "battlefield:uzi_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:uzi_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:hk416_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:hk416_fire"
+          ]
+        }
+      },
+      "battlefield:auga3_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:auga3_fire"
+          ]
+        }
+      },
+      "battlefield:fn15_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:fn15_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:g36c_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:g36c_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:hk416_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:hk416_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:auga3_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:auga3_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:m4a1_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m4a1_fire"
+          ]
+        }
+      },
+      "battlefield:tacm4_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:tacm4_fire"
+          ]
+        }
+      },
+      "battlefield:ak47_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:ak47_fire"
+          ]
+        }
+      },
+      "battlefield:m16a2_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m16a2_fire"
+          ]
+        }
+      },
+      "remove:m16a2_fire": {
+        "remove": {
+          "component_groups": [
+            "battlefield:m16a2_fire"
+          ]
+        }
+      },
+      "battlefield:m16a2_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:m16a2_fire"
+          ]
+        }
+      },
+      "battlefield:cannon_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:cannon_fire"
+          ]
+        }
+      },
+      "battlefield:scar_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:scar_fire"
+          ]
+        }
+      },
+      "battlefield:scar_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:scar_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:vector_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:vector_ammo_fire"
+          ]
+        }
+      },
+      "battlefield:scorpion_ammo_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:scorpion_ammo_fire"
+          ]
+        }
+      },
+      "aim": {
+        "add": {
+          "component_groups": [
+            "aim"
+          ]
+        }
+      },
+      "aim:2": {
+        "add": {
+          "component_groups": [
+            "aim:2"
+          ]
+        }
+      },
+      "aim:3": {
+        "add": {
+          "component_groups": [
+            "aim:3"
+          ]
+        }
+      },
+      "battlefield:vector_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:vector_fire"
+          ]
+        }
+      },
+      "battlefield:scorpion_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:scorpion_fire"
+          ]
+        }
+      },
+      "battlefield:revolver_fire": {
+        "add": {
+          "component_groups": [
+            "battlefield:revolver_fire"
+          ]
+        }
+      },
+      "battlefield:grenade": {
+        "add": {
+          "component_groups": [
+            "battlefield:grenade"
+          ]
+        }
+      },
+      "battlefield:sgrenade": {
+        "add": {
+          "component_groups": [
+            "battlefield:sgrenade"
+          ]
+        }
+      },
+      "battlefield:fb": {
+        "add": {
+          "component_groups": [
+            "battlefield:fb"
+          ]
+        }
+      },
+      "battlefield:molotov": {
+        "add": {
+          "component_groups": [
+            "battlefield:molotov"
+          ]
+        }
+      }
+    }
+  }
+}

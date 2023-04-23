@@ -1,0 +1,111 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "battlefield:t90",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "moving_engine"
+        ]
+      },
+      "animations": {
+        "moving_engine": "controller.animation.moving_engine"
+      }
+    },
+  "components": {
+    "minecraft:type_family": {
+      "family": [
+        "tank"
+      ]
+    },
+    "minecraft:loot": {
+      "table": "loot_tables/empty.json"
+    },
+    "minecraft:breathable": {
+      "totalSupply": 15,
+      "suffocateTime": 0,
+      "breathesWater": false
+    },
+    "minecraft:health": {
+      "value": 500,
+      "max": 500
+    },
+    "minecraft:knockback_resistance": {
+      "value": 2.0
+    },
+    "minecraft:scale": {
+      "value": 1.5
+    },
+    "minecraft:movement": {
+      "value": 0.21
+    },
+    "minecraft:underwater_movement": {
+      "value": 0
+    },
+    "minecraft:navigation.walk": {
+      "is_amphibious": true,
+      "avoid_water": true
+    },
+    "minecraft:movement.basic": {},
+    "minecraft:jump.static": {},
+    "minecraft:nameable": {},
+    "minecraft:rideable": {
+      "seat_count": 2,
+      "controlling_seat": 0,
+      "family_types": [
+        "player",
+        "villager"
+      ],
+      "interact_text": "Enter T90",
+      "pull_in_entities": true,
+      "seats": [
+        {
+          "position": [
+            -0.8,
+            1.9,
+            -0.5
+          ]
+        },
+        {
+          "position": [
+            1.1,
+            1.8,
+            -0.5
+          ]
+        }
+      ]
+    },
+    "minecraft:behavior.player_ride_tamed": {},
+    "minecraft:input_ground_controlled": {},
+    "minecraft:balloonable": {},
+    "minecraft:collision_box": {
+      "width": 1.5,
+      "height": 1.5
+    },
+    "minecraft:healable": {
+      "items": [
+        {
+          "item": "battlefield:repair_kit",
+          "heal_amount": 13
+        }
+      ]
+    },
+    "minecraft:damage_sensor": {
+      "triggers": {
+        "cause": "fall",
+        "deals_damage": false
+      }
+    },
+    "minecraft:is_tamed": {},
+    "minecraft:fire_immune": false,
+    "minecraft:pushable": {
+      "is_pushable": false,
+      "is_pushable_by_piston": false
+    },
+    "minecraft:physics": {}
+      }
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "zern:missile",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "missile",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

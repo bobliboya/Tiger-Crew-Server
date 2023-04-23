@@ -1,0 +1,56 @@
+{
+    "car.spawn": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_spawn",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "car.door_close": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_door_close",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "car.drive": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_drive",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "car.saddled": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_saddled",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "discovery.drive": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/discovery_car_drive",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "discovery.saddled": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/discovery_car_saddled",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}

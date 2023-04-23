@@ -1,0 +1,361 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)/recipes/at14base.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "993c7686_344b_4b7a_953a_dd27555edde8",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "fb:at14base"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "fb",
+						"pattern": [
+							"ABC",
+							"BBB",
+							" D "
+						],
+						"key": {
+							"A": {
+								"item": "minecraft:dispenser"
+							},
+							"B": {
+								"item": "minecraft:obsidian"
+							},
+							"C": {
+								"item": "minecraft:redstone_torch"
+							},
+							"D": {
+								"item": "minecraft:piston"
+							}
+						},
+						"result": [
+							{
+								"item": "fb:at14base",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14base"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"BBB",
+								" D "
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:dispenser"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								},
+								"C": {
+									"item": "minecraft:redstone_torch"
+								},
+								"D": {
+									"item": "minecraft:piston"
+								}
+							},
+							"result": [
+								{
+									"item": "fb:at14base",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fb:at14base"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14base"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"BBB",
+								" D "
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:dispenser"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								},
+								"C": {
+									"item": "minecraft:redstone_torch"
+								},
+								"D": {
+									"item": "minecraft:piston"
+								}
+							},
+							"result": [
+								{
+									"item": "fb:at14base",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"data": "fb",
+						"key": "group"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14base"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"BBB",
+								" D "
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:dispenser"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								},
+								"C": {
+									"item": "minecraft:redstone_torch"
+								},
+								"D": {
+									"item": "minecraft:piston"
+								}
+							},
+							"result": [
+								{
+									"item": "fb:at14base",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"ABC",
+							"BBB",
+							" D "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14base"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"BBB",
+								" D "
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:dispenser"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								},
+								"C": {
+									"item": "minecraft:redstone_torch"
+								},
+								"D": {
+									"item": "minecraft:piston"
+								}
+							},
+							"result": [
+								{
+									"item": "fb:at14base",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:dispenser"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									},
+									"C": {
+										"item": "minecraft:redstone_torch"
+									},
+									"D": {
+										"item": "minecraft:piston"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dispenser"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:dispenser"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									},
+									"C": {
+										"item": "minecraft:redstone_torch"
+									},
+									"D": {
+										"item": "minecraft:piston"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:dispenser"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									},
+									"C": {
+										"item": "minecraft:redstone_torch"
+									},
+									"D": {
+										"item": "minecraft:piston"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:redstone_torch"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:dispenser"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									},
+									"C": {
+										"item": "minecraft:redstone_torch"
+									},
+									"D": {
+										"item": "minecraft:piston"
+									}
+								},
+								"key": "D",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:piston"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14base"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"BBB",
+								" D "
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:dispenser"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								},
+								"C": {
+									"item": "minecraft:redstone_torch"
+								},
+								"D": {
+									"item": "minecraft:piston"
+								}
+							},
+							"result": [
+								{
+									"item": "fb:at14base",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "fb:at14base",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "fb:at14base",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cargo_plane.move": {
+			"initial_state": "walking",
+			"states": {
+				"flying": {
+					"animations": [
+						"fly"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"walking": "query.is_on_ground == 1"
+						}
+					]
+				},
+				"walking": {
+					"animations": [
+						"land"
+					],
+					"transitions": [
+						{
+							"flying": "query.is_on_ground == 0"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"controller.animation.cargo_plane.riding": {
+			"initial_state": "default",
+			"states": {
+				"riding": {
+					"animations": [
+						"rotate"
+					],
+					"transitions": [
+						{
+							"default": "query.has_rider == 0"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"riding": "query.has_rider == 1"
+						}
+					],
+					"animations": [
+						"stop"
+					]
+				}
+			}
+		}
+	}
+}

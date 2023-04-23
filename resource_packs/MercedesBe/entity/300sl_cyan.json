@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "300sl:cyan",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/300sl/300sl_cyan"
+			},
+			"geometry": {
+				"default": "geometry.300slgw"
+			},
+			"render_controllers": [
+				"controller.render.300sl"
+			],
+			"animations": {
+				"drive": "animation.300sl.drive",
+			        "turning": "animation.300sl.turning",
+				"door": "animation.300sl.door",
+				"door2": "animation.300sl.door2"
+			},
+			"spawn_egg": {
+				"texture": "300sl",
+				"texture_index": 0
+			},
+			"animation_controllers": [ 
+				{ "general": "controller.animation.300sl.general" } ]
+			}
+		}
+	}
+}

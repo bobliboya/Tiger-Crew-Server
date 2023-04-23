@@ -1,0 +1,10 @@
+{
+  "resource_pack_name": "Dodge Challenger 1969",
+  "texture_name": "atlas.items",
+  "texture_data": {
+  
+		"egg_skyline7": {
+		"textures": "textures/items/egg_skyline7"
+		}
+	}
+}

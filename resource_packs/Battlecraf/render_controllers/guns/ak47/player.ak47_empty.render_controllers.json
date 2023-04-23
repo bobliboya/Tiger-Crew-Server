@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.ak47_emp": {
+      "geometry": "Geometry.ak47_emp",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.ak47" ]
+    }
+  }
+}

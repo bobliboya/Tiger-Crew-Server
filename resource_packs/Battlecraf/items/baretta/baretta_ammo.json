@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:m9_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "m9ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

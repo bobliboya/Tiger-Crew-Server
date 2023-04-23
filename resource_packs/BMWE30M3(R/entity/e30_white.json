@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "e30:white",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"default": "textures/entity/e30_white"
+			},
+			"geometry": {
+				"default": "geometry.e30"
+			},
+			"render_controllers": [
+				"controller.render.cars"
+			],
+			"animations": {
+				"drive": "animation.e30.drive",
+			        "turning": "animation.e30.turning"
+			},
+			"spawn_egg": {
+				"texture": "e30",
+				"texture_index": 0
+			},
+			"animation_controllers": [ { "general": "controller.animation.e30.general" } ]
+}
+		}
+	}
+}

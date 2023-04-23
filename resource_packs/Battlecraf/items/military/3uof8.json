@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:3uof8",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "3uof8",
+      "minecraft:use_animation": "null",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

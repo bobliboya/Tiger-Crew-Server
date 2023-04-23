@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.rocket": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "firing": "query.mark_variant == 1 && query.get_equipped_item_name=='rocket' && query.item_remaining_use_duration > 0.1"
+            }
+          ]
+        },
+        "firing": {
+          "transitions": [
+            {
+              "default": "query.mark_variant == 1 && query.get_equipped_item_name=='rocket' && query.item_remaining_use_duration > 0.1"
+            }
+          ],
+          "on_entry": [
+            "/function vehicles/rocket"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+##bridge-file-version: #24
+#
+
+item.spawn_egg.entity.car:m5.name=Spawn BMW M5 2021
+action.hint.exit.car:m5=§oDo not to engage in text messaging while vehicle.
+entity.car:m5.name=BMW M5 2021
+
+item.spawn_egg.entity.car:spark.name=Spawn Chevrolet Spark M300
+action.hint.exit.car:spark=§oDo not to engage in text messaging while vehicle.
+entity.car:spark.name=Chevrolet Spark M300
+
+item.spawn_egg.entity.car:q12s.name=Spawn CYBOX Q12S
+action.hint.exit.car:q12s=§oDo not to engage in text messaging while vehicles.
+entity.car:q12s.name=CYBOX Q12S
+
+item.spawn_egg.entity.car:tosca.name=Spawn Daewoo Tosca
+action.hint.exit.car:tosca=§oDo not to engage in text messaging while vehicles.
+entity.car:tosca.name=Daewoo Tosca
+
+item.spawn_egg.entity.car:discovery.name=Spawn LAND ROVER DISCOVERY 4 2016
+action.hint.exit.car:discovery=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery.name=LAND ROVER DISCOVERY 4 2016
+
+item.spawn_egg.entity.car:sm525v.name=Spawn Samsung SM525V
+action.hint.exit.car:sm525v=§oDo not to engage in text messaging while vehicles.
+entity.car:sm525v.name=Samsung SM525V
+
+item.spawn_egg.entity.car:bently.name=Spawn Bentley Continental GT Convertible 2020
+action.hint.exit.car:bently=§oDo not to engage in text messaging while vehicles.
+entity.car:bently.name=Bentley Continental GT Convertible 2020
+
+item.spawn_egg.entity.car:sm525v.name=Spawn Samsung SM525V
+action.hint.exit.car:sm525v=§oDo not to engage in text messaging while vehicles.
+entity.car:sm525v.name=Samsung SM525V
+
+item.spawn_egg.entity.car:zlsb97.name=CYBOX ZLSB97
+action.hint.exit.car:zlsb97=§oDo not to engage in text messaging while vehicles.
+entity.car:zlsb97.name=CYBOX ZLSB97
+
+item.spawn_egg.entity.car:zlsb97_saki.name=Saki Nikaido's Bike
+action.hint.exit.car:zlsb97_saki=§oDo not to engage in text messaging while vehicles.
+entity.car:zlsb97_saki.name=Saki Nikaido's Bike
+
+item.spawn_egg.entity.car:how.name=Spawn Me on Car
+entity.car:how.name=How to Use...
+
+oil=GAS
+dur=DUR
+fill.oil=fill.oil

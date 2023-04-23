@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bullet:mac",
+      "materials": {
+        "default": "chicken"
+      },
+      "textures": {
+        "default": "textures/bullet"
+      },
+      "geometry": {
+        "default": "geometry.bullet"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.bullet.move"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 69
+      },
+      "render_controllers": [
+        "controller.render.chicken"
+      ]
+    }
+  }
+}

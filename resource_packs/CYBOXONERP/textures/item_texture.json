@@ -1,0 +1,57 @@
+//bridge-file-version: #3
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"how": {
+			"textures": [
+				"textures/items/how"
+			]
+		},
+		"m5": {
+			"textures": [
+				"textures/items/m5"
+			]
+		},
+		"spark": {
+			"textures": [
+				"textures/items/spark"
+			]
+		},
+		"q12s": {
+			"textures": [
+				"textures/items/q12s"
+			]
+		},
+		"tosca": {
+			"textures": [
+				"textures/items/tosca"
+			]
+		},
+		"discovery": {
+			"textures": [
+				"textures/items/discovery"
+			]
+		},
+		"sm525v": {
+			"textures": [
+				"textures/items/sm525v"
+			]
+		},
+		"zlsb97": {
+			"textures": [
+				"textures/items/zlsb97"
+			]
+		},
+		"zlsb97_saki": {
+			"textures": [
+				"textures/items/zlsb97_saki"
+			]
+		},
+		"bently": {
+			"textures": [
+				"textures/items/bently"
+			]
+		}
+	}
+}

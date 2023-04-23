@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.scores": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"setup": "(1.0)"
+						}
+					]
+				},
+				"setup": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+					    "/function kill/setup",
+					    "/function reloadsystem"
+					]
+				}
+			}
+		}
+	}
+}

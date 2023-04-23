@@ -1,0 +1,75 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bullet:mac",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:egg"
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "bullet"
+        ]
+      },
+      "minecraft:break_blocks": {
+        "breakable_blocks": [
+          "ice",
+          "packed_ice",
+          "lit_pumpkin",
+          "melon_block",
+          "carved_pumpkin",
+          "pumpkin",
+          "turtle_egg",
+          "glass",
+          "glass_pane",
+          "stained_glass",
+          "stained_glass_pane"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "minecraft:explode": {
+        "fuseLength": 2.2,
+        "fuseLit": true,
+        "power": 0,
+        "causesFire": false
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "damage": [
+              7,
+              7.5
+            ],
+            "knockback": false,
+            "destroyonhit": true
+          },
+          "remove_on_hit": {}
+        },
+        "power": 3.0,
+        "gravity": 0.1,
+        "inertia": 1.5,
+				"liquid_inertia": 1.5,
+        "uncertaintyBase": 6,
+        "uncertaintyMultiplier": 6,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "reflectOnHurt": true,
+        "catch_fire": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

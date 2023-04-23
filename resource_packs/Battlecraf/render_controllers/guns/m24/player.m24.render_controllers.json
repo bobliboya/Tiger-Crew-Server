@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.m24": {
+      "geometry": "Geometry.m24",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.m24" ]
+    }
+  }
+}

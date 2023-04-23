@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.sg": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "eq": "query.get_equipped_item_name == 'sgrenade' && query.is_using_item"
+            }
+          ]
+        },
+        "eq": {
+          "transitions": [
+            {
+              "default": "query.get_equipped_item_name == 'sgrenade' && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "@s battlefield:sgrenade",
+            "/playsound grenade_throw @a[r=30] ~ ~ ~",
+            "/clear @p battlefield:sgrenade 0 1"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.glock_emp": {
+      "geometry": "Geometry.glock_emp",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.glock" ]
+    }
+  }
+}

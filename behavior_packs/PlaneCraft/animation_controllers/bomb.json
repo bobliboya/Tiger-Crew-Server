@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zern_bomb": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "shoot": "query.mark_variant == 1 && query.get_equipped_item_name=='bomb' && query.item_remaining_use_duration > 0"
+            }
+          ]
+        },
+        "shoot": {
+          "transitions": [
+            {
+              "default": "query.mark_variant == 1 && query.get_equipped_item_name=='bomb' && query.item_remaining_use_duration > 0"
+            }
+          ],
+          "on_entry": [
+            "@s zern:bomb_fire",
+            "/clear @s zern:bomb 0 1",
+            "/playsound zern_bomb_shot"
+          ]
+        }
+      }
+    }
+  }
+}

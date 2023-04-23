@@ -1,0 +1,80 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fb:mr2aw11",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"fb"
+				]
+			},
+			"minecraft:scale": {
+				"value": 0.98
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 2
+			},
+			"minecraft:health": {
+				"value": 60
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:physics": {},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 27,
+				"private": false
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"crouching_skip_interact": true,
+				"interact_text": "Drive",
+				"family_types": [
+					"player",
+					"villager"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							-0.55,
+							0.1,
+							-0.4
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2
+					},
+					{
+						"position": [
+							0.55,
+							0.1,
+							-0.4
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/aw11.json"
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

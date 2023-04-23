@@ -1,0 +1,26 @@
+item.spawn_egg.entity.fb:fishingboat.name=Fishing Boat (Light Blue)
+item.spawn_egg.entity.fb:skyplane.name=Skyplane (Silver)
+item.spawn_egg.entity.fb:lavaboat.name=Lavaboat
+item.spawn_egg.entity.fb:bmg.name=Ground Machine Gun
+item.spawn_egg.entity.fb:miningdrill.name=Mining Drill
+item.spawn_egg.entity.fb:at14.name=Armata 14 Tank
+item.spawn_egg.entity.fb:mr2aw11.name=Toyota MR2 AW11
+item.spawn_egg.entity.fb:luckboat.name=Motorboat of luck
+
+item.fb:blueprint.name=BSV Blueprint
+item.fb:cabin.name=Fishing Boat Cabin
+item.fb:base.name=Fishing Boat Base
+item.fbp:base.name=Skyplane Base
+item.fbp:wing.name=Wing
+item.fbp:propellor.name=Propellor
+item.fb:lavaboatbase.name=Lava Boat Base
+item.fb:lavaboatcabin.name=Lava Boat Cabin
+item.fb:mdbase.name=Mining Drill Base
+item.fb:mddrill.name=Drill
+item.fb:aw11base.name=Toyota MR2 AW11 Base
+item.fb:at14base.name=Armata 14 Base
+item.fb:tyres.name=Set of tyres
+item.fb:tracks.name=Tank Tracks
+item.fb:engine.name=MR2 Engine
+item.fb:luckboatcabin.name=Motorboat of Luck Cabin
+item.fb:luckboatbase.name=Motorboat of Luck Base

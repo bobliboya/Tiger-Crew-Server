@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:3uof8"
+    },
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 20,
+      "minecraft:use_duration": 3,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "cooldown_type": "chorusfruit",
+        "cooldown_time": 0,
+        "effects": []
+      }
+    }
+  }
+}

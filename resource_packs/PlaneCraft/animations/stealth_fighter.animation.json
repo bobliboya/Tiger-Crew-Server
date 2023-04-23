@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.stealth_fighter.land": {
+			"loop": true,
+			"bones": {
+				"wheel1": {
+					"rotation": [-5, 0, 0]
+				},
+				"wheel2": {
+					"rotation": [-5, 0, 0]
+				},
+				"wheel3": {
+					"rotation": [-5, 0, 0]
+				}
+			}
+		},
+		"animation.stealth_fighter.fly": {
+			"loop": true,
+			"bones": {
+				"wheel1": {
+					"rotation": [85, 0, 0]
+				},
+				"wheel2": {
+					"rotation": [85, 0, 0]
+				},
+				"wheel3": {
+					"rotation": [85, 0, 0]
+				}
+			}
+		},
+		"animation.stealth_fighter.look_at_target": {
+			"loop": true,
+			"bones" : {
+				"stealth_fighter" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ "Math.max(-30, Math.min(4,query.target_x_rotation))", "Math.max(-40, Math.min(40,query.target_y_rotation))", 0.0 ]
+				}
+			}
+		}
+	}
+}

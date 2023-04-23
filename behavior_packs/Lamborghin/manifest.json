@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "by UnfoldedBrush",
+        "name": "Lamborghini Centenario Red Behavior Pack",
+        "uuid": "cb08c53f-b7fd-42ae-809e-19e7ecfc1573",
+        "platform_locked": false,
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 10, 0 ]
+    },
+    "modules": [
+        {
+            "description": "by UnfoldedBrush",
+            "type": "data",
+            "uuid": "8187322d-f656-4693-85fc-21ea921ffc1a",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+      {
+        "uuid": "c842258b-62d1-445e-8a37-8782c26fbd5f",
+        "version": [0, 0, 1]
+      }
+   ]
+}

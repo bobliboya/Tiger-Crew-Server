@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "battlefield:blackhawk",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/vehicles/blackhawk"
+      },
+      "geometry": {
+        "default": "geometry.blackhawk"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.blackhawk.spin"
+      },
+      "spawn_egg": {
+        "texture": "blackhawk",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

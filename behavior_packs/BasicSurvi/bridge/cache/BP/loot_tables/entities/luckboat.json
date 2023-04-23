@@ -1,0 +1,326 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\loot_tables\\entities\\luckboat.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "ecf4f73d_a5d5_426b_b25c_d879b48bdd72",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "fb:luckboatbase",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player_or_pets"
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "fb:luckboatcabin",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player_or_pets"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:luckboatbase",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:luckboatcabin",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:luckboatbase",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "fb:luckboatbase",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "fb:luckboatbase",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"key": "conditions",
+								"is_minified": true,
+								"children": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:luckboatbase",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:luckboatcabin",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:luckboatcabin",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "fb:luckboatcabin",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "fb:luckboatcabin",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"key": "conditions",
+								"is_minified": true,
+								"children": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

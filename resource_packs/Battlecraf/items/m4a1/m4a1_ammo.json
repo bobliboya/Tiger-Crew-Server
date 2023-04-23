@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:m4a1_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "m4a1_ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

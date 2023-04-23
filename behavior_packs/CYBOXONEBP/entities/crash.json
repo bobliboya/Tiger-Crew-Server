@@ -1,0 +1,65 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "particle:crash",
+			"is_summonable": true,
+			"is_spawnable": false
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:behavior.knockback_roar": {
+				"knockback_damage": 100,
+				"knockback_strength": 15,
+				"knockback_range": 5,
+				"on_roar_end": {
+					"event": "despawn"
+				},
+				"damage_filters": {
+					"test": "is_family",
+					"subject": "self",
+					"value": "monster"
+				},
+				"knockback_filters": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "monster"
+						}
+					]
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"value": 99999
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"cause": "all"
+					}
+				]
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

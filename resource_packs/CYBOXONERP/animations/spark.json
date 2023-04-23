@@ -1,0 +1,308 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spark.spawn": {
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 180, 0],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -3.15, 0],
+						"1.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.2, 0.2, 0.2],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.spark.move": {
+			"loop": true,
+			"animation_length": 0.21667,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [364.9, 0, 0]
+					}
+				},
+				"B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [364.9, 0, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [364.9, 0, 0]
+					}
+				},
+				"D": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [364.9, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.back_mirror_open": {
+			"animation_length": 21600,
+			"bones": {
+				"right_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0833": [0, 55, 0]
+					}
+				},
+				"right_light_off": {
+					"position": [0, 0, -9],
+					"scale": [1, 0.2, 0.1]
+				},
+				"left_light_off": {
+					"position": [0, 0, -11],
+					"scale": [1, 0.1, 0.2]
+				},
+				"back_light_off": {
+					"position": [71, -1, -6],
+					"scale": [0.1, -0.1, 1]
+				},
+				"bone47": {
+					"position": [0, 0, 0]
+				},
+				"right_light_on": {
+					"position": [0, 1, 7]
+				},
+				"left_light_on": {
+					"position": [0, 1, 7]
+				},
+				"back_light_on2": {
+					"position": [-63, 11, 0]
+				},
+				"left_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0833": [0, -55, 0]
+					}
+				},
+				"back_light_on": {
+					"position": [-63, 3, 0]
+				},
+				"inside_light_off": {
+					"position": [1, 0, 0]
+				},
+				"inside_light_on": {
+					"position": [-1, 0, 0]
+				}
+			}
+		},
+		"animation.spark_tl.back_mirror_open": {
+			"animation_length": 21600
+		},
+		"animation.spark.back_mirror_close": {
+			"animation_length": 1.12
+		},
+		"animation.spark.right_front_door_open": {
+			"animation_length": 0.52,
+			"bones": {
+				"right_front_door": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 26.92, 0],
+						"0.3167": [0, 42.73, 0],
+						"0.4333": [0, 50, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.right_front_door_close": {
+			"animation_length": 0.52,
+			"bones": {
+				"right_front_door": {
+					"rotation": {
+						"0.0": [0, 70, 0],
+						"0.1667": [0, 42.73, 0],
+						"0.3167": [0, 26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.right_door_open": {
+			"animation_length": 0.4333
+		},
+		"animation.spark.right_door_close": {
+			"animation_length": 0.4333,
+			"bones": {
+				"right_front_door": {
+					"rotation": {
+						"0.0": [0, 65, 0],
+						"0.1667": [0, 42.73, 0],
+						"0.3167": [0, 26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.left_front_door_open": {
+			"animation_length": 0.4333,
+			"bones": {
+				"left_front_door": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, -26.92, 0],
+						"0.3167": [0, -42.73, 0],
+						"0.4333": [0, -50, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.left_front_door_close": {
+			"animation_length": 0.44,
+			"bones": {
+				"left_front_door": {
+					"rotation": {
+						"0.0": [0, -70, 0],
+						"0.1667": [0, -42.73, 0],
+						"0.3167": [0, -26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.left_door_open": {
+			"animation_length": 0.4333
+		},
+		"animation.spark.left_door_close": {
+			"animation_length": 0.44
+		},
+		"animation.spark.trunk_open": {
+			"animation_length": 0.44
+		},
+		"animation.spark.trunk_close": {
+			"animation_length": 0.44
+		},
+		"animation.spark.turn": {
+			"loop": true,
+			"bones": {
+				"A": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"C": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"steering_wheel": {
+					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				},
+				"outside": {
+					"rotation": [0, 0, "Math.max(-1.25, Math.min(1.25,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				}
+			}
+		},
+		"animation.spark.steering_wheel_right_lotation": {
+			"animation_length": 0.44
+		},
+		"animation.spark.steering_wheel_right_lotation_back": {
+			"animation_length": 0.44
+		},
+		"animation.spark.steering_wheel_left_lotation": {
+			"animation_length": 0.44
+		},
+		"animation.spark.steering_wheel_left_lotation_back": {
+			"animation_length": 0.44
+		},
+		"animation.spark.front_wheels_right_lotation": {
+			"animation_length": 0.44,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, -14, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, -14, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.front_wheels_right_lotation2": {
+			"animation_length": 0.44,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, -14, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, -14, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.front_wheels_left_lotation": {
+			"animation_length": 0.44,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, 14, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4333": [0, 14, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.front_wheels_left_lotation2": {
+			"animation_length": 0.44,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 14, 0],
+						"0.4333": [0, 0, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 14, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.spark.airback": {
+			"animation_length": 10
+		},
+		"animation.spark.trunk": {
+			"animation_length": 126000,
+			"bones": {
+				"Bag1": {
+					"rotation": [-3, 0, 0],
+					"position": [0, 2.5, 63],
+					"scale": [0.5, 0.5, 0.5]
+				},
+				"bonet": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 0],
+						"1.2833": [-56.43, 0, 0],
+						"1.5167": [-85, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

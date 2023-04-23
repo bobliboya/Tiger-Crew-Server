@@ -1,0 +1,21 @@
+give @p battlefield:ak47
+give @p battlefield:m16a2
+give @p battlefield:hk416
+give @p battlefield:m4a1
+give @p battlefield:auga3
+give @p battlefield:fn15
+give @p battlefield:tacm4
+give @p battlefield:scar
+give @p battlefield:g36c
+give @p battlefield:fal
+
+give @p battlefield:scar_ammo
+give @p battlefield:hk416_ammo
+give @p battlefield:g36c_ammo
+give @p battlefield:auga3_ammo
+give @p battlefield:tacm4_ammo
+give @p battlefield:fn15_ammo
+give @p battlefield:m4a1_ammo
+give @p battlefield:ak47_ammo
+give @p battlefield:m16a2_ammo
+give @p battlefield:fal_ammo

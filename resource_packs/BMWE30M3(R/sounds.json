@@ -1,0 +1,48 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"e30:motorsport": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.e30.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"e30:white": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.e30.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"e30:black": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.e30.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			}
+		}
+	}
+}

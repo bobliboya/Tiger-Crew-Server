@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bullet:srocket",
+      "materials": {
+        "default": "firearm"
+      },
+      "textures": {
+        "default": "textures/rocket"
+      },
+      "geometry": {
+        "default": "geometry.rocket"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.bullet.move"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 69
+      },
+      "render_controllers": [
+        "controller.render.chicken"
+      ]
+    }
+  }
+}

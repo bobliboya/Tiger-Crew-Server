@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "battlefield:su30",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/vehicles/su30"
+      },
+      "geometry": {
+        "default": "geometry.su30"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.chopper"
+      },
+      "spawn_egg": {
+        "texture": "su30",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

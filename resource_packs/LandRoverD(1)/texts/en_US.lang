@@ -1,0 +1,43 @@
+##bridge-file-version: #23
+
+pack.name=LAND ROVER DISCOVERY 4 : RP
+pack.description=Made by iMasterProX
+
+accessibility.disableTTS=Text To Speech disabled
+accessibility.enableTTS=Text To Speech enabled
+
+item.spawn_egg.entity.car:discovery_ar.name=LAND ROVER DISCOVERY 4 : Aruba
+action.hint.exit.car:discovery_ar=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_ar.name=LAND ROVER DISCOVERY 4 : Aruba
+
+item.spawn_egg.entity.car:discovery_cg.name=LAND ROVER DISCOVERY 4 : Corris Grey
+action.hint.exit.car:discovery_cg=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_cg.name=LAND ROVER DISCOVERY 4 : Corris Grey
+
+item.spawn_egg.entity.car:discovery_fw.name=LAND ROVER DISCOVERY 4 : Fuji White
+action.hint.exit.car:discovery_fw=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_fw.name=LAND ROVER DISCOVERY 4 : Fuji White
+
+item.spawn_egg.entity.car:discovery_is.name=LAND ROVER DISCOVERY 4 : Indus Silver
+action.hint.exit.car:discovery_is=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_is.name=LAND ROVER DISCOVERY 4 : Indus Silver
+
+item.spawn_egg.entity.car:discovery_lb.name=LAND ROVER DISCOVERY 4 : Loire Blue
+action.hint.exit.car:discovery_lb=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_lb.name=LAND ROVER DISCOVERY 4 : Loire Blue
+
+item.spawn_egg.entity.car:discovery_mr.name=LAND ROVER DISCOVERY 4 : Montalcino Red
+action.hint.exit.car:discovery_mr=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_mr.name=LAND ROVER DISCOVERY 4 : Montalcino Red
+
+item.spawn_egg.entity.car:discovery_sb.name=LAND ROVER DISCOVERY 4 : Santorini Black
+action.hint.exit.car:discovery_sb=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_sb.name=LAND ROVER DISCOVERY 4 : Santorini Black
+
+item.spawn_egg.entity.car:discovery_wg.name=LAND ROVER DISCOVERY 4 : Waitomo Grey
+action.hint.exit.car:discovery_wg=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_wg.name=LAND ROVER DISCOVERY 4 : Waitomo Grey
+
+item.spawn_egg.entity.car:discovery_yw.name=LAND ROVER DISCOVERY 4 : Yulong White
+action.hint.exit.car:discovery_yw=§oDo not to engage in text messaging while vehicles.
+entity.car:discovery_yw.name=LAND ROVER DISCOVERY 4 : Yulong White

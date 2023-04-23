@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.fn15_emp": {
+      "geometry": "Geometry.fn15_emp",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.fn15" ]
+    }
+  }
+}

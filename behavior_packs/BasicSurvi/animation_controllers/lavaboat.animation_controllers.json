@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lavaboat": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"regen": "math.random(1, 50) > 48"
+						}
+					],
+					"on_entry": [
+						"/effect @p[r=5] fire_resistance 4 0 true"
+					]
+				},
+				"regen": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/effect @p[r=5] fire_resistance 5 0 true"
+					]
+				}
+			}
+		}
+	}
+}

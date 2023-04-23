@@ -1,0 +1,42 @@
+{
+    "aircraft.null": {
+        "category": "block",
+        "sounds": []
+    },
+    "aircraft.engine": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "sounds/aircraft/engine",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "aircraft.helicopter": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "sounds/aircraft/helicopter",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "aircraft.propeller": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "sounds/aircraft/propeller",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "aircraft.jet": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "sounds/aircraft/jet",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}

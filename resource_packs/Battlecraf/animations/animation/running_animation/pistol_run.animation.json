@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.two_hand_pistol_sprint": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-80, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [-80, 15, 25],
+					"position": [0, 0, 0]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

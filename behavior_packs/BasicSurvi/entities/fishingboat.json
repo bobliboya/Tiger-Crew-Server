@@ -1,0 +1,105 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fb:fishingboat",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "fb", "boat", "player" ]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:scale": {
+				"value":1
+			},
+			"minecraft:loot": {
+        			"table": "loot_tables/entities/fishingboat.json"
+     			 },
+			"minecraft:collision_box": {
+				"width": 5,
+				"height": 1.7
+			},
+			"minecraft:health": {
+				"value": 150
+			},
+			 "minecraft:lava_movement": {
+        			"value": 0.32
+     			 },
+			"minecraft:movement": {
+				"value": {
+				"range_min": 0.05,
+				"range_max": 0.05
+				}
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.14
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:is_stackable": {
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:nameable": {
+			},
+			"minecraft:rideable": {
+					"seat_count": 7,
+					"crouching_skip_interact": true,
+					"interact_text": "Fish",
+					"family_types": [ "player", "villager" ],
+					"seats": [
+					{
+					"position": [ -0.6, 1.4, 1.4 ]
+					},
+					{
+					"position": [ -1.8, 0.7, 0.7 ]
+					},
+					{
+					"position": [ -1.8, 0.7, 1.4 ]
+					},
+					{
+					"position": [ -1, 0.7, -1.6 ]
+					},
+					{
+					"position": [ -0.3, 0.7, -1.6 ]
+					},
+					{
+					"position": [ -1.8, 0.7, -5.1 ]
+					},
+					{
+					"position": [ -1.8, 0.7, -4.3]
+					}
+				]
+			},
+			"minecraft:input_ground_controlled": {
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4.0,
+				"hard_distance": 6.0,
+				"max_distance": 10.0
+			},
+			"minecraft:balloonable": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			}
+		}
+	}
+}

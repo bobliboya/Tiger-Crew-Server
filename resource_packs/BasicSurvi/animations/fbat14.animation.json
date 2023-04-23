@@ -1,0 +1,70 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+			"animation.fbat14.look": {
+			"loop": true,
+			"bones": {
+				"cbase": {
+					"rotation": [0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*1", 0]
+				}
+			}
+		},
+		"animation.fbat14.move": {
+			"loop": true,
+			"animation_length": 0.16,
+			"bones": {
+				"w1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w6": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"w7": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"launcher": {
+					"rotation": ["Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*1", 0, 0]
+				},
+				"w8": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

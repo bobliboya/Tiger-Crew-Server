@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.scar": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shoot": "query.get_equipped_item_name=='scar' && query.is_using_item"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:scar_fire",
+                        "/gamerule sendcommandfeedback false",
+                        "/replaceitem entity @s slot.weapon.mainhand 0 battlefield:scar 1 20",
+                        "/scoreboard players add @s[m=!1] scar 1",
+                        "/playsound scarshoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-1.5",
+                        "/camerashake add @s 0.4 0.1",
+                        "/gamerule sendcommandfeedback true"
+					]
+				},
+				"shoot": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name=='scar' && query.is_using_item"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:scar_fire",
+                        "/gamerule sendcommandfeedback false",
+                        "/replaceitem entity @s slot.weapon.mainhand 0 battlefield:scar 1 25",
+                        "/scoreboard players add @s[m=!1] scar 1",
+                        "/playsound scarshoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-1.5",
+                        "/camerashake add @s 0.3 0.1",
+                        "/gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

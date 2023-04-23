@@ -1,0 +1,38 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:luckboat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC"
+		],
+		"key": {
+			"A": {
+				"item": "fb:blueprint"
+			},
+			"B": {
+				"item": "fb:luckboatbase"
+			},
+			"C": {
+				"item": "fb:luckboatcabin"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:spawn_egg",
+				"data": "query.get_actor_info_id('fb:luckboat')",
+				"count": 1
+			},
+			{
+				"item": "fb:blueprint",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.hk416": {
+      "geometry": "Geometry.hk416",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.hk416" ]
+    }
+  }
+}

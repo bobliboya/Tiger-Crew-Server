@@ -1,0 +1,43 @@
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.glock": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shoot": "query.get_equipped_item_name=='glock' && query.is_using_item"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:glock_fire",
+                        "/gamerule sendcommandfeedback false",
+                        "/replaceitem entity @s slot.weapon.mainhand 0 battlefield:glock 1 11",
+                        "/scoreboard players add @s[m=!1] glock 1",
+                        "/playsound glockshoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-0.5",
+                        "/gamerule sendcommandfeedback true"
+					]
+				},
+				"shoot": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name=='glock' && query.is_using_item"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:glock_fire",
+                        "/gamerule sendcommandfeedback false",
+                        "/replaceitem entity @s slot.weapon.mainhand 0 battlefield:glock 1 16",
+                        "/scoreboard players add @s[m=!1] glock 1",
+                        "/playsound glockshoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-0.5",
+                        "/gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

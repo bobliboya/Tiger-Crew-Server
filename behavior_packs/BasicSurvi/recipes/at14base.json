@@ -1,0 +1,38 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:at14base"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC",
+			"BBB",
+			" D "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:dispenser"
+			},
+			"B": {
+				"item": "minecraft:obsidian"
+			},
+			"C": {
+				"item": "minecraft:redstone_torch"
+			},
+			"D": {
+				"item": "minecraft:piston"
+			}
+		},
+		"result": [
+			{
+				"item": "fb:at14base",
+				"count": 1
+			}
+		]
+	}
+}

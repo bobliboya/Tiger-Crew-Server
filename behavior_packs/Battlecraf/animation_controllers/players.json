@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "hurt":"query.health<=10 && query.health!=0"
+            }
+          ]
+        },
+        "hurt": {
+          "transitions": [
+            {
+              "default": "!query.is_moving"
+            }
+          ],
+          "on_entry": [
+            "/execute @s[m=!1] particle minecraft:redstone_ore_dust_particle ~ ~ ~"
+          ]
+        }
+      }
+    }
+  }
+}

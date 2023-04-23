@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:tyres"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"AAA",
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:coal_block"
+			},
+			"B": {
+				"item": "minecraft:slime"
+			}
+		},
+		"result": [
+			{
+				"item": "fb:tyres",
+				"count": 1
+			}
+		]
+	}
+}

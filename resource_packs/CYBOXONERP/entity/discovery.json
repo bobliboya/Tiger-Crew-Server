@@ -1,0 +1,74 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:discovery",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/discovery/discovery_undyed",			
+				"undyed": "textures/entity/discovery/discovery_undyed",
+				"white": "textures/entity/discovery/discovery_white",
+				"orange": "textures/entity/discovery/discovery_orange",
+				"magenta": "textures/entity/discovery/discovery_magenta",
+				"light_blue": "textures/entity/discovery/discovery_light_blue",
+				"yellow": "textures/entity/discovery/discovery_yellow",
+				"lime": "textures/entity/discovery/discovery_lime",
+				"pink": "textures/entity/discovery/discovery_pink",
+				"gray": "textures/entity/discovery/discovery_gray",
+				"silver": "textures/entity/discovery/discovery_silver",
+				"cyan": "textures/entity/discovery/discovery_cyan",
+				"purple": "textures/entity/discovery/discovery_purple",
+				"blue": "textures/entity/discovery/discovery_blue",
+				"brown": "textures/entity/discovery/discovery_brown",
+				"green": "textures/entity/discovery/discovery_green",
+				"red": "textures/entity/discovery/discovery_red",
+				"black": "textures/entity/discovery/discovery_black"
+			},
+			"geometry": {
+				"default": "geometry.discovery"
+			},
+			"render_controllers": [
+				"controller.render.car_color"
+			],
+			"spawn_egg": {
+				"texture": "discovery"
+			},
+			"animations": {
+				"move": "animation.discovery.move",
+				"ride": "animation.discovery.right_front_door_close",
+				"setup": "animation.discovery.spawn",
+				"turn": "animation.discovery.turn",
+				"saddle": "animation.discovery.back_mirror_open",
+				"hit": "animation.discovery.airback",
+				"death": "animation.discovery.airback",
+				"chested": "animation.discovery.trunk",
+				"general": "controller.animation.discovery.general",
+				"normal": "animation.discovery.normal"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_tamed"
+					},
+					{
+						"chested": "query.is_chested"
+					},
+					"hit",
+					"death",
+					"setup",
+					"general",
+					"normal"
+				]
+			}
+		}
+	}
+}

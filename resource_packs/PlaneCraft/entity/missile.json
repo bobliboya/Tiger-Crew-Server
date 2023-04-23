@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "zern:missile",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/missile/missile"
+      },
+      "geometry": {
+        "default": "geometry.missile"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.zern_missile"
+      },
+      "render_controllers": [
+        "controller.render.missile"
+      ]
+    }
+  }
+}

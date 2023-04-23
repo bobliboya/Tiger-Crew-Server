@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Land Rover Discovery 4 Simple : RP",
+        "description": "Made by iMasterProX",
+        "uuid": "acbab9f8-05fc-43f0-b3e9-9fb4262aa957",
+        "version": [1, 2, 0]
+    },
+    "modules": [
+        {
+            "description": "Land Rover Discovery Simple 4 : RP",
+            "type": "resources",
+            "uuid": "0d681515-7ab4-491a-a3ef-16c097858364",
+            "version": [1, 2, 0]
+        }
+    ]
+}

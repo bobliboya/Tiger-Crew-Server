@@ -1,0 +1,74 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:m5",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/m5/m5_undyed",			
+				"undyed": "textures/entity/m5/m5_undyed",
+				"white": "textures/entity/m5/m5_white",
+				"orange": "textures/entity/m5/m5_orange",
+				"magenta": "textures/entity/m5/m5_magenta",
+				"light_blue": "textures/entity/m5/m5_light_blue",
+				"yellow": "textures/entity/m5/m5_yellow",
+				"lime": "textures/entity/m5/m5_lime",
+				"pink": "textures/entity/m5/m5_pink",
+				"gray": "textures/entity/m5/m5_gray",
+				"silver": "textures/entity/m5/m5_silver",
+				"cyan": "textures/entity/m5/m5_cyan",
+				"purple": "textures/entity/m5/m5_purple",
+				"blue": "textures/entity/m5/m5_blue",
+				"brown": "textures/entity/m5/m5_brown",
+				"green": "textures/entity/m5/m5_green",
+				"red": "textures/entity/m5/m5_red",
+				"black": "textures/entity/m5/m5_black"
+			},
+			"geometry": {
+				"default": "geometry.m5"
+			},
+			"render_controllers": [
+				"controller.render.car_color"
+			],
+			"spawn_egg": {
+				"texture": "m5"
+			},
+			"animations": {
+				"move": "animation.m5.move",
+				"ride": "animation.m5.right_front_door_close",
+				"setup": "animation.m5.spawn",
+				"turn": "animation.m5.turn",
+				"saddle": "animation.m5.back_mirror_open",
+				"hit": "animation.m5.airback",
+				"death": "animation.m5.airback",
+				"chested": "animation.m5.trunk",
+				"general": "controller.animation.m5.general",
+				"normal": "animation.m5.normal"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_tamed"
+					},
+					{
+						"chested": "query.is_chested"
+					},
+					"hit",
+					"death",
+					"setup",
+					"general",
+					"normal"
+				]
+			}
+		}
+	}
+}

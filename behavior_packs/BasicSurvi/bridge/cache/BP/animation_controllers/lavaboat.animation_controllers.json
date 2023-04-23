@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\animation_controllers\\lavaboat.animation_controllers.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "5c7d2e1b_80fd_426c_ac02_7feebbeb5210",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.lavaboat": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"regen": "math.random(1, 50) > 48"
+										}
+									],
+									"on_entry": [
+										"/effect @p[r=5] fire_resistance 4 0 true"
+									]
+								},
+								"regen": {
+									"transitions": [
+										{
+											"default": "query.has_rider"
+										}
+									],
+									"on_entry": [
+										"/effect @p[r=5] fire_resistance 2 0 true"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.lavaboat": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"regen": "math.random(1, 50) > 48"
+											}
+										],
+										"on_entry": [
+											"/effect @p[r=5] fire_resistance 4 0 true"
+										]
+									},
+									"regen": {
+										"transitions": [
+											{
+												"default": "query.has_rider"
+											}
+										],
+										"on_entry": [
+											"/effect @p[r=5] fire_resistance 2 0 true"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.lavaboat",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"regen": "math.random(1, 50) > 48"
+												}
+											],
+											"on_entry": [
+												"/effect @p[r=5] fire_resistance 4 0 true"
+											]
+										},
+										"regen": {
+											"transitions": [
+												{
+													"default": "query.has_rider"
+												}
+											],
+											"on_entry": [
+												"/effect @p[r=5] fire_resistance 2 0 true"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"regen": "math.random(1, 50) > 48"
+													}
+												],
+												"on_entry": [
+													"/effect @p[r=5] fire_resistance 4 0 true"
+												]
+											},
+											"regen": {
+												"transitions": [
+													{
+														"default": "query.has_rider"
+													}
+												],
+												"on_entry": [
+													"/effect @p[r=5] fire_resistance 2 0 true"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"regen": "math.random(1, 50) > 48"
+														}
+													],
+													"on_entry": [
+														"/effect @p[r=5] fire_resistance 4 0 true"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"regen": "math.random(1, 50) > 48"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"regen": "math.random(1, 50) > 48"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"regen": "math.random(1, 50) > 48"
+														}
+													],
+													"on_entry": [
+														"/effect @p[r=5] fire_resistance 4 0 true"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/effect @p[r=5] fire_resistance 4 0 true"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"regen": "math.random(1, 50) > 48"
+													}
+												],
+												"on_entry": [
+													"/effect @p[r=5] fire_resistance 4 0 true"
+												]
+											},
+											"regen": {
+												"transitions": [
+													{
+														"default": "query.has_rider"
+													}
+												],
+												"on_entry": [
+													"/effect @p[r=5] fire_resistance 2 0 true"
+												]
+											}
+										},
+										"key": "regen",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.has_rider"
+														}
+													],
+													"on_entry": [
+														"/effect @p[r=5] fire_resistance 2 0 true"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.has_rider"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.has_rider"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.has_rider"
+														}
+													],
+													"on_entry": [
+														"/effect @p[r=5] fire_resistance 2 0 true"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/effect @p[r=5] fire_resistance 2 0 true"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

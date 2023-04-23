@@ -1,0 +1,20 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Copyright §aMcflower §rcreations 2020",
+		"name": "Nissan Skyline VII",
+		"uuid": "3c0bb79a-3463-4cab-a9ea-f299c564605b",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 0, 0]
+	},
+	"modules": [{
+		"description": "§aMcflower's §rcreations",
+		"type": "resources",
+		"uuid": "60af9c92-605e-443a-9c2a-d3b4d1986157",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "531f358a-1a2b-4f17-8b48-08fa3c23ca2d",
+		"version": [1, 0, 0]
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.m9": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"rightArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "5+ variable.is_using_vr * 7.5", "180.0 + variable.is_using_vr * -2.5"],
+					"position": [11, -1, 7]
+				},
+				"leftArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "-25+ variable.is_using_vr * 7.5", "180+ variable.is_using_vr * -2.5"],
+					"position": [-2, -2.5, 7]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0.5]
+				}
+			}
+		},
+		"animation.player.first_person.m9_aim": {
+			"loop": true,
+			"animation_length": 0.04,
+			"bones": {
+				"leftArm": {
+					"rotation": [-2.9, 14, 0],
+					"position": [-5, -3, 1]
+				},
+				"rightArm": {
+					"rotation": [-5.5, 0, 0],
+					"position": [-5.2, -2.5, 1]
+				},
+				"tool": {
+					"rotation": [5, 0, 5],
+					"position": [1.5, 6.9, -3.9]
+				}
+			}
+		},
+		"animation.player.first_person.m9_ammo": {
+			"loop": true,
+			"animation_length": 0.08,
+			"bones": {
+				"rightArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "5+ variable.is_using_vr * 7.5", "180.0 + variable.is_using_vr * -2.5"],
+					"position": [11, -1, 7]
+				},
+				"leftArm": {
+					"rotation": ["90+ variable.is_using_vr * 7.5", "-10+ variable.is_using_vr * 7.5", "180+ variable.is_using_vr * -2.5"],
+					"position": [-11, -1, 7]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0.5]
+				},
+				"ammo": {
+					"rotation": [0, 0, 0],
+					"position": [1, 0, 1]
+				}
+			}
+		}
+	}
+}

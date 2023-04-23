@@ -1,0 +1,87 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "bullet:auga3",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:egg"
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "bullet"
+        ]
+      },
+      "minecraft:break_blocks": {
+        "breakable_blocks": [
+          "ice",
+          "banner",
+          "birch_sign",
+          "crimson_sign",
+          "darkoak_sign",
+          "jungle_sign",
+          "packed_ice",
+          "blue_ice",
+          "cactus",
+          "lit_pumpkin",
+          "melon_block",
+          "carved_pumpkin",
+          "pumpkin",
+          "turtle_egg",
+          "wall_banner",
+          "packed_ice",
+          "glass",
+          "glass_pane",
+          "stained_glass",
+          "stained_glass_pane",
+          "sign",
+          "spruce_sign",
+          "warped_sign"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "minecraft:explode": {
+        "fuseLength": 2.2,
+        "fuseLit": true,
+        "power": 0,
+        "causesFire": false
+      },
+      "minecraft:projectile": {
+        "onHit": {
+          "impact_damage": {
+            "damage": [
+              11,
+              11.5
+            ],
+            "knockback": false,
+            "destroyonhit": true
+          },
+          "remove_on_hit": {}
+        },
+        "power": 3.0,
+        "gravity": 0.05,
+        "inertia": 1.5,
+				"liquid_inertia": 2.5,
+        "uncertaintyBase": 6,
+        "uncertaintyMultiplier": 6,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "reflectOnHurt": true,
+        "catch_fire": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

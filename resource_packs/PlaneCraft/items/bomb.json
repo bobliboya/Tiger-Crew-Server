@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "zern:bomb",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "bomb",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "fb:at14base",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "at14base",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

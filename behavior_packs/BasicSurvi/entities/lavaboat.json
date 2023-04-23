@@ -1,0 +1,124 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fb:lavaboat",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"lavaboat"
+				]
+			},
+			"animations": {
+				"lavaboat": "controller.animation.lavaboat"
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"fb",
+					"boat",
+					"player"
+				]
+			},
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:scale": {
+				"value": 1.2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/lavaboat.json"
+			},
+			"minecraft:collision_box": {
+				"width": 3,
+				"height": 1.5
+			},
+			"minecraft:lava_movement": {
+				"value": 0.4
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:movement": {
+				"value": {
+					"range_min": 0.05,
+					"range_max": 0.05
+				}
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.14
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:is_stackable": {},
+			"minecraft:jump.static": {},
+			"minecraft:nameable": {},
+			"minecraft:rideable": {
+				"seat_count": 4,
+				"crouching_skip_interact": true,
+				"interact_text": "Drive",
+				"family_types": [
+					"player",
+					"villager"
+				],
+				"seats": [
+					{
+						"position": [
+							-0.8,
+							0.95,
+							-0.1
+						]
+					},
+					{
+						"position": [
+							0.8,
+							0.95,
+							-0.1
+						]
+					},
+					{
+						"position": [
+							-0.8,
+							0.95,
+							-1.7
+						]
+					},
+					{
+						"position": [
+							0.8,
+							0.95,
+							-1.7
+						]
+					}
+				]
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:physics": {},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:balloonable": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:health": {
+				"value": 150
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

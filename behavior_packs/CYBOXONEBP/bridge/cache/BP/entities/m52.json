@@ -1,0 +1,1659 @@
+{
+	"file_path": "C:\\Users\\leegm\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BMW_M5_BP_1.0.0\\entities\\m52.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "6fbdee2f_c47e_49af_b603_7560ed47869b",
+	"file_version": 39,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "car:m5zz",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"animations": {
+								"cmd": "controller.animation.car_cmd",
+								"move": "controller.animation.car_move",
+								"dura": "controller.animation.car_durability",
+								"bridge_execute_commands": "controller.animation.bridge_m5.execute_commands"
+							},
+							"scripts": {
+								"animate": [
+									"cmd",
+									"move",
+									"dura",
+									"bridge_execute_commands"
+								]
+							}
+						},
+						"components": {
+							"minecraft:healable": {
+								"items": [
+									{
+										"item": "iron_ingot",
+										"heal_amount": 10
+									},
+									{
+										"item": "diamond",
+										"heal_amount": 50
+									}
+								]
+							},
+							"minecraft:knockback_resistance": {
+								"value": 99,
+								"max": 99
+							},
+							"minecraft:collision_box": {
+								"width": 1.3,
+								"height": 1.3
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true
+							},
+							"minecraft:tameable": {
+								"probability": 1,
+								"tame_items": [
+									"minecraft:saddle",
+									"charcoal"
+								],
+								"tame_event": {
+									"event": "minecraft:on_tame",
+									"target": "self"
+								}
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:health": {
+								"value": 100,
+								"max": 100
+							},
+							"minecraft:scale": {
+								"value": 0.9
+							},
+							"minecraft:nameable": {},
+							"minecraft:rideable": {
+								"priority": 0,
+								"seat_count": 4,
+								"rotate_rider_by": -90,
+								"crouching_skip_interact": true,
+								"family_types": [
+									"player",
+									"zombie"
+								],
+								"interact_text": "Ride",
+								"seats": [
+									{
+										"position": [
+											0.7,
+											0.5,
+											0.4
+										]
+									},
+									{
+										"position": [
+											-0.613,
+											0.5,
+											0.15
+										]
+									},
+									{
+										"position": [
+											0.525,
+											0.45,
+											-1
+										]
+									},
+									{
+										"position": [
+											-0.525,
+											0.45,
+											-1
+										]
+									}
+								],
+								"rider_can_interact": true
+							},
+							"minecraft:type_family": {
+								"family": [
+									"car",
+									"suv"
+								]
+							},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": false
+							},
+							"minecraft:physics": {},
+							"minecraft:input_ground_controlled": {},
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "fall",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:variant": {
+								"value": 0
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/m5_noTame.json"
+							},
+							"minecraft:behavior.controlled_by_player": {}
+						},
+						"events": {
+							"minecraft:on_tame": {
+								"add": {
+									"component_groups": [
+										"tame"
+									]
+								}
+							},
+							"minecraft:on_chest": {
+								"add": {
+									"component_groups": [
+										"minecraft:donkey_chested"
+									]
+								}
+							},
+							"fill": {
+								"add": {
+									"component_groups": [
+										"bridge:execute_command_id_1"
+									]
+								}
+							},
+							"bridge:remove_command_id_1": {
+								"add": {
+									"component_groups": [
+										"bridge:execute_no_command"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"bridge:execute_command_id_1"
+									]
+								}
+							}
+						},
+						"component_groups": {
+							"tame": {
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"play_sounds": "armor.equip_generic",
+											"on_interact": {
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "has_equipment",
+															"domain": "hand",
+															"subject": "other",
+															"value": "chest"
+														}
+													]
+												},
+												"event": "minecraft:on_chest",
+												"target": "self"
+											},
+											"use_item": true,
+											"interact_text": "action.interact.attachchest"
+										},
+										{
+											"interact_text": "fill.oil",
+											"on_interact": {
+												"event": "fill",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"value": "coal"
+														}
+													]
+												}
+											},
+											"use_item": true
+										}
+									]
+								},
+								"minecraft:movement": {
+									"value": 0.42
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/m5_Tame.json"
+								}
+							},
+							"minecraft:donkey_chested": {
+								"minecraft:inventory": {
+									"inventory_size": 16,
+									"container_type": "container",
+									"restrict_to_owner": true
+								},
+								"minecraft:is_chested": {},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"interact_text": "fill.oil",
+											"on_interact": {
+												"event": "fill",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"value": "player"
+														},
+														{
+															"test": "has_equipment",
+															"subject": "other",
+															"value": "coal"
+														}
+													]
+												}
+											},
+											"use_item": true
+										}
+									]
+								}
+							},
+							"bridge:execute_command_id_1": {
+								"minecraft:skin_id": {
+									"value": 1
+								}
+							},
+							"bridge:execute_no_command": {
+								"minecraft:skin_id": {
+									"value": 0
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "car:m5zz",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"animations": {
+									"cmd": "controller.animation.car_cmd",
+									"move": "controller.animation.car_move",
+									"dura": "controller.animation.car_durability",
+									"bridge_execute_commands": "controller.animation.bridge_m5.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"cmd",
+										"move",
+										"dura",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:healable": {
+									"items": [
+										{
+											"item": "iron_ingot",
+											"heal_amount": 10
+										},
+										{
+											"item": "diamond",
+											"heal_amount": 50
+										}
+									]
+								},
+								"minecraft:knockback_resistance": {
+									"value": 99,
+									"max": 99
+								},
+								"minecraft:collision_box": {
+									"width": 1.3,
+									"height": 1.3
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"minecraft:saddle",
+										"charcoal"
+									],
+									"tame_event": {
+										"event": "minecraft:on_tame",
+										"target": "self"
+									}
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:scale": {
+									"value": 0.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:rideable": {
+									"priority": 0,
+									"seat_count": 4,
+									"rotate_rider_by": -90,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player",
+										"zombie"
+									],
+									"interact_text": "Ride",
+									"seats": [
+										{
+											"position": [
+												0.7,
+												0.5,
+												0.4
+											]
+										},
+										{
+											"position": [
+												-0.613,
+												0.5,
+												0.15
+											]
+										},
+										{
+											"position": [
+												0.525,
+												0.45,
+												-1
+											]
+										},
+										{
+											"position": [
+												-0.525,
+												0.45,
+												-1
+											]
+										}
+									],
+									"rider_can_interact": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"car",
+										"suv"
+									]
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "fall",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:variant": {
+									"value": 0
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/m5_noTame.json"
+								},
+								"minecraft:behavior.controlled_by_player": {}
+							},
+							"events": {
+								"minecraft:on_tame": {
+									"add": {
+										"component_groups": [
+											"tame"
+										]
+									}
+								},
+								"minecraft:on_chest": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_chested"
+										]
+									}
+								},
+								"fill": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tame": {
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"play_sounds": "armor.equip_generic",
+												"on_interact": {
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"domain": "hand",
+																"subject": "other",
+																"value": "chest"
+															}
+														]
+													},
+													"event": "minecraft:on_chest",
+													"target": "self"
+												},
+												"use_item": true,
+												"interact_text": "action.interact.attachchest"
+											},
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									},
+									"minecraft:movement": {
+										"value": 0.42
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/m5_Tame.json"
+									}
+								},
+								"minecraft:donkey_chested": {
+									"minecraft:inventory": {
+										"inventory_size": 16,
+										"container_type": "container",
+										"restrict_to_owner": true
+									},
+									"minecraft:is_chested": {},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									}
+								},
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "car:m5zz",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"animations": {
+								"cmd": "controller.animation.car_cmd",
+								"move": "controller.animation.car_move",
+								"dura": "controller.animation.car_durability",
+								"bridge_execute_commands": "controller.animation.bridge_m5.execute_commands"
+							},
+							"scripts": {
+								"animate": [
+									"cmd",
+									"move",
+									"dura",
+									"bridge_execute_commands"
+								]
+							}
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:healable": {
+								"items": [
+									{
+										"item": "iron_ingot",
+										"heal_amount": 10
+									},
+									{
+										"item": "diamond",
+										"heal_amount": 50
+									}
+								]
+							},
+							"minecraft:knockback_resistance": {
+								"value": 99,
+								"max": 99
+							},
+							"minecraft:collision_box": {
+								"width": 1.3,
+								"height": 1.3
+							},
+							"minecraft:navigation.walk": {
+								"can_path_over_water": true
+							},
+							"minecraft:tameable": {
+								"probability": 1,
+								"tame_items": [
+									"minecraft:saddle",
+									"charcoal"
+								],
+								"tame_event": {
+									"event": "minecraft:on_tame",
+									"target": "self"
+								}
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:health": {
+								"value": 100,
+								"max": 100
+							},
+							"minecraft:scale": {
+								"value": 0.9
+							},
+							"minecraft:nameable": {},
+							"minecraft:rideable": {
+								"priority": 0,
+								"seat_count": 4,
+								"rotate_rider_by": -90,
+								"crouching_skip_interact": true,
+								"family_types": [
+									"player",
+									"zombie"
+								],
+								"interact_text": "Ride",
+								"seats": [
+									{
+										"position": [
+											0.7,
+											0.5,
+											0.4
+										]
+									},
+									{
+										"position": [
+											-0.613,
+											0.5,
+											0.15
+										]
+									},
+									{
+										"position": [
+											0.525,
+											0.45,
+											-1
+										]
+									},
+									{
+										"position": [
+											-0.525,
+											0.45,
+											-1
+										]
+									}
+								],
+								"rider_can_interact": true
+							},
+							"minecraft:type_family": {
+								"family": [
+									"car",
+									"suv"
+								]
+							},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": false
+							},
+							"minecraft:physics": {},
+							"minecraft:input_ground_controlled": {},
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "fall",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:movement": {
+								"value": 0
+							},
+							"minecraft:variant": {
+								"value": 0
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/m5_noTame.json"
+							},
+							"minecraft:behavior.controlled_by_player": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "car:m5zz",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"animations": {
+									"cmd": "controller.animation.car_cmd",
+									"move": "controller.animation.car_move",
+									"dura": "controller.animation.car_durability",
+									"bridge_execute_commands": "controller.animation.bridge_m5.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"cmd",
+										"move",
+										"dura",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:healable": {
+									"items": [
+										{
+											"item": "iron_ingot",
+											"heal_amount": 10
+										},
+										{
+											"item": "diamond",
+											"heal_amount": 50
+										}
+									]
+								},
+								"minecraft:knockback_resistance": {
+									"value": 99,
+									"max": 99
+								},
+								"minecraft:collision_box": {
+									"width": 1.3,
+									"height": 1.3
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"minecraft:saddle",
+										"charcoal"
+									],
+									"tame_event": {
+										"event": "minecraft:on_tame",
+										"target": "self"
+									}
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:scale": {
+									"value": 0.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:rideable": {
+									"priority": 0,
+									"seat_count": 4,
+									"rotate_rider_by": -90,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player",
+										"zombie"
+									],
+									"interact_text": "Ride",
+									"seats": [
+										{
+											"position": [
+												0.7,
+												0.5,
+												0.4
+											]
+										},
+										{
+											"position": [
+												-0.613,
+												0.5,
+												0.15
+											]
+										},
+										{
+											"position": [
+												0.525,
+												0.45,
+												-1
+											]
+										},
+										{
+											"position": [
+												-0.525,
+												0.45,
+												-1
+											]
+										}
+									],
+									"rider_can_interact": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"car",
+										"suv"
+									]
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "fall",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:variant": {
+									"value": 0
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/m5_noTame.json"
+								},
+								"minecraft:behavior.controlled_by_player": {}
+							},
+							"events": {
+								"minecraft:on_tame": {
+									"add": {
+										"component_groups": [
+											"tame"
+										]
+									}
+								},
+								"minecraft:on_chest": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_chested"
+										]
+									}
+								},
+								"fill": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tame": {
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"play_sounds": "armor.equip_generic",
+												"on_interact": {
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"domain": "hand",
+																"subject": "other",
+																"value": "chest"
+															}
+														]
+													},
+													"event": "minecraft:on_chest",
+													"target": "self"
+												},
+												"use_item": true,
+												"interact_text": "action.interact.attachchest"
+											},
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									},
+									"minecraft:movement": {
+										"value": 0.42
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/m5_Tame.json"
+									}
+								},
+								"minecraft:donkey_chested": {
+									"minecraft:inventory": {
+										"inventory_size": 16,
+										"container_type": "container",
+										"restrict_to_owner": true
+									},
+									"minecraft:is_chested": {},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									}
+								},
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "minecraft:on_tame",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"tame"
+										]
+									}
+								}
+							},
+							{
+								"key": "minecraft:on_chest",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_chested"
+										]
+									}
+								}
+							},
+							{
+								"key": "fill",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:on_tame": {
+										"add": {
+											"component_groups": [
+												"tame"
+											]
+										}
+									},
+									"minecraft:on_chest": {
+										"add": {
+											"component_groups": [
+												"minecraft:donkey_chested"
+											]
+										}
+									},
+									"fill": {
+										"add": {
+											"component_groups": [
+												"bridge:execute_command_id_1"
+											]
+										}
+									},
+									"bridge:remove_command_id_1": {
+										"add": {
+											"component_groups": [
+												"bridge:execute_no_command"
+											]
+										},
+										"remove": {
+											"component_groups": [
+												"bridge:execute_command_id_1"
+											]
+										}
+									}
+								},
+								"key": "bridge:remove_command_id_1",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"bridge:execute_no_command"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"bridge:execute_command_id_1"
+												]
+											}
+										},
+										"key": "add",
+										"is_minified": true,
+										"children": {
+											"component_groups": [
+												"bridge:execute_no_command"
+											]
+										}
+									},
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"bridge:execute_no_command"
+												]
+											},
+											"remove": {
+												"component_groups": [
+													"bridge:execute_command_id_1"
+												]
+											}
+										},
+										"key": "remove",
+										"is_minified": true,
+										"children": {
+											"component_groups": [
+												"bridge:execute_command_id_1"
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "car:m5zz",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"animations": {
+									"cmd": "controller.animation.car_cmd",
+									"move": "controller.animation.car_move",
+									"dura": "controller.animation.car_durability",
+									"bridge_execute_commands": "controller.animation.bridge_m5.execute_commands"
+								},
+								"scripts": {
+									"animate": [
+										"cmd",
+										"move",
+										"dura",
+										"bridge_execute_commands"
+									]
+								}
+							},
+							"components": {
+								"minecraft:healable": {
+									"items": [
+										{
+											"item": "iron_ingot",
+											"heal_amount": 10
+										},
+										{
+											"item": "diamond",
+											"heal_amount": 50
+										}
+									]
+								},
+								"minecraft:knockback_resistance": {
+									"value": 99,
+									"max": 99
+								},
+								"minecraft:collision_box": {
+									"width": 1.3,
+									"height": 1.3
+								},
+								"minecraft:navigation.walk": {
+									"can_path_over_water": true
+								},
+								"minecraft:tameable": {
+									"probability": 1,
+									"tame_items": [
+										"minecraft:saddle",
+										"charcoal"
+									],
+									"tame_event": {
+										"event": "minecraft:on_tame",
+										"target": "self"
+									}
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:health": {
+									"value": 100,
+									"max": 100
+								},
+								"minecraft:scale": {
+									"value": 0.9
+								},
+								"minecraft:nameable": {},
+								"minecraft:rideable": {
+									"priority": 0,
+									"seat_count": 4,
+									"rotate_rider_by": -90,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player",
+										"zombie"
+									],
+									"interact_text": "Ride",
+									"seats": [
+										{
+											"position": [
+												0.7,
+												0.5,
+												0.4
+											]
+										},
+										{
+											"position": [
+												-0.613,
+												0.5,
+												0.15
+											]
+										},
+										{
+											"position": [
+												0.525,
+												0.45,
+												-1
+											]
+										},
+										{
+											"position": [
+												-0.525,
+												0.45,
+												-1
+											]
+										}
+									],
+									"rider_can_interact": true
+								},
+								"minecraft:type_family": {
+									"family": [
+										"car",
+										"suv"
+									]
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "fall",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:movement": {
+									"value": 0
+								},
+								"minecraft:variant": {
+									"value": 0
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/m5_noTame.json"
+								},
+								"minecraft:behavior.controlled_by_player": {}
+							},
+							"events": {
+								"minecraft:on_tame": {
+									"add": {
+										"component_groups": [
+											"tame"
+										]
+									}
+								},
+								"minecraft:on_chest": {
+									"add": {
+										"component_groups": [
+											"minecraft:donkey_chested"
+										]
+									}
+								},
+								"fill": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								},
+								"bridge:remove_command_id_1": {
+									"add": {
+										"component_groups": [
+											"bridge:execute_no_command"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"bridge:execute_command_id_1"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tame": {
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"play_sounds": "armor.equip_generic",
+												"on_interact": {
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"domain": "hand",
+																"subject": "other",
+																"value": "chest"
+															}
+														]
+													},
+													"event": "minecraft:on_chest",
+													"target": "self"
+												},
+												"use_item": true,
+												"interact_text": "action.interact.attachchest"
+											},
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									},
+									"minecraft:movement": {
+										"value": 0.42
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/m5_Tame.json"
+									}
+								},
+								"minecraft:donkey_chested": {
+									"minecraft:inventory": {
+										"inventory_size": 16,
+										"container_type": "container",
+										"restrict_to_owner": true
+									},
+									"minecraft:is_chested": {},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									}
+								},
+								"bridge:execute_command_id_1": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"bridge:execute_no_command": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"key": "tame",
+								"is_minified": true,
+								"children": {
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"play_sounds": "armor.equip_generic",
+												"on_interact": {
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"domain": "hand",
+																"subject": "other",
+																"value": "chest"
+															}
+														]
+													},
+													"event": "minecraft:on_chest",
+													"target": "self"
+												},
+												"use_item": true,
+												"interact_text": "action.interact.attachchest"
+											},
+											{
+												"interact_text": "fill.oil",
+												"on_interact": {
+													"event": "fill",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"value": "player"
+															},
+															{
+																"test": "has_equipment",
+																"subject": "other",
+																"value": "coal"
+															}
+														]
+													}
+												},
+												"use_item": true
+											}
+										]
+									},
+									"minecraft:movement": {
+										"value": 0.42
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/m5_Tame.json"
+									}
+								}
+							},
+							{
+								"open": {
+									"tame": {
+										"minecraft:interact": {
+											"interactions": [
+												{
+													"play_sounds": "armor.equip_generic",
+													"on_interact": {
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_family",
+																	"subject": "other",
+																	"value": "player"
+																},
+																{
+																	"test": "has_equipment",
+																	"domain": "hand",
+																	"subject": "other",
+																	"value": "chest"
+																}
+															]
+														},
+														"event": "minecraft:on_chest",
+														"target": "self"
+													},
+													"use_item": true,
+													"interact_text": "action.interact.attachchest"
+												},
+												{
+													"interact_text": "fill.oil",
+													"on_interact": {
+														"event": "fill",
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_family",
+																	"subject": "other",
+																	"value": "player"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"value": "coal"
+																}
+															]
+														}
+													},
+													"use_item": true
+												}
+											]
+										},
+										"minecraft:movement": {
+											"value": 0.42
+										},
+										"minecraft:loot": {
+											"table": "loot_tables/m5_Tame.json"
+										}
+									},
+									"minecraft:donkey_chested": {
+										"minecraft:inventory": {
+											"inventory_size": 16,
+											"container_type": "container",
+											"restrict_to_owner": true
+										},
+										"minecraft:is_chested": {},
+										"minecraft:interact": {
+											"interactions": [
+												{
+													"interact_text": "fill.oil",
+													"on_interact": {
+														"event": "fill",
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_family",
+																	"subject": "other",
+																	"value": "player"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"value": "coal"
+																}
+															]
+														}
+													},
+													"use_item": true
+												}
+											]
+										}
+									},
+									"bridge:execute_command_id_1": {
+										"minecraft:skin_id": {
+											"value": 1
+										}
+									},
+									"bridge:execute_no_command": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									}
+								},
+								"key": "minecraft:donkey_chested",
+								"children": [
+									{
+										"key": "minecraft:inventory",
+										"is_minified": true,
+										"children": {
+											"inventory_size": 16,
+											"container_type": "container",
+											"restrict_to_owner": true
+										}
+									},
+									{
+										"key": "minecraft:is_chested",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:inventory": {
+												"inventory_size": 16,
+												"container_type": "container",
+												"restrict_to_owner": true
+											},
+											"minecraft:is_chested": {},
+											"minecraft:interact": {
+												"interactions": [
+													{
+														"interact_text": "fill.oil",
+														"on_interact": {
+															"event": "fill",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_family",
+																		"subject": "other",
+																		"value": "player"
+																	},
+																	{
+																		"test": "has_equipment",
+																		"subject": "other",
+																		"value": "coal"
+																	}
+																]
+															}
+														},
+														"use_item": true
+													}
+												]
+											}
+										},
+										"key": "minecraft:interact",
+										"is_minified": true,
+										"children": {
+											"interactions": [
+												{
+													"interact_text": "fill.oil",
+													"on_interact": {
+														"event": "fill",
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_family",
+																	"subject": "other",
+																	"value": "player"
+																},
+																{
+																	"test": "has_equipment",
+																	"subject": "other",
+																	"value": "coal"
+																}
+															]
+														}
+													},
+													"use_item": true
+												}
+											]
+										}
+									}
+								]
+							},
+							{
+								"key": "bridge:execute_command_id_1",
+								"is_minified": true,
+								"children": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								}
+							},
+							{
+								"key": "bridge:execute_no_command",
+								"is_minified": true,
+								"children": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,423 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Basic Survival Vehicles (R)\\animations\\fbmd.animation.json",
+	"file_type": "rp_animation",
+	"format_version": 1,
+	"file_uuid": "e528f733_19a2_4df6_9817_3ff019912711",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"animations": {
+						"animation.fbmd.turning": {
+							"loop": true,
+							"bones": {
+								"steeringwheel": {
+									"rotation": {
+										"0": 0,
+										"1": 0,
+										"2": "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"
+									}
+								}
+							}
+						},
+						"animation.fbmd.drive": {
+							"loop": true,
+							"animation_length": 0.1667,
+							"bones": {
+								"t1": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.1667": [
+											180,
+											0,
+											0
+										]
+									}
+								},
+								"t2": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.1667": [
+											180,
+											0,
+											0
+										]
+									}
+								},
+								"t3": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.1667": [
+											180,
+											0,
+											0
+										]
+									}
+								},
+								"t4": {
+									"rotation": {
+										"0.0": [
+											0,
+											0,
+											0
+										],
+										"0.1667": [
+											180,
+											0,
+											0
+										]
+									}
+								}
+							}
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.fbmd.turning": {
+								"loop": true,
+								"bones": {
+									"steeringwheel": {
+										"rotation": {
+											"0": 0,
+											"1": 0,
+											"2": "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"
+										}
+									}
+								}
+							},
+							"animation.fbmd.drive": {
+								"loop": true,
+								"animation_length": 0.1667,
+								"bones": {
+									"t1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t2": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t3": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t4": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "animation.fbmd.turning",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"key": "bones",
+								"children": [
+									{
+										"key": "steeringwheel",
+										"children": [
+											{
+												"open": {
+													"rotation": {
+														"0": 0,
+														"1": 0,
+														"2": "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"
+													}
+												},
+												"key": "rotation",
+												"is_minified": true,
+												"children": {
+													"0": 0,
+													"1": 0,
+													"2": "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"animation.fbmd.turning": {
+								"loop": true,
+								"bones": {
+									"steeringwheel": {
+										"rotation": {
+											"0": 0,
+											"1": 0,
+											"2": "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"
+										}
+									}
+								}
+							},
+							"animation.fbmd.drive": {
+								"loop": true,
+								"animation_length": 0.1667,
+								"bones": {
+									"t1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t2": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t3": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t4": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									}
+								}
+							}
+						},
+						"key": "animation.fbmd.drive",
+						"children": [
+							{
+								"data": "true",
+								"key": "loop"
+							},
+							{
+								"data": "0.1667",
+								"key": "animation_length"
+							},
+							{
+								"open": {
+									"loop": true,
+									"animation_length": 0.1667,
+									"bones": {
+										"t1": {
+											"rotation": {
+												"0.0": [
+													0,
+													0,
+													0
+												],
+												"0.1667": [
+													180,
+													0,
+													0
+												]
+											}
+										},
+										"t2": {
+											"rotation": {
+												"0.0": [
+													0,
+													0,
+													0
+												],
+												"0.1667": [
+													180,
+													0,
+													0
+												]
+											}
+										},
+										"t3": {
+											"rotation": {
+												"0.0": [
+													0,
+													0,
+													0
+												],
+												"0.1667": [
+													180,
+													0,
+													0
+												]
+											}
+										},
+										"t4": {
+											"rotation": {
+												"0.0": [
+													0,
+													0,
+													0
+												],
+												"0.1667": [
+													180,
+													0,
+													0
+												]
+											}
+										}
+									}
+								},
+								"key": "bones",
+								"is_minified": true,
+								"children": {
+									"t1": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t2": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t3": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									},
+									"t4": {
+										"rotation": {
+											"0.0": [
+												0,
+												0,
+												0
+											],
+											"0.1667": [
+												180,
+												0,
+												0
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

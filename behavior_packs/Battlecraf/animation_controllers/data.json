@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.data": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"setup": "query.mark_variant == 1"
+						}
+					]
+				},
+				"setup": {
+					"transitions": [
+						{
+							"default": "query.mark_variant == 1"
+						}
+					],
+					"on_entry": [
+					    "/function data"
+					]
+				}
+			}
+		}
+	}
+}

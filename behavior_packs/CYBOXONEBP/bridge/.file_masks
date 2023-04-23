@@ -1,0 +1,35 @@
+{
+	"BP/entities/m5.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/player.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/texts/languages.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/car.json": {
+		"data": {}
+	},
+	"BP/entities/crash.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/du.json": {
+		"data": {}
+	},
+	"BP/loot_tables/m5_noTame.json": {
+		"data": {}
+	},
+	"BP/loot_tables/m5_Tame.json": {
+		"data": {}
+	},
+	"BP/recipes/m5.json": {
+		"data": {}
+	},
+	"BP/entities/m52.json": {
+		"data": {}
+	}
+}

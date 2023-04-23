@@ -1,0 +1,134 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "zern:cargo_plane",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "cargo_plane_fly",
+          "cargo_plane_down",
+          "propeller"
+        ]
+      },
+      "animations": {
+        "cargo_plane_fly": "controller.animation.cargo_plane_fly",
+        "cargo_plane_down": "controller.animation.cargo_plane_down",
+        "propeller" : "controller.animation.propeller"
+      }
+    },
+    "component_groups": {
+      "plane_gravity_true": {
+        "minecraft:physics": {
+          "has_gravity": true
+        }
+      },
+      "plane_gravity_false": {
+        "minecraft:physics": {
+          "has_gravity": false
+        }
+      }
+    },
+  "components": {
+    "minecraft:type_family": {
+      "family": [
+        "plane"
+      ]
+    },
+    "minecraft:loot": {
+      "table": "loot_tables/entities/cargo_plane.json"
+    },
+    "minecraft:breathable": {
+      "totalSupply": 15,
+      "suffocateTime": 0,
+      "breathesWater": true
+    },
+    "minecraft:health": {
+      "value": 5,
+      "max": 5
+    },
+    "minecraft:scale": {
+      "value": 2.5
+    },
+    "minecraft:movement": {
+      "value": 0.7
+    },
+    "minecraft:underwater_movement": {
+      "value": 0.1
+    },
+    "minecraft:navigation.walk": {
+      "is_amphibious": true,
+      "avoid_water": true
+    },
+    "minecraft:inventory": {
+      "inventory_size": 27,
+      "container_type": "container",
+      "restrict_to_owner": false
+    },
+    "minecraft:movement.basic": {},
+    "minecraft:jump.static": {},
+    "minecraft:nameable": {},
+    "minecraft:rideable": {
+      "seat_count": 2,
+      "controlling_seat": 0,
+      "family_types": [
+        "player",
+        "zombie",
+        "villager"
+      ],
+      "interact_text": "Fly",
+      "pull_in_entities": true,
+      "seats": [
+        {
+          "position": [
+            0.18,
+            0.9,
+            0.22
+          ],
+          "min_rider_count": 0,
+          "max_rider_count": 2
+        },
+        {
+          "position": [
+            -0.18,
+            0.9,
+            0.22
+          ],
+          "min_rider_count": 1,
+          "max_rider_count": 2
+        }
+      ]
+    },
+    "minecraft:behavior.player_ride_tamed": {},
+    "minecraft:input_ground_controlled": {},
+    "minecraft:balloonable": {},
+    "minecraft:collision_box": {
+      "width": 1.5,
+      "height": 1
+    },
+    "minecraft:damage_sensor": {
+      "triggers": {
+        "cause": "fall",
+        "deals_damage": false
+      }
+    },
+    "minecraft:healable": {
+      "items": [
+        {
+          "item": "string",
+          "heal_amount": 1
+        }
+      ]
+    },
+    "minecraft:is_tamed": {},
+    "minecraft:fire_immune": true,
+    "minecraft:pushable": {
+      "is_pushable": false,
+      "is_pushable_by_piston": false
+    },
+    "minecraft:physics": {}
+      }
+    }
+  }

@@ -1,0 +1,6 @@
+The models and textures in this and other car addons that I have made are very detailed. This could cause the addon to be unstable for certain users based off their devices, primarily low-end mobile devices (Android/IOS).
+
+It is suggested to test whether the addons are stable in a new Minecraft world first before adding them into your worlds that have value to you such as a city project world. Run them for about 10-15 minutes in the new world mentioned earlier. If your game crashes, then the addons are unfortunately unstable for device. If it does not crash, then the addons are fortunately stable for your device!
+
+-ashminggu
+

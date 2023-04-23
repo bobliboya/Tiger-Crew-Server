@@ -1,0 +1,206 @@
+item.battlefield:grenade.name=M67 Frag Grenade
+item.battlefield:sgrenade.name=M18 Smoke Grenade
+item.battlefield:fb.name=M84 stun grenade
+item.battlefield:molotov.name=Molotov Cocktail
+
+item.battlefield:revolver.name=Smith & Wesson model 66
+item.battlefield:revolver_ammo.name=.357 speedloader
+item.battlefield:revolver_emp.name=§cSmith & Wesson model 66 empty
+
+item.battlefield:m590.name=Mossberg 590
+item.battlefield:m590_ammo.name=12 Gauge 00Buck shells
+item.battlefield:m590_emp.name=§cMossberg 590 empty
+
+item.battlefield:m24.name=M24 sniper rifle
+item.battlefield:m24_ammo.name=7.62x51 ammunition
+item.battlefield:m24_emp.name=§cM24 sniper rifle empty
+
+item.battlefield:hk416.name=Hk416
+item.battlefield:hk416_ammo.name=Hk416 magazine
+item.battlefield:hk416_emp.name=§cHk416 empty
+
+item.battlefield:m4a1.name=M4a1 carbine
+item.battlefield:m4a1_ammo.name=M4a1 carbine magazine
+item.battlefield:m4a1_emp.name=§cM4a1 carbine empty
+
+item.battlefield:m16a2.name=M16a2
+item.battlefield:m16a2_ammo.name=M16a2 magazine
+item.battlefield:m16a2_emp.name=§cM16a2 empty
+
+item.battlefield:scar.name=FN Scar 17
+item.battlefield:scar_ammo.name=Fn Scar 17 magazine
+item.battlefield:scar_emp.name=§cFN Scar 17 empty
+
+item.battlefield:fn15.name=FN15
+item.battlefield:fn15_ammo.name=FN15 magazine
+item.battlefield:fn15_emp.name=§cFN15 empty
+
+item.battlefield:deagle.name=Desert Eagle .50
+item.battlefield:deagle_ammo.name=Desert Eagle .50 magazine
+item.battlefield:deagle_emp.name=§cDesert Eagle empty
+
+item.battlefield:vector.name=Kriss Vector
+item.battlefield:vector_ammo.name=KrissVector magazine
+item.battlefield:vector_emp.name=§cKriss_Vector empty
+
+item.battlefield:auga3.name=Steyr AugA3
+item.battlefield:auga3_ammo.name=Steyr AugA3 magazine
+item.battlefield:auga3_emp.name=§cSteyr AugA3 empty
+
+item.battlefield:g36c.name=HK G36c
+item.battlefield:g36c_ammo.name=HK G36c magazine
+item.battlefield:g36c_emp.name=§cG36c empty
+
+item.battlefield:tacm4.name=Tactical M4a1 
+item.battlefield:tacm4_ammo.name=Tactical M4a1 magazine
+item.battlefield:tacm4_emp.name=§cTactical M4a1 empty
+
+item.battlefield:aa12.name=AA12
+item.battlefield:aa12_ammo.name=AA12 drum magazine
+item.battlefield:aa12_emp.name=§cAA12 empty
+
+item.battlefield:ak47.name=Akm
+item.battlefield:ak47_ammo.name=Akm magazine
+item.battlefield:ak47_emp.name=§cAkm empty
+
+item.battlefield:dm9.name=Beretta M9a1 (dual)
+item.battlefield:dm9_ammo.name=Beretta M9a1 (dual) ammo
+item.battlefield:dm9_emp.name=§cBeretta M9a1 (dual) empty
+
+item.battlefield:m9.name=Beretta M9a1
+item.battlefield:m9_ammo.name=Beretta M9a1 ammo
+item.battlefield:m9_emp.name=§cBeretta M9a1 empty
+
+item.battlefield:scorpion.name=CZ Scorpion Evo 3 S1
+item.battlefield:scorpion_ammo.name=CZ Scorpion Evo ammo
+item.battlefield:scorpion_emp.name=§cCZ Scorpion Evo 3 S1 empty
+
+item.battlefield:glock.name=Glock 17
+item.battlefield:glock_ammo.name=Glock 17 magazine
+item.battlefield:glock_emp.name=§cGlock 17 empty
+
+item.battlefield:uzi.name=Mini Uzi
+item.battlefield:uzi_ammo.name=Mini Uzi Magazine
+item.battlefield:uzi_emp.name=§cMini Uzi empty
+
+item.battlefield:l96.name=L96
+item.battlefield:l96_ammo.name=L96 Magazine
+item.battlefield:l96_emp.name=§cL96 empty
+
+item.battlefield:m249.name=M249 Saw
+item.battlefield:m249_ammo.name=M249 Saw bullet belt
+item.battlefield:m249_emp.name=§cM249 Saw empty
+
+item.battlefield:m1911.name=Colt M1911a1
+item.battlefield:m1911_ammo.name=Colt M1911a1 Magazine
+item.battlefield:m1911_emp.name=§cColt M1911a1 empty
+
+item.battlefield:fal.name=FN Fal
+item.battlefield:fal_ammo.name=FN Fal Magazine
+item.battlefield:fal_emp.name=§cFN Fal empty
+
+item.battlefield:mac_ammo.name=Ingram MAC 10 Magazine
+item.battlefield:mac.name=Ingram MAC 10
+item.battlefield:mac_emp.name=§cIngram MAC 10 empty
+
+item.battlefield:cannon.name=30mm Cannon
+
+item.battlefield:bullet_belt.name=.50 BMG Ammunition belt
+
+item.battlefield:rocket.name=70mm Hydra M229 Rocket
+
+item.battlefield:m86p1.name=125mm HE M86p1
+item.battlefield:m830.name=120mm M830 HEAT
+item.battlefield:m829.name=120mm M829 APFSDS
+item.battlefield:3uof8.name=30mm 3UOF8 HEI
+
+
+item.battlefield:medkit.name=Medical Kit
+item.battlefield:adrenaline.name=Adrenaline Auto Injector
+
+item.battlefield:repair_kit.name=Repair Kit
+tile.battlefield:kill.name=kill
+
+
+
+
+entity.battlefield:humvee.name=Humvee
+item.spawn_egg.entity.battlefield:humvee.name=Spawn Humvee
+
+
+
+entity.battlefield:matv.name=Matv
+item.spawn_egg.entity.battlefield:matv.name=Spawn Matv
+
+
+entity.battlefield:m113.name=M113
+item.spawn_egg.entity.battlefield:m113.name=Spawn M113 APC
+
+
+entity.battlefield:leopard.name=Leopard
+item.spawn_egg.entity.battlefield:leopard.name=Spawn Leopard 2a7 Tank
+
+
+entity.battlefield:t90.name=T90
+item.spawn_egg.entity.battlefield:t90.name=Spawn T90 Tank
+
+
+item.spawn_egg.entity.battlefield:iavstryker.name=Spawn IAV Stryker APC
+entity.battlefield:iavstryker.name=IAV Stryker 
+
+entity.battlefield:m2browning.name=M2 Browning
+item.spawn_egg.entity.battlefield:m2browning.name=Spawn M2browning
+
+
+entity.battlefield:a10.name=A10
+item.spawn_egg.entity.battlefield:a10.name=Spawn A10 thunderbolt
+
+
+entity.battlefield:sea_wolf.name=Sea Wolf
+item.spawn_egg.entity.battlefield:sea_wolf.name=Spawn Sea Wolf Submarine
+
+
+entity.battlefield:ammobox.name=Ammo Box
+item.spawn_egg.entity.battlefield:ammobox.name=Ammo Box
+
+
+entity.battlefield:m1a2.name=M1A2 Abrams
+item.spawn_egg.entity.battlefield:m1a2.name=Spawn M1A2 Abrams Tank
+
+
+entity.battlefield:mh6.name=MH-6
+item.spawn_egg.entity.battlefield:mh6.name=Spawn MH-6 "Little Bird" 
+
+
+entity.battlefield:btr82.name=BTR-82
+item.spawn_egg.entity.battlefield:btr82.name=Spawn BTR-82a APC
+
+
+item.spawn_egg.entity.battlefield:blackhawk.name=Spawn UH-60 "Blackhawk" 
+entity.battlefield:blackhawk.name=UH60 Blackhawk
+
+
+item.spawn_egg.entity.battlefield:su30.name=Spawn Sukhoi SU-30
+entity.battlefield:su30.name=Sukhoi SU-30
+
+
+item.spawn_egg.entity.battlefield:challenger.name=Spawn Challenger 2 Tank
+entity.battlefield:su30.name=Challenger 2
+
+
+action.hint.exit.battlefield:matv=sneak or jump to exit
+action.hint.exit.battlefield:humvee=sneak or jump to exit
+action.hint.exit.battlefield:v22=sneak or jump to exit
+action.hint.exit.battlefield:mh6=sneak or jump to exit
+action.hint.exit.battlefield:m1a2=sneak or jump to exit
+action.hint.exit.battlefield:sea_wolf=sneak or jump to exit
+action.hint.exit.battlefield.viper=sneak or jump to exit
+action.hint.exit.battlefield:a10=sneak or jump to exit
+action.hint.exit.battlefield:iavstryker=sneak or jump to exit
+action.hint.exit.battlefield:leopard=sneak or jump to exit
+action.hint.exit.battlefield:t90=sneak or jump to exit
+action.hint.exit.battlefield:m63=sneak or jump to exit
+action.hint.exit.battlefield:btr82=sneak or jump to exit
+action.hint.exit.battlefield: blackhawk=sneak or jump to exit
+action.hint.exit.battlefield:su30=sneak or jump to exit
+action.hint.exit.battlefield:m2=use machine gun bullet belt to fire

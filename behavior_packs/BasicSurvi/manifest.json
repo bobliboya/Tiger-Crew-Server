@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Basic Survival Vehicles v1.1 (B)",
+		"description": "Developed / made by ashminggu. Specially made for MCPEDL.",
+		"uuid": "1f57d262-c851-46a7-b46a-0bad8d4677c9",
+		"version": [
+			1,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3f71789e-c52a-4053-9319-46014bc6dec7",
+			"version": [
+				1,
+				0,
+				1
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				1
+			],
+			"uuid": "d6e06a64-23a7-4f25-83f4-fa07625452a2"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+##bridge-file-version: #23
+
+pack.name=랜드로버 디스커버리 4 애드온 : 리소스팩
+pack.description=iMasterProX 제작
+
+accessibility.disableTTS=텍스트 음성 변환 비활성화
+accessibility.enableTTS=텍스트 음성 변환 사용
+
+item.spawn_egg.entity.car:discovery_ar.name=LAND ROVER DISCOVERY 4 : Aruba
+action.hint.exit.car:discovery_ar=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_ar.name=LAND ROVER DISCOVERY 4 : Aruba
+
+item.spawn_egg.entity.car:discovery_cg.name=LAND ROVER DISCOVERY 4 : Corris Grey
+action.hint.exit.car:discovery_cg=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_cg.name=LAND ROVER DISCOVERY 4 : Corris Grey
+
+item.spawn_egg.entity.car:discovery_fw.name=LAND ROVER DISCOVERY 4 : Fuji White
+action.hint.exit.car:discovery_fw=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_fw.name=LAND ROVER DISCOVERY 4 : Fuji White
+
+item.spawn_egg.entity.car:discovery_is.name=LAND ROVER DISCOVERY 4 : Indus Silver
+action.hint.exit.car:discovery_is=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_is.name=LAND ROVER DISCOVERY 4 : Indus Silver
+
+item.spawn_egg.entity.car:discovery_lb.name=LAND ROVER DISCOVERY 4 : Loire Blue
+action.hint.exit.car:discovery_lb=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_lb.name=LAND ROVER DISCOVERY 4 : Loire Blue
+
+item.spawn_egg.entity.car:discovery_mr.name=LAND ROVER DISCOVERY 4 : Montalcino Red
+action.hint.exit.car:discovery_mr=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_mr.name=LAND ROVER DISCOVERY 4 : Montalcino Red
+
+item.spawn_egg.entity.car:discovery_sb.name=LAND ROVER DISCOVERY 4 : Santorini Black
+action.hint.exit.car:discovery_sb=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_sb.name=LAND ROVER DISCOVERY 4 : Santorini Black
+
+item.spawn_egg.entity.car:discovery_wg.name=LAND ROVER DISCOVERY 4 : Waitomo Grey
+action.hint.exit.car:discovery_wg=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_wg.name=LAND ROVER DISCOVERY 4 : Waitomo Grey
+
+item.spawn_egg.entity.car:discovery_yw.name=LAND ROVER DISCOVERY 4 : Yulong White
+action.hint.exit.car:discovery_yw=§o§l차량 운전 중엔 문자 메시지를 보내지 말아주세요.
+entity.car:discovery_yw.name=LAND ROVER DISCOVERY 4 : Yulong White

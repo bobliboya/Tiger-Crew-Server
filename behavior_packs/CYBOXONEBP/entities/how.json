@@ -1,0 +1,116 @@
+//bridge-file-version: #298
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "car:how",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:healable": {
+			"items": [
+			  {
+				"item": "iron_ingot",
+				"heal_amount": 10
+			  },
+			  {
+				"item": "diamond",
+				"heal_amount": 49
+			  }
+			]
+		  },
+			"minecraft:breathable": {
+				"totalSupply": 15,
+				"suffocateTime": 0
+			},
+			"minecraft:knockback_resistance": {
+                "value": 99,
+                "max": 99
+            },
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 10
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"how"
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": true
+					}
+				]
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/how.json"
+			},
+			"minecraft:movement": {
+				"value": 1.425
+			},
+			"minecraft:environment_sensor": {
+				"triggers": {
+				  "filters": {
+					"test": "is_underwater",
+					"subject": "self",
+					"operator": "==",
+					"value": true
+				  }
+				}
+				},
+				"minecraft:behavior.ranged_attack": {
+				"attack_interval_min": 1,
+				"attack_interval_max": 3,
+				"attack_radius": 3
+				  },
+				  "minecraft:behavior.hurt_by_target": {
+					"priority": 1
+				  },
+				  "minecraft:behavior.nearest_attackable_target": {
+					"priority": 2,
+					"reselect_targets": true,
+					"entity_types": [
+					  {
+						"filters": {
+						  "test": "is_family",
+						  "subject": "other",
+						  "value": "car"
+						},
+						"max_dist": 15
+					  }
+					],
+					"must_see": true
+				  }
+		},
+		"component_groups": {
+		},
+		"events": {
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "fb:tracks",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "tracks",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

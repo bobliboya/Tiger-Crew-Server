@@ -1,0 +1,99 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "custom:roadster",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"vehicles"
+				]
+            },
+			"minecraft:collision_box": {
+				"width": 1.58,
+                "height": 1.23
+			},
+			"minecraft:scale": {
+				"value": 1.4
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:health": {
+				"value": {
+					"range_min": 10,
+					"range_max": 10
+				}
+			},
+			"minecraft:navigation.walk": {
+				"can_float": false
+			},
+			"minecraft:jump.static": {},
+			"minecraft:rideable": {
+				"priority": 0,
+				"seat_count": 4,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"interact_text": "Get in",
+				"seats": [
+					{
+						"position": [
+                            0.5,
+                            0.2,
+                            0.3
+						]
+					},
+					{
+						"position": [
+                            -0.5,
+                            0.2,
+                            0.3
+						]
+					},
+                    {
+                        "position": [
+                            0.4,
+                            0.2,
+                            -0.6
+                        ]
+                    },
+                    {
+                        "position": [
+                            -0.4,
+                            0.2,
+                            -0.6
+                        ]
+                    }
+				]
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:nameable": {},
+			"minecraft:movement": {
+				"value": 0.87
+            },
+			"minecraft:fall_damage": {
+				"value": 0
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:physics": {},
+			"minecraft:can_climb": {},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 27
+			},
+			"minecraft:movement.basic": {}
+		},
+		"minecraft:movement.basic": {}
+	},
+	"events": {}
+}

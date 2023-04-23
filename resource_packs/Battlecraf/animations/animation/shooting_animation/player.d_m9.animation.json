@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.d_m9": {
+			"loop": true,
+			"animation_length": 0.2,
+			"bones": {
+				"slidebody": {
+					"position": [0, 0, 2]
+				},
+				"slidebody4": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody8": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody12": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody5": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody14": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody16": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody18": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				},
+				"slidebody20": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.12": [0, 0, 2]
+					}
+				}
+			}
+		}
+	}
+}

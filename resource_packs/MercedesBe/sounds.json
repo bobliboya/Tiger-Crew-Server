@@ -1,0 +1,48 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"300sl:silver": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.300sl.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"300sl:black": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.300sl.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"300sl:cyan": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "vehicle.300sl.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			}
+		}
+	}
+}

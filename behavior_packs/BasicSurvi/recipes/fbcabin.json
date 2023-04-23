@@ -1,0 +1,38 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:cabin"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"AAB",
+			"AAC",
+			"DDD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "minecraft:daylight_detector"
+			},
+			"C": {
+				"item": "minecraft:obsidian"
+			},
+			"D": {
+				"item": "minecraft:smooth_stone"
+			}
+		},
+		"result": [
+			{
+				"item": "fb:cabin",
+				"count": 1
+			}
+		]
+	}
+}

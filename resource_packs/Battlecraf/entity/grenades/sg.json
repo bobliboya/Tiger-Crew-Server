@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bullet:sgrenade",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/items/grenades/sg"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.bullet.move"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

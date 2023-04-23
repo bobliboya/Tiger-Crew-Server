@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.0",//Alpha Test
+	"animation_controllers": {
+		"controller.animation.submarine": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"diving": "query.has_rider"
+						}
+					]
+				},
+				"diving": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/effect @p conduit_power 1 5 true",
+						"/playsound submarine @a[r=30]"
+					]
+				}
+			}
+		}
+	}
+}

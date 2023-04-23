@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:l96_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "l96_ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

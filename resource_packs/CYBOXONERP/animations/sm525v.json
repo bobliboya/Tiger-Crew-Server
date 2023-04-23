@@ -1,0 +1,167 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sm525v.spawn": {
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 180, 0],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -3.15, 0],
+						"1.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.2, 0.2, 0.2],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.sm525v.normal": {
+			"loop": true,
+			"animation_length": 126000,
+			"bones": {
+				"logo": {
+					"scale": [1, 1, 0.2]
+				}
+			}
+		},
+		"animation.sm525v.right_front_door_close": {
+			"animation_length": 0.52,
+			"bones": {
+				"right_front_door": {
+					"rotation": {
+						"0.0": [0, 50, 0],
+						"0.1667": [0, 42.73, 0],
+						"0.3167": [0, 26.92, 0],
+						"0.4333": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.sm525v.move": {
+			"loop": true,
+			"animation_length": 0.3167,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"D": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.sm525v.back_mirror_open": {
+			"animation_length": 126000,
+			"bones": {
+				"right_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.1167": [0, 65, 0],
+						"21600.0": [0, 65, 0]
+					}
+				},
+				"left_mirror": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.1167": [0, -65, 0],
+						"21600.0": [0, -65, 0]
+					}
+				},
+				"left_light_off": {
+					"scale": 0.1
+				},
+				"right_light_off": {
+					"scale": 0.1
+				},
+				"right_light_on": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"21600.0": [0, 0, -1]
+					}
+				},
+				"front_light_off": {
+					"position": [0, 0, 1]
+				},
+				"front_light_on": {
+					"position": [0, 0, -1]
+				},
+				"back_light_off": {
+					"position": [0, 0, -70]
+				},
+				"back_light_on": {
+					"position": [0, 0, 73]
+				},
+				"nav_off": {
+					"position": [0, 0, -1]
+				},
+				"nav_on": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.sm525v.turn": {
+			"loop": true,
+			"bones": {
+				"A": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"C": {
+					"rotation": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+				},
+				"steering_wheel": {
+					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				},
+				"outside": {
+					"rotation": [0, 0, "Math.max(-2.5, Math.min(2.5,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				}
+			}
+		},
+		"animation.sm525v.trunk": {
+			"animation_length": 126000,
+			"bones": {
+				"trunk": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [-28.33, 0, 0],
+						"0.9667": [-64.33, 0, 0],
+						"1.1167": [-85, 0, 0]
+					}
+				},
+				"Bag1": {
+					"position": [0, 5, 69]
+				},
+				"message": {
+					"position": [0, 9, -35],
+					"scale": [1, 0.1, 0.1]
+				}
+			}
+		}
+	}
+}

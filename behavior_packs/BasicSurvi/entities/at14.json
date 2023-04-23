@@ -1,0 +1,156 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fb:at14",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"fb:at14_fin": {
+				"minecraft:interact": [
+					{
+						"on_interact": {
+							"filters": {
+								"test": "is_riding",
+								"subject": "other",
+								"value": true
+							},
+							"target": "self",
+							"event": "fb:at14_recharge"
+						},
+						"play_sounds": "ignite",
+						"use_item": false,
+						"interact_text": "action.interact.shoot.tank",
+						"spawn_entities": "fb:torpedo"
+					}
+				]
+			},
+			"fb:at14_recharging": {
+				"minecraft:ageable": {
+					"duration": 1,
+					"grow_up": {
+						"event": "fb:at14_shoot",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"fb"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 3.2
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:fall_damage": {
+				"value": 0
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:health": {
+				"value": {
+					"range_min": 100,
+					"range_max": 100
+				}
+			},
+			"minecraft:navigation.walk": {
+				"can_float": false
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:nameable": {},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:damage_sensor": [
+				{
+					"on_damage": {
+						"filters": {
+							"test": "is_riding",
+							"subject": "player"
+						}
+					},
+					"deals_damage": false
+				}
+			],
+			"minecraft:fire_immune": true,
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"rider_can_interact": true,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"interact_text": "action.interact.ride.horse",
+				"seats": {
+					"position": [
+						0,
+						1.8,
+						-0.3
+					]
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:physics": {
+				"has_gravity": true
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/at14.json"
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"fb:at14_fin"
+					]
+				}
+			},
+			"fb:at14_start": {
+				"remove": {
+					"component_groups": [
+						"fb:at14_fin"
+					]
+				}
+			},
+			"fb:at14_recharge": {
+				"add": {
+					"component_groups": [
+						"fb:at14_recharging"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"fb:at14_fin"
+					]
+				}
+			},
+			"fb:at14_shoot": {
+				"add": {
+					"component_groups": [
+						"fb:at14_fin"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"fb:at14_recharging"
+					]
+				}
+			}
+		}
+	}
+}

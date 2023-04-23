@@ -1,0 +1,408 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)/recipes/aw11.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "3ff67584_82ea_4bee_bcf6_5fab8136cb24",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "fb:aw11"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "fb",
+						"pattern": [
+							"ABC",
+							"D"
+						],
+						"key": {
+							"A": {
+								"item": "fb:blueprint"
+							},
+							"B": {
+								"item": "fb:aw11base"
+							},
+							"C": {
+								"item": "fb:tyres"
+							},
+							"D": {
+								"item": "fb:engine"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:spawn_egg",
+								"data": "query.get_actor_info_id('fb:mr2aw11')",
+								"count": 1
+							},
+							{
+								"item": "fb:blueprint",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:aw11"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fb:blueprint"
+								},
+								"B": {
+									"item": "fb:aw11base"
+								},
+								"C": {
+									"item": "fb:tyres"
+								},
+								"D": {
+									"item": "fb:engine"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fb:aw11"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:aw11"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fb:blueprint"
+								},
+								"B": {
+									"item": "fb:aw11base"
+								},
+								"C": {
+									"item": "fb:tyres"
+								},
+								"D": {
+									"item": "fb:engine"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"data": "fb",
+						"key": "group"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:aw11"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fb:blueprint"
+								},
+								"B": {
+									"item": "fb:aw11base"
+								},
+								"C": {
+									"item": "fb:tyres"
+								},
+								"D": {
+									"item": "fb:engine"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"ABC",
+							"D"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:aw11"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fb:blueprint"
+								},
+								"B": {
+									"item": "fb:aw11base"
+								},
+								"C": {
+									"item": "fb:tyres"
+								},
+								"D": {
+									"item": "fb:engine"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "fb:blueprint"
+									},
+									"B": {
+										"item": "fb:aw11base"
+									},
+									"C": {
+										"item": "fb:tyres"
+									},
+									"D": {
+										"item": "fb:engine"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "fb:blueprint"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fb:blueprint"
+									},
+									"B": {
+										"item": "fb:aw11base"
+									},
+									"C": {
+										"item": "fb:tyres"
+									},
+									"D": {
+										"item": "fb:engine"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "fb:aw11base"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fb:blueprint"
+									},
+									"B": {
+										"item": "fb:aw11base"
+									},
+									"C": {
+										"item": "fb:tyres"
+									},
+									"D": {
+										"item": "fb:engine"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "fb:tyres"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fb:blueprint"
+									},
+									"B": {
+										"item": "fb:aw11base"
+									},
+									"C": {
+										"item": "fb:tyres"
+									},
+									"D": {
+										"item": "fb:engine"
+									}
+								},
+								"key": "D",
+								"is_minified": true,
+								"children": {
+									"item": "fb:engine"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:aw11"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fb:blueprint"
+								},
+								"B": {
+									"item": "fb:aw11base"
+								},
+								"C": {
+									"item": "fb:tyres"
+								},
+								"D": {
+									"item": "fb:engine"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:spawn_egg",
+										"data": "query.get_actor_info_id('fb:mr2aw11')",
+										"count": 1
+									},
+									{
+										"item": "fb:blueprint",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:mr2aw11')",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:spawn_egg",
+										"data": "query.get_actor_info_id('fb:mr2aw11')",
+										"count": 1
+									},
+									{
+										"item": "fb:blueprint",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

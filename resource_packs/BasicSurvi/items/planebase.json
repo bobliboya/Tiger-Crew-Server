@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "fbp:base",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "planebase",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

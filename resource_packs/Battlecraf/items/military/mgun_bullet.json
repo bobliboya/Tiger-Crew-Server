@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:bullet_belt",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "machine_gun_bb",
+      "minecraft:use_animation": "null",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

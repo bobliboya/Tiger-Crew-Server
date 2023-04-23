@@ -1,0 +1,62 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.l96.new": {
+			"loop": true,
+			"bones": {
+				"sight3": {
+					"position": [0, 0, -3],
+					"scale": [0.3, 0.5, 1]
+				},
+				"sight8": {
+					"position": [0, 0, -4]
+				},
+				"sight2": {
+					"position": [0, 0, -4],
+					"scale": [1, 1, 0.5]
+				},
+				"muzzle2": {
+					"position": [0, 0, -5],
+					"scale": [0.6, 1, 0]
+				},
+				"muzzle4": {
+					"position": [-1, 0, -5],
+					"scale": [0.3, 1, 1]
+				},
+				"muzzle5": {
+					"position": [-1, -7, -4],
+					"scale": [0.3, 1, 1]
+				},
+				"muzzle6": {
+					"position": [0, 0, -3],
+					"scale": [0.3, 1, 1]
+				},
+				"gruppesechs": {
+					"position": [0, 0, -2]
+				},
+				"muzzle7": {
+					"position": [-1, -7, -5],
+					"scale": [0.3, 1, 1]
+				},
+				"magazine": {
+					"position": [0, -1, 0]
+				},
+				"sight": {
+					"position": [0, -10, -1]
+				},
+				"muzzle": {
+					"position": [0, -29, 0]
+				},
+				"frame2": {
+					"position": [0, -14, 0]
+				},
+				"slider": {
+					"position": [0, -8, 0]
+				},
+				"stand": {
+					"position": [0, -17, 0]
+				}
+			}
+		}
+	}
+}

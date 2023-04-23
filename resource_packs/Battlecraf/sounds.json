@@ -1,0 +1,276 @@
+{
+
+	"entity_sounds": {
+		"entities": {
+			"battlefield:sea_wolf": {
+				"volume": 2.0,
+				"pitch": [0.9, 1.1],
+				"events": {
+					"swim": {
+						"sound": "mob.seawolf.drive",
+						"volume": 2,
+						"pitch": [1.0]
+					}
+				}
+			},
+			"battlefield:humvee": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.humvee.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:matv": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.matv.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:blackhawk": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.hawk.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.heli.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:mh6": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "chopper",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.heli.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:su30": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.su30.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:t90": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.t90.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.tank.swim",
+				        "volume": 2,
+				        "pitch": [0.8]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:m113": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.m113.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.tank.swim",
+				        "volume": 2,
+				        "pitch": [0.8]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:btr82": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.btr82.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.btr82.swim",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:challenger": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.challenger.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.tank.swim",
+				        "volume": 2,
+				        "pitch": [0.8]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			},
+			"battlefield:leopard": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.leopard.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.tank.swim",
+				        "volume": 2,
+				        "pitch": [0.8]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+				    }
+				}
+			},
+			"battlefield:m1a2": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.1],
+				"events": {
+				    "step": {
+				        "sound": "mob.abrams.drive",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "swim": {
+				        "sound": "mob.tank.swim",
+				        "volume": 2,
+				        "pitch": [0.8]
+			        }
+			    }
+			},
+			"battlefield:m113": {
+			    "volume": 2.0,
+			    "pitch": [0.9, 1.0],
+				"events": {
+				    "step": {
+				        "sound": "mob.m113.drive",
+				        "volume": 2,
+				        "pitch": [1.1]
+			       		},
+	    			    "hurt": {
+				        "sound": "mob.tank.hit",
+				        "volume": 2,
+				        "pitch": [1.0]
+			       		},
+	    			    "death": {
+				        "sound": "mob.tank.explode",
+				        "volume": 2,
+				        "pitch": [1.0]
+			        }
+			    }
+			}
+		}
+	},
+	"interactive_sounds": {}
+}

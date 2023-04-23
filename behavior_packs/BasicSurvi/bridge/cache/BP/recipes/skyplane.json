@@ -1,0 +1,408 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\recipes\\skyplane.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9ab1d235_63cf_491d_953b_e3e61b42553b",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "fbp:skyplane"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "fb",
+						"pattern": [
+							"ABC",
+							"D"
+						],
+						"key": {
+							"A": {
+								"item": "fbp:propellor"
+							},
+							"B": {
+								"item": "fbp:base"
+							},
+							"C": {
+								"item": "fbp:wing"
+							},
+							"D": {
+								"item": "fb:blueprint"
+							}
+						},
+						"result": [
+							{
+								"item": "minecraft:spawn_egg",
+								"data": "query.get_actor_info_id('fb:skyplane')",
+								"count": 1
+							},
+							{
+								"item": "fb:blueprint",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:skyplane"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fbp:propellor"
+								},
+								"B": {
+									"item": "fbp:base"
+								},
+								"C": {
+									"item": "fbp:wing"
+								},
+								"D": {
+									"item": "fb:blueprint"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fbp:skyplane"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:skyplane"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fbp:propellor"
+								},
+								"B": {
+									"item": "fbp:base"
+								},
+								"C": {
+									"item": "fbp:wing"
+								},
+								"D": {
+									"item": "fb:blueprint"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"data": "fb",
+						"key": "group"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:skyplane"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fbp:propellor"
+								},
+								"B": {
+									"item": "fbp:base"
+								},
+								"C": {
+									"item": "fbp:wing"
+								},
+								"D": {
+									"item": "fb:blueprint"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"ABC",
+							"D"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:skyplane"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fbp:propellor"
+								},
+								"B": {
+									"item": "fbp:base"
+								},
+								"C": {
+									"item": "fbp:wing"
+								},
+								"D": {
+									"item": "fb:blueprint"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "fbp:propellor"
+									},
+									"B": {
+										"item": "fbp:base"
+									},
+									"C": {
+										"item": "fbp:wing"
+									},
+									"D": {
+										"item": "fb:blueprint"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "fbp:propellor"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fbp:propellor"
+									},
+									"B": {
+										"item": "fbp:base"
+									},
+									"C": {
+										"item": "fbp:wing"
+									},
+									"D": {
+										"item": "fb:blueprint"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "fbp:base"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fbp:propellor"
+									},
+									"B": {
+										"item": "fbp:base"
+									},
+									"C": {
+										"item": "fbp:wing"
+									},
+									"D": {
+										"item": "fb:blueprint"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "fbp:wing"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "fbp:propellor"
+									},
+									"B": {
+										"item": "fbp:base"
+									},
+									"C": {
+										"item": "fbp:wing"
+									},
+									"D": {
+										"item": "fb:blueprint"
+									}
+								},
+								"key": "D",
+								"is_minified": true,
+								"children": {
+									"item": "fb:blueprint"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:skyplane"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"ABC",
+								"D"
+							],
+							"key": {
+								"A": {
+									"item": "fbp:propellor"
+								},
+								"B": {
+									"item": "fbp:base"
+								},
+								"C": {
+									"item": "fbp:wing"
+								},
+								"D": {
+									"item": "fb:blueprint"
+								}
+							},
+							"result": [
+								{
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								},
+								{
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:spawn_egg",
+										"data": "query.get_actor_info_id('fb:skyplane')",
+										"count": 1
+									},
+									{
+										"item": "fb:blueprint",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:spawn_egg",
+									"data": "query.get_actor_info_id('fb:skyplane')",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:spawn_egg",
+										"data": "query.get_actor_info_id('fb:skyplane')",
+										"count": 1
+									},
+									{
+										"item": "fb:blueprint",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "fb:blueprint",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

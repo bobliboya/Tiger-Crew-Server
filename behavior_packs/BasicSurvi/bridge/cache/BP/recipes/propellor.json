@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\recipes\\propellor.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f6488a9d_2bfb_4728_87a6_9e0da82e6bad",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "fbp:propellor"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"group": "fb",
+						"pattern": [
+							"AAA",
+							" B ",
+							"AAA"
+						],
+						"key": {
+							"A": {
+								"item": "minecraft:coal_block"
+							},
+							"B": {
+								"item": "minecraft:obsidian"
+							}
+						},
+						"result": [
+							{
+								"item": "fbp:propellor",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:propellor"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"AAA",
+								" B ",
+								"AAA"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:coal_block"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							"result": [
+								{
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fbp:propellor"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:propellor"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"AAA",
+								" B ",
+								"AAA"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:coal_block"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							"result": [
+								{
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"data": "fb",
+						"key": "group"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:propellor"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"AAA",
+								" B ",
+								"AAA"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:coal_block"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							"result": [
+								{
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"AAA",
+							" B ",
+							"AAA"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:propellor"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"AAA",
+								" B ",
+								"AAA"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:coal_block"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							"result": [
+								{
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:coal_block"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									}
+								},
+								"key": "A",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							{
+								"open": {
+									"A": {
+										"item": "minecraft:coal_block"
+									},
+									"B": {
+										"item": "minecraft:obsidian"
+									}
+								},
+								"key": "B",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:obsidian"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fbp:propellor"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"group": "fb",
+							"pattern": [
+								"AAA",
+								" B ",
+								"AAA"
+							],
+							"key": {
+								"A": {
+									"item": "minecraft:coal_block"
+								},
+								"B": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							"result": [
+								{
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "fbp:propellor",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "fbp:propellor",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

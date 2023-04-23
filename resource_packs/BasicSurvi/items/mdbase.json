@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "fb:mdbase",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "mdbase",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

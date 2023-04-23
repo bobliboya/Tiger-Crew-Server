@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "battlefield:challenger",
+			"materials": {
+				"default": "slime"
+			},
+			"textures": {
+				"default": "textures/vehicles/challenger"
+			},
+			"geometry": {
+				"default": "geometry.challenger"
+			},
+			"animations": {
+				"move": "animation.challenger.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.slime"
+			],
+			"spawn_egg": {
+				"texture": "challenger",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.fly_su30": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"fly": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/execute @p[rx=-35,rxm=-90] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 10 true",
+						"/execute @p[rx=5,rxm=-10] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 3 true",
+						"/execute @p[rx=-10,rxm=-35] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 6 true",
+						"/execute @p[rx=90,rxm=5] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s slow_falling 1 0 true",
+						"/execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~-15 ~ air 0 execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~ ~ air 0 effect @e[type=battlefield:su30] speed 1 10 true",
+						"/execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~-50 ~ air 0 execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~ ~ air 0 effect @e[type=battlefield:su30] speed 1 15 true"
+					]
+				},
+				"fly": {
+					"transitions": [
+						{
+							"default": "query.is_moving"
+						}
+					],
+					"on_entry": [
+						"/execute @p[rx=-35,rxm=-90] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 10 true",
+						"/execute @p[rx=5,rxm=-10] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 3 true",
+						"/execute @p[rx=-10,rxm=-35] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s levitation 1 6 true",
+						"/execute @p[rx=90,rxm=5] ~ ~ ~ execute @e[r=4,type=battlefield:su30] ~ ~ ~ effect @s slow_falling 1 0 true",
+						"/execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~-15 ~ air 0 execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~ ~ air 0 effect @e[type=battlefield:su30] speed 1 10 true",
+						"/execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~-50 ~ air 0 execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~ ~ air 0 effect @e[type=battlefield:su30] speed 1 15 true"
+					]
+				}
+			}
+		}
+	}
+}

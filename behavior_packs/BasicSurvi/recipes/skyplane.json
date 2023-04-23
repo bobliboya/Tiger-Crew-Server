@@ -1,0 +1,42 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fbp:skyplane"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC",
+			"D"
+		],
+		"key": {
+			"A": {
+				"item": "fbp:propellor"
+			},
+			"B": {
+				"item": "fbp:base"
+			},
+			"C": {
+				"item": "fbp:wing"
+			},
+			"D": {
+				"item": "fb:blueprint"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:spawn_egg",
+				"data": "query.get_actor_info_id('fb:skyplane')",
+				"count": 1
+			},
+			{
+				"item": "fb:blueprint",
+				"count": 1
+			}
+		]
+	}
+}

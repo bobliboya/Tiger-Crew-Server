@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.two_hand_smg_sprint": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-50, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": [0, 0, 0],
+					"position": [-13, 3, -9]
+				},
+				"tool": {
+					"rotation": [0, 0, 0],
+					"position": [0, -2, 1]
+				}
+			}
+		}
+	}
+}

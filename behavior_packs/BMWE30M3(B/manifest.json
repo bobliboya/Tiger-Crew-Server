@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "BMW E30 M3 (B)",
+		"description": "Developed by ashminggu. Specially made for MCPEDL.",
+		"uuid": "ec18d393-10ab-4ef3-bcbe-50cd25a5d37b",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "df221aa1-3b8f-4fb0-a5f9-2140419b26ab",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "1a3ab5c1-b6b8-4460-836e-a18a54dffe9d"
+		}
+	]
+}

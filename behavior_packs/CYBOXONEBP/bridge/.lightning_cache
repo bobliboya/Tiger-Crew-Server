@@ -1,0 +1,162 @@
+{
+	"entity": {
+		"BP/entities/m5.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:turn_purple",
+				"minecraft:turn_black",
+				"minecraft:turn_blue",
+				"minecraft:turn_brown",
+				"minecraft:turn_cyan",
+				"minecraft:turn_gray",
+				"minecraft:turn_green",
+				"minecraft:turn_light_blue",
+				"minecraft:turn_lime",
+				"minecraft:turn_magenta",
+				"minecraft:turn_orange",
+				"minecraft:turn_pink",
+				"minecraft:turn_red",
+				"minecraft:turn_silver",
+				"minecraft:turn_white",
+				"minecraft:turn_yellow",
+				"minecraft:on_tame",
+				"minecraft:on_chest",
+				"fill",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"car:m5"
+			],
+			"animation_references": [
+				"cmd",
+				"move",
+				"dura",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"car",
+				"suv"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"cmd",
+				"ride",
+				"join"
+			],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/crash.json": {
+			"events": [
+				"despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"particle:crash"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/m52.json": {
+			"events": [
+				"minecraft:on_tame",
+				"minecraft:on_chest",
+				"fill",
+				"bridge:remove_command_id_1"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"car:m5zz"
+			],
+			"animation_references": [
+				"cmd",
+				"move",
+				"dura",
+				"bridge_execute_commands"
+			],
+			"families": [
+				"car",
+				"suv"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"ac3c6b96_46a4_4bc5_9691_21a6ff1e5bd7": {},
+		"BP/functions/objectives.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"speed",
+				"oil",
+				"durability",
+				"tick"
+			]
+		},
+		"BP/functions/player.mcfunction": {
+			"custom_commands": []
+		},
+		"978d75e3_46f0_4d34_83a4_e4a79a41a25d": {},
+		"BP/functions/car.mcfunction": {
+			"custom_commands": [],
+			"tags": [
+				"car",
+				"crashed"
+			]
+		},
+		"e18f5dfe_0354_4321_b5f8_b6616c1a8c17": {},
+		"e9e1e4d7_8551_46cc_af8d_62c5c0777e04": {},
+		"b598fb71_6325_458c_8c30_b95e4f868cee": {},
+		"644704e8_7de1_49d8_ba5e_7b0886576f8b": {},
+		"6710811c_f775_44cc_9f63_b54854a94264": {}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/player.json": {
+			"ids": [
+				"controller.animation.pl_cmd",
+				"controller.animation.pl_ride",
+				"controller.animation.pl_join"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/car.json": {
+			"ids": [
+				"controller.animation.car_cmd",
+				"controller.animation.car_move"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/du.json": {
+			"ids": [
+				"controller.animation.car_durability"
+			],
+			"custom_commands": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/m5.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	}
+}

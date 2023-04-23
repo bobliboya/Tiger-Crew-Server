@@ -1,0 +1,129 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fb:skyplane",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"fbfly",
+					"fbdown"
+				]
+			},
+			"animations": {
+				"fbfly": "controller.animation.fbfly",
+				"fbdown": "controller.animation.fbdown"
+			}
+		},
+		"component_groups": {
+			"hasgravitytrue": {
+				"minecraft:physics": {
+					"has_gravity": true
+				}
+			},
+			"hasgravityfalse": {
+				"minecraft:physics": {
+					"has_gravity": false
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"fb"
+				]
+			},
+			"minecraft:scale": {
+				"value": 2.2
+			},
+			"minecraft:loot": {
+        			"table": "loot_tables/entities/skyplane.json"
+     			 },
+			"minecraft:health": {
+				"value": 200
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 2
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 1.2
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.2
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"avoid_water": true
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"crouching_skip_interact": true,
+				"interact_text": "Fly",
+				"family_types": [
+					"player",
+					"villager"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0,
+							0.28,
+							0.2
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2
+					},
+					{
+						"position": [
+							0,
+							0.28,
+							-0.28
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2
+					}
+				],
+				"controlling_seat": 0
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:behavior.player_ride_tamed": {},
+			"minecraft:balloonable": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:is_tamed": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 36,
+						"add": {
+							"component_groups": {}
+						}
+					}
+				]
+			}
+		}
+	}
+}

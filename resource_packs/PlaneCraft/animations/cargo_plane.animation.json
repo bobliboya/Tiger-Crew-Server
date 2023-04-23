@@ -1,0 +1,98 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cargo_plane.fly": {
+			"loop": true,
+			"bones": {
+				"wheel1": {
+					"rotation": [85, 0, 0]
+				},
+				"wheel2": {
+					"position": [0, 5, 0]
+				},
+				"wheel3": {
+					"position": [0, 5, 0]
+				}
+			}
+		},
+		"animation.cargo_plane.land": {
+			"loop": true,
+			"bones": {
+				"wheel1": {
+					"rotation": [-5, 0, 0]
+				},
+				"wheel2": {
+					"position": [0, -1, 0]
+				},
+				"wheel3": {
+					"position": [0, -1, 0]
+				}
+			}
+		},
+		"animation.cargo_plane.stop": {
+			"loop": true,
+			"bones": {
+				"gate": {
+					"rotation": [-12, 0, 0]
+				},
+				"propeller1": {
+					"rotation": [0, 0, -5]
+				},
+				"propeller2": {
+					"rotation": [0, 0, -5]
+				},
+				"propeller3": {
+					"rotation": [0, 0, -5]
+				},
+				"propeller4": {
+					"rotation": [0, 0, -5]
+				}
+			}
+		},
+		"animation.cargo_plane.rotate": {
+			"loop": true,
+			"animation_length": 0.32,
+			"bones": {
+				"gate": {
+					"rotation": [15, 0, 0]
+				},
+				"propeller1": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.0833": [0, 0, 40],
+						"0.1667": [0, 0, 85],
+						"0.2333": [0, 0, 130],
+						"0.3167": [0, 0, 175]
+					}
+				},
+				"propeller2": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.0833": [0, 0, 40],
+						"0.1667": [0, 0, 85],
+						"0.2333": [0, 0, 130],
+						"0.3167": [0, 0, 175]
+					}
+				},
+				"propeller3": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.0833": [0, 0, 40],
+						"0.1667": [0, 0, 85],
+						"0.2333": [0, 0, 130],
+						"0.3167": [0, 0, 175]
+					}
+				},
+				"propeller4": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.0833": [0, 0, 40],
+						"0.1667": [0, 0, 85],
+						"0.2333": [0, 0, 130],
+						"0.3167": [0, 0, 175]
+					}
+				}
+			}
+		}
+	}
+}

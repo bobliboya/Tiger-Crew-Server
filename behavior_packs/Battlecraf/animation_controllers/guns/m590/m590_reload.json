@@ -1,0 +1,30 @@
+//Coded By Rad Claw You Can Ask Me Permission In Discord: Rad Claw#7353 
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.m590_reload": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.mark_variant == 1 && query.get_equipped_item_name=='m590_ammo' && query.item_remaining_use_duration > 0"
+            }
+          ]
+        },
+        "reload": {
+          "transitions": [
+            {
+              "default": "query.mark_variant == 1 && query.get_equipped_item_name=='m590_ammo' && query.item_remaining_use_duration > 0"
+            }
+          ],
+          "on_entry": [
+            "/playsound m590_reloading @a[r=5]",
+            "/replaceitem entity @s slot.weapon.mainhand 0 air",
+            "/tag @p add m590r"
+          ]
+        }
+      }
+    }
+  }
+}

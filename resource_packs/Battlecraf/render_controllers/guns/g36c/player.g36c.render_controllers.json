@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player.g36c": {
+      "geometry": "Geometry.g36c",
+      "materials": [ { "*": "Material.gun" } ],
+      "textures": [ "Texture.g36c" ]
+    }
+  }
+}

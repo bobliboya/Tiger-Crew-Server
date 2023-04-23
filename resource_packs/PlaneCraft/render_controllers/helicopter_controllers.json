@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.helicopter": {
+      "arrays": {
+        "textures": {
+          "Array.base": [ "Texture.gray", "Texture.white", "Texture.blue", "Texture.red", "Texture.yellow" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.base[query.variant]" ]
+    }
+  }
+}

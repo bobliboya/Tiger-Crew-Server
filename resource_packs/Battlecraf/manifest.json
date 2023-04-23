@@ -1,0 +1,24 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§6Welcome to Battlecraft. Adds 25 3d guns and 10+ military vehicles & Grenades.",
+        "name": "§l§cBattlecraft Add-on 0.7.1 RP",
+        "uuid": "d95a9e36-4cb8-4f64-971b-d57093a23463",
+        "version": [2, 0, 0],
+        "min_engine_version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "§6Welcome to Battlecraft. Adds 25 3d guns and 10+ military vehicles & Grenades.",
+            "type": "resources",
+            "uuid": "7a0ddd04-16ad-405c-ad17-e535408de119",
+            "version": [2, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+			"uuid": "d37a7caa-349f-4fa7-916a-8333fbb8b1f5",
+            "version": [2, 0, 0]
+        }
+    ]
+}

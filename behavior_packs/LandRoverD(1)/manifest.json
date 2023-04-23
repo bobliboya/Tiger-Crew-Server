@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Land Rover Discovery 4 Simple : BP",
+        "description": "Made by iMasterProX",
+        "uuid": "cd240117-27ba-424a-a163-5c6b2abba447",
+        "version": [1, 2, 0]
+    },
+    "modules": [
+        {
+            "description": "Land Rover Discovery 4 Simple : BP",
+            "type": "data",
+            "uuid": "5150a1fc-3efb-4051-8e2a-23924d04f297",
+            "version": [1, 2, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "acbab9f8-05fc-43f0-b3e9-9fb4262aa957",
+            "version": [1, 2, 0]
+        }
+    ]
+}

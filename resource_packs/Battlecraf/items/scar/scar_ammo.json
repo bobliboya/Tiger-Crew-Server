@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:scar_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "scar_ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

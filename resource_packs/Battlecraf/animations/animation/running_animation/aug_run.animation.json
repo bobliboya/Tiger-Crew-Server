@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.first_person.two_hand_aug_sprint": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["0+ variable.is_using_vr * 0", "0+ variable.is_using_vr * 0", "0+ variable.is_using_vr * -0"],
+					"position": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["0+ variable.is_using_vr * 0", "-0+ variable.is_using_vr * 0", "0+ variable.is_using_vr * -0"],
+					"position": [-16.9, -6, -2]
+				},
+				"tool": {
+					"rotation": [9.9, -9.9, -80.9],
+					"position": [3, 3, 0]
+				}
+			}
+		}
+	}
+}

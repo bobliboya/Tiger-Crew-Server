@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "zern:bomb",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/bomb/bomb"
+      },
+      "geometry": {
+        "default": "geometry.bomb"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.zern_bomb"
+      },
+      "render_controllers": [
+        "controller.render.bomb"
+      ]
+    }
+  }
+}

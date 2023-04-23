@@ -1,0 +1,12 @@
+give @p battlefield:revolver
+give @p battlefield:deagle
+give @p battlefield:m1911
+give @p battlefield:glock
+give @p battlefield:dm9
+give @p battlefield:m9
+give @p battlefield:deagle_ammo
+give @p battlefield:dm9_ammo
+give @p battlefield:m9_ammo
+give @p battlefield:glock_ammo
+give @p battlefield:m1911_ammo
+give @p battlefield:revolver_ammo

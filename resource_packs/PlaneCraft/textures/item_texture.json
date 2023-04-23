@@ -1,0 +1,16 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {	
+    "helicopter": { "textures": [ "textures/items/helicopter" ] },
+    "jumbo_jet": { "textures": [ "textures/items/jumbo_jet" ] },
+    "private_jet": { "textures": [ "textures/items/private_jet" ] },
+    "seaplane": { "textures": [ "textures/items/seaplane" ] },
+    "small_plane": { "textures": [ "textures/items/small_plane" ] },
+    "stealth_bomber": { "textures": [ "textures/items/stealth_bomber" ] },
+    "stealth_fighter": { "textures": [ "textures/items/stealth_fighter" ] },
+    "cargo_plane": { "textures": [ "textures/items/cargo_plane" ] },
+    "bomb": { "textures": [ "textures/items/bomb" ] },
+    "missile": { "textures": [ "textures/items/missile" ] }
+  }
+}

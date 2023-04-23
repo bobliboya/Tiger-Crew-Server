@@ -1,0 +1,641 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\entities\\at14.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "38661154_fab0_40c2_96e4_531ae68fed19",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "fb:at14",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"fb:at14_fin": {
+								"minecraft:interact": [
+									{
+										"on_interact": {
+											"filters": {
+												"test": "is_riding",
+												"subject": "other",
+												"value": true
+											},
+											"target": "self",
+											"event": "fb:at14_recharge"
+										},
+										"play_sounds": "ignite",
+										"use_item": false,
+										"interact_text": "action.interact.shoot.tank",
+										"spawn_entities": "fb:torpedo"
+									}
+								]
+							},
+							"fb:at14_recharging": {
+								"minecraft:ageable": {
+									"duration": 1,
+									"grow_up": {
+										"event": "fb:at14_shoot",
+										"target": "self"
+									}
+								}
+							}
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"fb"
+								]
+							},
+							"minecraft:collision_box": {
+								"width": 2,
+								"height": 3.2
+							},
+							"minecraft:scale": {
+								"value": 1
+							},
+							"minecraft:fall_damage": {
+								"value": 0
+							},
+							"minecraft:is_stackable": {},
+							"minecraft:push_through": {
+								"value": 1
+							},
+							"minecraft:health": {
+								"value": {
+									"range_min": 100,
+									"range_max": 100
+								}
+							},
+							"minecraft:navigation.walk": {
+								"can_float": false
+							},
+							"minecraft:movement.basic": {},
+							"minecraft:jump.static": {},
+							"minecraft:nameable": {},
+							"minecraft:movement": {
+								"value": 0.3
+							},
+							"minecraft:damage_sensor": [
+								{
+									"on_damage": {
+										"filters": {
+											"test": "is_riding",
+											"subject": "player"
+										}
+									},
+									"deals_damage": false
+								}
+							],
+							"minecraft:fire_immune": true,
+							"minecraft:rideable": {
+								"seat_count": 1,
+								"rider_can_interact": true,
+								"crouching_skip_interact": true,
+								"family_types": [
+									"player"
+								],
+								"interact_text": "action.interact.ride.horse",
+								"seats": {
+									"position": [
+										0,
+										1.8,
+										-0.3
+									]
+								}
+							},
+							"minecraft:knockback_resistance": {
+								"value": 1
+							},
+							"minecraft:physics": {
+								"has_gravity": true
+							},
+							"minecraft:input_ground_controlled": {},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/at14.json"
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"add": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_start": {
+								"remove": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_recharge": {
+								"add": {
+									"component_groups": [
+										"fb:at14_recharging"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_shoot": {
+								"add": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"fb:at14_recharging"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fb:at14",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {
+							"fb:at14_fin": {
+								"minecraft:interact": [
+									{
+										"on_interact": {
+											"filters": {
+												"test": "is_riding",
+												"subject": "other",
+												"value": true
+											},
+											"target": "self",
+											"event": "fb:at14_recharge"
+										},
+										"play_sounds": "ignite",
+										"use_item": false,
+										"interact_text": "action.interact.shoot.tank",
+										"spawn_entities": "fb:torpedo"
+									}
+								]
+							},
+							"fb:at14_recharging": {
+								"minecraft:ageable": {
+									"duration": 1,
+									"grow_up": {
+										"event": "fb:at14_shoot",
+										"target": "self"
+									}
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fb:at14",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"fb:at14_fin": {
+									"minecraft:interact": [
+										{
+											"on_interact": {
+												"filters": {
+													"test": "is_riding",
+													"subject": "other",
+													"value": true
+												},
+												"target": "self",
+												"event": "fb:at14_recharge"
+											},
+											"play_sounds": "ignite",
+											"use_item": false,
+											"interact_text": "action.interact.shoot.tank",
+											"spawn_entities": "fb:torpedo"
+										}
+									]
+								},
+								"fb:at14_recharging": {
+									"minecraft:ageable": {
+										"duration": 1,
+										"grow_up": {
+											"event": "fb:at14_shoot",
+											"target": "self"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"fb"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 2,
+									"height": 3.2
+								},
+								"minecraft:scale": {
+									"value": 1
+								},
+								"minecraft:fall_damage": {
+									"value": 0
+								},
+								"minecraft:is_stackable": {},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:health": {
+									"value": {
+										"range_min": 100,
+										"range_max": 100
+									}
+								},
+								"minecraft:navigation.walk": {
+									"can_float": false
+								},
+								"minecraft:movement.basic": {},
+								"minecraft:jump.static": {},
+								"minecraft:nameable": {},
+								"minecraft:movement": {
+									"value": 0.3
+								},
+								"minecraft:damage_sensor": [
+									{
+										"on_damage": {
+											"filters": {
+												"test": "is_riding",
+												"subject": "player"
+											}
+										},
+										"deals_damage": false
+									}
+								],
+								"minecraft:fire_immune": true,
+								"minecraft:rideable": {
+									"seat_count": 1,
+									"rider_can_interact": true,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player"
+									],
+									"interact_text": "action.interact.ride.horse",
+									"seats": {
+										"position": [
+											0,
+											1.8,
+											-0.3
+										]
+									}
+								},
+								"minecraft:knockback_resistance": {
+									"value": 1
+								},
+								"minecraft:physics": {
+									"has_gravity": true
+								},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/at14.json"
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"fb:at14_fin"
+										]
+									}
+								},
+								"fb:at14_start": {
+									"remove": {
+										"component_groups": [
+											"fb:at14_fin"
+										]
+									}
+								},
+								"fb:at14_recharge": {
+									"add": {
+										"component_groups": [
+											"fb:at14_recharging"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"fb:at14_fin"
+										]
+									}
+								},
+								"fb:at14_shoot": {
+									"add": {
+										"component_groups": [
+											"fb:at14_fin"
+										]
+									},
+									"remove": {
+										"component_groups": [
+											"fb:at14_recharging"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"fb"
+									]
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 2,
+									"height": 3.2
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:fall_damage",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"key": "minecraft:is_stackable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:push_through",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": {
+										"range_min": 100,
+										"range_max": 100
+									}
+								}
+							},
+							{
+								"key": "minecraft:navigation.walk",
+								"is_minified": true,
+								"children": {
+									"can_float": false
+								}
+							},
+							{
+								"key": "minecraft:movement.basic",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:jump.static",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.3
+								}
+							},
+							{
+								"key": "minecraft:damage_sensor",
+								"is_minified": true,
+								"children": [
+									{
+										"on_damage": {
+											"filters": {
+												"test": "is_riding",
+												"subject": "player"
+											}
+										},
+										"deals_damage": false
+									}
+								]
+							},
+							{
+								"data": "true",
+								"key": "minecraft:fire_immune"
+							},
+							{
+								"key": "minecraft:rideable",
+								"is_minified": true,
+								"children": {
+									"seat_count": 1,
+									"rider_can_interact": true,
+									"crouching_skip_interact": true,
+									"family_types": [
+										"player"
+									],
+									"interact_text": "action.interact.ride.horse",
+									"seats": {
+										"position": [
+											0,
+											1.8,
+											-0.3
+										]
+									}
+								}
+							},
+							{
+								"key": "minecraft:knockback_resistance",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": true
+								}
+							},
+							{
+								"key": "minecraft:input_ground_controlled",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"fb"
+										]
+									},
+									"minecraft:collision_box": {
+										"width": 2,
+										"height": 3.2
+									},
+									"minecraft:scale": {
+										"value": 1
+									},
+									"minecraft:fall_damage": {
+										"value": 0
+									},
+									"minecraft:is_stackable": {},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:health": {
+										"value": {
+											"range_min": 100,
+											"range_max": 100
+										}
+									},
+									"minecraft:navigation.walk": {
+										"can_float": false
+									},
+									"minecraft:movement.basic": {},
+									"minecraft:jump.static": {},
+									"minecraft:nameable": {},
+									"minecraft:movement": {
+										"value": 0.3
+									},
+									"minecraft:damage_sensor": [
+										{
+											"on_damage": {
+												"filters": {
+													"test": "is_riding",
+													"subject": "player"
+												}
+											},
+											"deals_damage": false
+										}
+									],
+									"minecraft:fire_immune": true,
+									"minecraft:rideable": {
+										"seat_count": 1,
+										"rider_can_interact": true,
+										"crouching_skip_interact": true,
+										"family_types": [
+											"player"
+										],
+										"interact_text": "action.interact.ride.horse",
+										"seats": {
+											"position": [
+												0,
+												1.8,
+												-0.3
+											]
+										}
+									},
+									"minecraft:knockback_resistance": {
+										"value": 1
+									},
+									"minecraft:physics": {
+										"has_gravity": true
+									},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/at14.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/at14.json"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"minecraft:entity_spawned": {
+								"add": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_start": {
+								"remove": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_recharge": {
+								"add": {
+									"component_groups": [
+										"fb:at14_recharging"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								}
+							},
+							"fb:at14_shoot": {
+								"add": {
+									"component_groups": [
+										"fb:at14_fin"
+									]
+								},
+								"remove": {
+									"component_groups": [
+										"fb:at14_recharging"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

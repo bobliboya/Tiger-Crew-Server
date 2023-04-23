@@ -1,0 +1,488 @@
+{
+	"file_path": "C:\\Users\\HP\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Basic Survival Vehicles (B)\\loot_tables\\entities\\fishingboat.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "cab51d83_cf6e_494b_bde2_f7d7e2dc447e",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "fb:base",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player_or_pets"
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "fb:cabin",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "killed_by_player_or_pets"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:base",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:cabin",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:base",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "fb:base",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "fb:base",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "fb:base",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:base",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "killed_by_player_or_pets"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "killed_by_player_or_pets"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:base",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "fb:cabin",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										]
+									}
+								],
+								"conditions": [
+									{
+										"condition": "killed_by_player_or_pets"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:cabin",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "fb:cabin",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "fb:cabin",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "fb:cabin",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "fb:cabin",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											]
+										}
+									],
+									"conditions": [
+										{
+											"condition": "killed_by_player_or_pets"
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "killed_by_player_or_pets"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "killed_by_player_or_pets"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

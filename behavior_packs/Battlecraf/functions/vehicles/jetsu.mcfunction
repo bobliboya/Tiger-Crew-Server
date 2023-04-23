@@ -1,0 +1,1 @@
+execute @e[type=battlefield:su30] ~ ~ ~ detect ~ ~-4 ~ air 0 playsound jetsu @a[r=40] ~ ~ ~

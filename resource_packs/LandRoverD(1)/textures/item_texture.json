@@ -1,0 +1,52 @@
+//bridge-file-version: #3
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"discovery_ar": {
+			"textures": [
+				"textures/items/discovery_ar"
+			]
+		},
+		"discovery_cg": {
+			"textures": [
+				"textures/items/discovery_cg"
+			]
+		},
+		"discovery_fw": {
+			"textures": [
+				"textures/items/discovery_fw"
+			]
+		},
+		"discovery_is": {
+			"textures": [
+				"textures/items/discovery_is"
+			]
+		},
+		"discovery_lb": {
+			"textures": [
+				"textures/items/discovery_lb"
+			]
+		},
+		"discovery_mr": {
+			"textures": [
+				"textures/items/discovery_mr"
+			]
+		},
+		"discovery_sb": {
+			"textures": [
+				"textures/items/discovery_sb"
+			]
+		},
+		"discovery_wg": {
+			"textures": [
+				"textures/items/discovery_wg"
+			]
+		},
+		"discovery_yw": {
+			"textures": [
+				"textures/items/discovery_yw"
+			]
+		}
+	}
+}

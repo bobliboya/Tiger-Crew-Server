@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.m24": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shoot": "query.is_using_item && query.get_equipped_item_name== 'm24'"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:m24_fire",
+						"/replaceitem entity @s slot.weapon.mainhand 0 battlefield:m24 1 10",
+                        "/gamerule sendcommandfeedback false",
+                        "/scoreboard players add @s[m=!1] m24 1",
+                        "/playsound m24shoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-0.5",
+                        "/camerashake add @s 0.4 0.1",
+                        "/gamerule sendcommandfeedback true"
+					]
+				},
+				"shoot": {
+					"transitions": [
+						{
+							"default":"query.is_using_item && query.get_equipped_item_name=='m24'"
+						}
+					],
+					"on_entry": [
+						"@s battlefield:m24_fire",
+						"/replaceitem entity @s slot.weapon.mainhand 0 battlefield:m24 1 8",
+                        "/gamerule sendcommandfeedback false",
+                        "/scoreboard players add @s[m=!1] m24 1",
+                        "/playsound m24shoot @a[r=30]",
+                        "/particle minecraft:basic_smoke_particle ^^1.6^0.8",
+                        "/tp @s ~~~~~-0.5",
+                        "/camerashake add @s 0.4 0.1",
+                        "/gamerule sendcommandfeedback true"
+					]
+				}
+			}
+		}
+	}
+}

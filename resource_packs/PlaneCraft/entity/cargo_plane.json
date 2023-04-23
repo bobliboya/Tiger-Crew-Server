@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "zern:cargo_plane",
+			"materials": {
+				"default": "cat"
+			},
+			"textures": {
+				"default": "textures/entity/cargo_plane/default"
+			},
+			"geometry": {
+				"default": "geometry.cargo_plane"
+			},
+			"animations": {
+				"fly": "animation.cargo_plane.fly",
+				"land": "animation.cargo_plane.land",
+				"stop": "animation.cargo_plane.stop",
+				"rotate": "animation.cargo_plane.rotate"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.cargo_plane.move"
+				},
+				{
+					"ride": "controller.animation.cargo_plane.riding"
+				}
+			],
+			"render_controllers": [
+				"controller.render.cargo_plane"
+			],
+			"spawn_egg": {
+				"texture": "cargo_plane",
+				"texture_index": 0
+			}
+		}
+	}
+}

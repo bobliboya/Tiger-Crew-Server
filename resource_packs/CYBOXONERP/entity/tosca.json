@@ -1,0 +1,74 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "car:tosca",
+			"materials": {
+				"default": "blaze_body"
+			},
+			"textures": {
+				"default": "textures/entity/tosca/tosca_undyed",			
+				"undyed": "textures/entity/tosca/tosca_undyed",
+				"white": "textures/entity/tosca/tosca_white",
+				"orange": "textures/entity/tosca/tosca_orange",
+				"magenta": "textures/entity/tosca/tosca_magenta",
+				"light_blue": "textures/entity/tosca/tosca_light_blue",
+				"yellow": "textures/entity/tosca/tosca_yellow",
+				"lime": "textures/entity/tosca/tosca_lime",
+				"pink": "textures/entity/tosca/tosca_pink",
+				"gray": "textures/entity/tosca/tosca_gray",
+				"silver": "textures/entity/tosca/tosca_silver",
+				"cyan": "textures/entity/tosca/tosca_cyan",
+				"purple": "textures/entity/tosca/tosca_purple",
+				"blue": "textures/entity/tosca/tosca_blue",
+				"brown": "textures/entity/tosca/tosca_brown",
+				"green": "textures/entity/tosca/tosca_green",
+				"red": "textures/entity/tosca/tosca_red",
+				"black": "textures/entity/tosca/tosca_black"
+			},
+			"geometry": {
+				"default": "geometry.tosca"
+			},
+			"render_controllers": [
+				"controller.render.car_color"
+			],
+			"spawn_egg": {
+				"texture": "tosca"
+			},
+			"animations": {
+				"move": "animation.tosca.move",
+				"ride": "animation.tosca.right_front_door_close",
+				"setup": "animation.tosca.spawn",
+				"turn": "animation.tosca.turn",
+				"saddle": "animation.tosca.back_mirror_open",
+				"hit": "animation.tosca.airback",
+				"death": "animation.tosca.airback",
+				"chested": "animation.tosca.trunk",
+				"general": "controller.animation.tosca.general",
+				"normal": "animation.tosca.normal"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"ride": "query.has_rider"
+					},
+					{
+						"saddle": "query.is_tamed"
+					},
+					{
+						"chested": "query.is_chested"
+					},
+					"hit",
+					"death",
+					"setup",
+					"general",
+					"normal"
+				]
+			}
+		}
+	}
+}

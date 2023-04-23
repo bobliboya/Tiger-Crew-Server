@@ -1,0 +1,41 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.12.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fb:mdbase"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"group": "fb",
+		"pattern": [
+			"ABC",
+			"DED"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:glass"
+			},
+			"B": {
+				"item": "minecraft:concrete",
+				"data": 4
+			},
+			"C": {
+				"item": "minecraft:redstone_torch"
+			},
+			"D": {
+				"item": "minecraft:coal_block"
+			},
+			"E": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": [
+			{
+				"item": "fb:mdbase",
+				"count": 1
+			}
+		]
+	}
+}

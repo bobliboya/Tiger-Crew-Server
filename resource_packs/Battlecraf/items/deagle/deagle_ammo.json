@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "battlefield:deagle_ammo",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "deagle_ammo",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

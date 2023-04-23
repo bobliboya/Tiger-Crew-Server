@@ -1,0 +1,148 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "battlefield:blackhawk",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "fly_blackhawk",
+          "helibeh2"
+        ]
+      },
+      "animations": {
+        "fly_blackhawk": "controller.animation.fly_blackhawk",
+        "helibeh2": "controller.animation.helibeh2"
+      }
+    },
+  "components": {
+    "minecraft:type_family": {
+      "family": [
+        "helicopter"
+      ]
+    },
+    "minecraft:loot": {
+      "table": "loot_tables/empty.json"
+    },
+    "minecraft:breathable": {
+      "totalSupply": 10,
+      "suffocateTime": 0,
+      "breathesWater": false
+    },
+    "minecraft:health": {
+      "value": 200,
+      "max": 200
+    },
+    "minecraft:knockback_resistance": {
+      "value": 2.0
+    },
+    "minecraft:scale": {
+      "value": 3
+    },
+    "minecraft:movement": {
+      "value": 0.5
+    },
+    "minecraft:underwater_movement": {
+      "value": 0.0
+    },
+    "minecraft:navigation.walk": {
+      "is_amphibious": true,
+      "avoid_water": true
+    },
+    "minecraft:movement.basic": {},
+    "minecraft:jump.static": {},
+    "minecraft:nameable": {},
+    "minecraft:rideable": {
+      "seat_count": 7,
+      "controlling_seat": 0,
+      "family_types": [
+        "player",
+        "villager"
+      ],
+      "interact_text": "Enter UH-60 Blackhawk",
+      "pull_in_entities": true,
+      "seats": [
+        {
+          "position": [
+            0.285,
+            0.55,
+            -0.25
+          ]
+        },
+        {
+          "position": [
+            -0.285,
+            0.55,
+            -0.25
+          ]
+        },
+        {
+          "position": [
+            0.285,
+            0.50,
+            -1.2
+          ]
+        },
+        {
+          "position": [
+            -0.285,
+            0.50,
+            -1.2
+          ]
+        },
+        {
+          "position": [
+            0.285,
+            0.50,
+            -2.15
+          ]
+        },
+        {
+          "position": [
+            0.0,
+            0.50,
+            -2.15
+          ]
+        },
+        {
+          "position": [
+            -0.285,
+            0.50,
+            -2.15
+          ]
+        }
+      ]
+    },
+    "minecraft:behavior.player_ride_tamed": {},
+    "minecraft:input_ground_controlled": {},
+    "minecraft:balloonable": {},
+    "minecraft:collision_box": {
+      "width": 1.5,
+      "height": 1
+    },
+    "minecraft:healable": {
+      "items": [
+        {
+          "item": "battlefield:repair_kit",
+          "heal_amount": 20
+        }
+      ]
+    },
+    "minecraft:damage_sensor": {
+      "triggers": {
+        "cause": "fall",
+        "deals_damage": false
+      }
+    },
+    "minecraft:is_tamed": {},
+    "minecraft:fire_immune": false,
+    "minecraft:pushable": {
+      "is_pushable": false,
+      "is_pushable_by_piston": false
+    },
+    "minecraft:physics": {}
+      }
+    }
+  }

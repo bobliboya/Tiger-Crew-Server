@@ -1,0 +1,223 @@
+{
+	"recipe": {
+		"BP/recipes/fb.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/fbbase.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/fbcabin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/fbblueprint.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/propellor.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/wing.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/planebase.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/skyplane.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/lavaboatbase.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/lavaboatcabin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/lavaboat.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mdbase.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/mddrill.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/md.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/at14base.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/aw11base.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tracks.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tyres.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/engine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/at14.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/aw11.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/luckboatcabin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/luckboatbase.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/luckboat.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"function": {
+		"5c7d2e1b_80fd_426c_ac02_7feebbeb5210": {}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/lavaboat.animation_controllers.json": {
+			"ids": [
+				"controller.animation.lavaboat"
+			],
+			"custom_commands": []
+		}
+	},
+	"entity": {
+		"BP/entities/lavaboat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"fb:lavaboat"
+			],
+			"animation_references": [
+				"lavaboat"
+			],
+			"families": [
+				"fb",
+				"boat",
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/miningdrill.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"fb:miningdrill"
+			],
+			"animation_references": [],
+			"families": [
+				"fb"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/at14.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"fb:at14_start",
+				"fb:at14_recharge",
+				"fb:at14_shoot"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"fb:at14"
+			],
+			"animation_references": [],
+			"families": [
+				"fb"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/mr211.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"fb:mr2aw11"
+			],
+			"animation_references": [],
+			"families": [
+				"fb"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/luckboat.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"fb:luckboat"
+			],
+			"animation_references": [
+				"luckboat"
+			],
+			"families": [
+				"fb",
+				"boat",
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"rp_animation": {
+		"RP/animations/fbmd.animation.json": {
+			"ids": [
+				"animation.fbmd.turning",
+				"animation.fbmd.drive"
+			]
+		}
+	}
+}
