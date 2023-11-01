@@ -1,0 +1,47 @@
+/*
+ * Custom CSS
+ */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fontlibrary.org/face/minecraftia');
+
+
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+/* body {
+  font-family: MinecraftiaRegular, sans-serif;
+} */
+
+.card-title {
+  font-family: MinecraftiaRegular, sans-serif;
+}
+
+.minecraft-btn {
+	background-image: url(../img/btn.png);
+  border-color: #AAA #565656 #565656 #AAA;
+  /* text-shadow: 3px 3px #4C4C4C; */
+  outline: 2px solid #000;
+  font-family: 'MinecraftiaRegular';
+}
+  
+.minecraft-btn:hover {
+	background-image: url(../img/btn_hover.png);
+  border-color: #BDC6FF #59639A #59639A #BDC6FF;
+}
+
+.minecraft-text {
+  font-family: 'MinecraftiaRegular';
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ffff00;
+}
+
+.navbar-brand:hover {
+  color: #ffff00;
+}
