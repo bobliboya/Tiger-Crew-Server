@@ -8,14 +8,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <audio id="btn_click_snd" src="assets/sound/mc_click.mp3"></audio>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00aa00;">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #00aa00;">
     <div class="container">
-      <a class="navbar-brand minecraft-text" href="#" >
-        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/11/Chest_%28S%29_BE1.png" alt="Bootstrap" height="40px">
-         &nbsp; Tiger Crew Server
+      <a class="navbar-brand" href="#">
+        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/11/Chest_%28S%29_BE1.png"
+          alt="Bootstrap" height="40px">
+        Tiger Crew Server
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,137 +26,244 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" onclick="mc_bth_play()" href="#resource-behavior-packs">资源与行为包</a>
+            <a class="nav-link" onclick="mc_btn_play()" href="#places-of-interests">地图内兴趣点</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="mc_btn_play()" href="#resource-behavior-packs">资源与行为包</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="mc_btn_play()" href="#github"><i class="bi bi-github"></i> Github</a>
           </li>
       </div>
     </div>
   </nav>
 
-  <div class="container my-5">
+  <div class="container-lg my-5">
     <h1 class="minecraft-text">Tiger Crew Minecraft Server</h1>
-    <div class="col-lg-10 px-0">
-      <p> <i class="bi bi-calendar2-event"></i> Founded in Nov 2020</p>
-      </header>
-
-      <section id ="resource-behavior-packs">
-        <h2>资源与行为包</h2>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <img src="assets/img/skyline.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nissan Skyline VII</h5>
-                <p class="card-text">Copyright: Mcflower creations 2020</p>
-                <!-- <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Click me!</button> -->
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/survival.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Basic Survival Vehicles v1.1</h5>
-                <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/cybox.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">CYBOX ONE</h5>
-                <p class="card-text">Made by iMasterProX</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/tesla.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Tesla Roadster</h5>
-                <p class="card-text">Modeled by The Morning Company</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/bmw.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">BMW E30 M3</h5>
-                <p class="card-text">Developed by ashminggu. Specially made for MCPEDL.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/mercedes.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mercedes Benz 300SL</h5>
-                <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/plane.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">PlaneCraft</h5>
-                <p class="card-text">Add-on by ZERN TH</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/datsun.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Datsun 240z</h5>
-                <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/lamborghini.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Lamborghini Centenario Red</h5>
-                <p class="card-text">by UnfoldedBrush</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/discovery.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Land Rover Discovery 4 Simple</h5>
-                <p class="card-text">Made by iMasterProX</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card h-100">
-              <img src="assets/img/battlecraft.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Battlecraft Add-on 0.7.1</h5>
-                <p class="card-text">by Dr Trash 250</p>
-              </div>
+    <p> <i class="bi bi-calendar2-event"></i> Founded in Nov 2020</p>
+    <section id="places-of-interests">
+      <h2>地图内兴趣点</h2>
+      <p>Content TBD.
+      </p>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/new_conti.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">新大陆行政区</h5>
+              <p class="card-text">存档中最核心的地区。也是整个存档最早开始发展的地区，拥有繁华的商业设施以及四通八达的道路系统。</p>
             </div>
           </div>
         </div>
-      </section>
-
-      
-    </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/little_miami.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">小迈阿密</h5>
+              <p class="card-text">位于罗伯特行政区东部海边的新开发区域，与海对岸的托宾岛隔海相望。高新技术企业红石大厦坐落于此。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/tobin_island.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">托宾岛</h5>
+              <p class="card-text">
+                托宾岛是度假胜地，通过轨道交通1号线和3号线可以从新大陆地区直达此地。岛上坐落着著名的托宾岛大酒店，以豪华的内饰装修和滨海娱乐区著称。该酒店是存档内首次应用楼层复制技术建造的大型建筑物。除了酒店以外，岛上还有沙漠神殿酒吧、赌场、VIP
+                Club等娱乐设施。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/cuban_bay.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">古巴湾</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/robert.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">罗伯特行政区</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/scott_island.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">斯科特岛</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/blk_forest.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">黑森林</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/peter_simon.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">彼得西蒙行政区</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/tobias.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">托拜厄斯殖民地</h5>
+              <p class="card-text">Content TBD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <p></p>
-    <!-- <a href="https://getbootstrap.com" class="btn btn-primary">Read the Bootstrap docs</a>
-    <a href="https://github.com/twbs/examples" class="btn btn-secondary">View on GitHub</a> -->
+    <section id="resource-behavior-packs">
+      <h2>资源与行为包</h2>
+      <p>
+        &emsp;&emsp;为了方便将本存档导入不同平台/版本的客户端中使用，我们提供了本存档使用的外部资源包/行为包。理论上下载完成的存档内应该已经包含所以资源包/行为包，为了防止版本不兼容等问题在此提供这些外部资源信息以及其作者。外部资源的版权归原作者所有。
+      </p>
+
+      <div class="row row-cols-1 row-cols-md-6 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/skyline.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nissan Skyline VII</h5>
+              <p class="card-text">Copyright: Mcflower creations 2020</p>
+              <!-- <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Click me!</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/survival.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Basic Survival Vehicles v1.1</h5>
+              <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/cybox.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CYBOX ONE</h5>
+              <p class="card-text">Made by iMasterProX</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/tesla.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tesla Roadster</h5>
+              <p class="card-text">Modeled by The Morning Company</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/bmw.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BMW E30 M3</h5>
+              <p class="card-text">Developed by ashminggu. Specially made for MCPEDL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/mercedes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mercedes Benz 300SL</h5>
+              <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/plane.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PlaneCraft</h5>
+              <p class="card-text">Add-on by ZERN TH</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/datsun.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Datsun 240z</h5>
+              <p class="card-text">Developed / made by ashminggu. Specially made for MCPEDL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/lamborghini.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lamborghini Centenario Red</h5>
+              <p class="card-text">by UnfoldedBrush</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/discovery.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Land Rover Discovery 4 Simple</h5>
+              <p class="card-text">Made by iMasterProX</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card h-100">
+            <img src="assets/img/battlecraft.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Battlecraft Add-on 0.7.1</h5>
+              <p class="card-text">by Dr Trash 250</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p></p>
+    <section id="github">
+      <h2><i class="bi bi-github"></i> Github</h2>
+      <p><strong>&emsp;&emsp;要查看和获取我们的存档源文件，你可以访问我们在GitHub上的仓库。在本仓库中，你可以找到所有的存档文件包括本说明网页，以帮助你了解和使用我们的存档。如果你在使用过程中遇到任何问题，或者有任何的建议和反馈，欢迎在GitHub上向我们提出。</strong>
+      </p>
+      <P><center><a href="https://github.com/bobliboya/Tiger-Crew-Server/releases" class="btn minecraft-btn disabled" target="_blank" onclick="mc_btn_play()">查看 Github Release</a>
+          或者  <a href="https://github.com/bobliboya/Tiger-Crew-Server" class="btn minecraft-btn" target="_blank" onclick="mc_btn_play()">前往Github仓库</a>
+    </section>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
   <script src="assets/js/main.js"></script>
-
-  <audio id="btn_click_snd" src="assets/sound/mc_click.mp3"></audio>
+  
 </body>
-
 </html>

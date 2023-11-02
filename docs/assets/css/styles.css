@@ -13,21 +13,22 @@
   font-family: MinecraftiaRegular, sans-serif;
 } */
 
-.card-title {
+/* .card-title {
   font-family: MinecraftiaRegular, sans-serif;
-}
+} */
 
 .minecraft-btn {
 	background-image: url(../img/btn.png);
   border-color: #AAA #565656 #565656 #AAA;
-  /* text-shadow: 3px 3px #4C4C4C; */
+  border-radius: 0;
   outline: 2px solid #000;
-  font-family: 'MinecraftiaRegular';
+  color:#fff;
 }
   
 .minecraft-btn:hover {
 	background-image: url(../img/btn_hover.png);
   border-color: #BDC6FF #59639A #59639A #BDC6FF;
+  color:#fff;
 }
 
 .minecraft-text {
@@ -44,4 +45,9 @@
 
 .navbar-brand:hover {
   color: #ffff00;
+}
+
+h2 {
+  margin-top:-75px;
+  padding-top: 75px;
 }
